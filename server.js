@@ -74,15 +74,24 @@ const server = http.createServer((req, res) => {
 
   // API: IPTV M3U Playlist Generator
   if (sanitizedUrl === '/playlist.m3u' || sanitizedUrl === '/tv.m3u' || sanitizedUrl === '/api/channel/playlist') {
+    const host = req.headers['host'] || 'klmr-digital-tv.vercel.app';
+    const proto = req.headers['x-forwarded-proto'] || 'http';
+    const baseUrl = `${proto}://${host}`;
+    const acceptHeader = req.headers['accept'] || '';
+
+    // Si lo abre un navegador web ordinario, redirigir al reproductor /embed
+    if (acceptHeader.includes('text/html') && !req.url.includes('download=1')) {
+      res.writeHead(302, { Location: '/embed' });
+      res.end();
+      return;
+    }
+
     res.writeHead(200, {
       'Content-Type': 'audio/x-mpegurl; charset=utf-8',
       'Content-Disposition': 'inline; filename="klmr-channel.m3u"',
       'Access-Control-Allow-Origin': '*',
       'Cache-Control': 'public, max-age=300'
     });
-    const host = req.headers['host'] || 'klmr-digital-tv.vercel.app';
-    const proto = req.headers['x-forwarded-proto'] || 'http';
-    const baseUrl = `${proto}://${host}`;
     const m3u = `#EXTM3U
 #EXTINF:-1 tvg-id="KLMR.HD" tvg-name="KLMR DIGITAL TV HD" tvg-logo="${baseUrl}/assets/logo-chrome-3d.png" group-title="Música 24/7",KLMR OFFICIAL CHANNEL HD • Electronic Music TV 24/7
 ${baseUrl}/embed
