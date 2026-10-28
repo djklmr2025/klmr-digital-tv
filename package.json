@@ -1,0 +1,24 @@
+{
+  "name": "klmr-official-channel-hd",
+  "version": "1.0.0",
+  "description": "Canal Digital HD de Televisión Interactiva de Música Electrónica 24/7 con Master Control Room para Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "klmr",
+    "tv",
+    "fast-channel",
+    "electronic-music",
+    "arkaios",
+    "j2cast",
+    "tiktok-live"
+  ],
+  "author": "ARKAIOS & DJ KLMR",
+  "license": "ISC"
+}

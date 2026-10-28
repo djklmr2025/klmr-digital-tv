@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KLMR OFFICIAL CHANNEL HD | Electronic Music TV 24/7</title>
+  <meta name="description" content="Canal digital HD interactivo de música electrónica mundial con transmisión 24/7, videos de YouTube, Google Drive Cloud y streaming en vivo j2cast/TikTok.">
+  
+  <!-- Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Outfit:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="tv-mode">
+
+  <!-- Main Viewport / Screen Wrapper -->
+  <main id="tv-viewport" class="tv-viewport" tabindex="0">
+
+    <!-- LAYER 0: Media Playback Surface -->
+    <div class="video-stage">
+      <!-- YouTube Player Container -->
+      <div id="yt-player-wrapper" class="player-wrapper active">
+        <div id="yt-player"></div>
+      </div>
+
+      <!-- Native HTML5 Video Player (Google Drive / Direct MP4 / HLS) -->
+      <div id="native-player-wrapper" class="player-wrapper">
+        <video id="native-video" playsinline preload="auto" loop></video>
+      </div>
+
+      <!-- Live Audio Mode Visualizer Canvas (For j2cast Stream) -->
+      <canvas id="visualizer-canvas" class="visualizer-canvas"></canvas>
+
+      <!-- Ambient Lighting & Club FX Overlay -->
+      <div class="club-fx-overlay"></div>
+      <div class="vignette-fx"></div>
+    </div>
+
+    <!-- LAYER 1: Top OSD (Watermark & Broadcast Badges) -->
+    <header class="osd-top-bar">
+      <!-- Left: Channel & Signal Info -->
+      <div class="signal-info">
+        <div class="channel-pill">
+          <span class="live-dot pulse"></span>
+          <span class="channel-num" id="current-ch-num">CH 01</span>
+          <span class="channel-name" id="current-ch-name">KLMR MAIN STAGE HD</span>
+        </div>
+        <div class="resolution-pill">
+          <span class="badge-4k">4K ULTRA HD</span>
+          <span class="badge-fps">60 FPS</span>
+          <span class="badge-dolby">DOLBY ATMOS</span>
+        </div>
+      </div>
+
+      <!-- Right: Official Logo Watermark (2026 Chrome 3D Edition with Sunburst Flares) -->
+      <div class="logo-watermark">
+        <img src="assets/logo-chrome-3d.png" alt="KLMR OFFICIAL CHANNEL HD" class="klmr-logo-img" id="channel-logo">
+      </div>
+    </header>
+
+    <!-- LAYER 2: Live Ingest Alert Banner -->
+    <div id="live-alert-banner" class="live-alert-banner hidden">
+      <div class="alert-content">
+        <span class="live-icon-badge">🔴 EN DIRECTO</span>
+        <div class="alert-texts">
+          <strong id="live-source-title">CABINA DJ KLMR EN VIVO</strong>
+          <span id="live-source-desc">Conmutando señal maestra en tiempo real...</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- LAYER 3: Interactive EPG HUD (Exact 1:1 replica of the Living Room TV Bar) -->
+    <footer id="epg-hud" class="epg-hud">
+      <!-- TOP SECTION OF MARQUEE: Brand Box + Now Playing / Next Up -->
+      <div class="epg-top-section">
+        <!-- Station Emblem Cluster: Holographic Medal + White TV Box -->
+        <div class="station-brand-cluster">
+          <img src="assets/logo-medal-3d.png" alt="KLMR TV" class="station-medal-img">
+          <div class="station-badge-box">
+            <span class="badge-klmr-text">KLMR</span>
+          </div>
+        </div>
+
+        <!-- Text Block: Channel Title, Now Playing, Next Up -->
+        <div class="station-meta-block">
+          <div class="station-header-row">
+            <span class="channel-hd-title">KLMR HD</span>
+            <div class="station-equalizer" title="Señal activa">
+              <span class="bar bar-1"></span>
+              <span class="bar bar-2"></span>
+              <span class="bar bar-3"></span>
+              <span class="bar bar-4"></span>
+            </div>
+          </div>
+          <div class="now-playing-row">
+            <span class="epg-label">NU SPELAS:</span>
+            <span class="now-playing-title" id="now-playing-text">LIVE FRÅN STOCKHOLM (Rise Eric Kupper VRemix By djklmr)</span>
+          </div>
+          <div class="next-up-row">
+            <span class="epg-label next-label">NÄSTA:</span>
+            <span class="next-title" id="next-track-text">FUTURE BASS SESSIONS - 19:00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MIDDLE: Thin Cyan Highlight Progress Line (As seen on TV photo) -->
+      <div class="epg-progress-container" id="progress-container">
+        <div class="epg-progress-bar" id="epg-progress-bar" style="width: 25%;"></div>
+      </div>
+
+      <!-- BOTTOM ROW: Icons with Circular Outlines + Far Right Clock -->
+      <div class="epg-bottom-controls-row">
+        <nav class="epg-actions-list" aria-label="Controles del Canal">
+          <button id="btn-info" class="tv-control-btn" data-action="info" title="Información de la Pista (Tecla I)">
+            <span class="circle-icon">ⓘ</span>
+            <span class="control-label">Info</span>
+          </button>
+          
+          <button id="btn-audio" class="tv-control-btn" data-action="audio" title="Selector de Audio / Calidad">
+            <span class="circle-icon">🔊</span>
+            <span class="control-label">Ljud</span>
+          </button>
+          
+          <button id="btn-subtitles" class="tv-control-btn" data-action="visuals" title="Visualizador y Luces">
+            <span class="circle-icon">≡</span>
+            <span class="control-label">Undertexter</span>
+          </button>
+          
+          <button id="btn-favorites" class="tv-control-btn" data-action="guide" title="Guía y Lista de Videos (Tecla G)">
+            <span class="circle-icon star-icon">⭐</span>
+            <span class="control-label">Favoriter</span>
+          </button>
+
+          <button id="btn-intro-play" class="tv-control-btn intro-btn" title="Emitir Video Intro del Canal">
+            <span class="circle-icon">▶</span>
+            <span class="control-label">Intro HD</span>
+          </button>
+
+          <button id="btn-live-switch" class="tv-control-btn live-btn" data-action="live-menu" title="Conmutador En Vivo (j2cast / TikTok)">
+            <span class="circle-icon pulse-red">🔴</span>
+            <span class="control-label">En Vivo</span>
+          </button>
+
+          <button id="btn-fullscreen" class="tv-control-btn" data-action="fullscreen" title="Pantalla Completa (Tecla F)">
+            <span class="circle-icon">⛶</span>
+          </button>
+        </nav>
+
+        <!-- Digital Clock (Format matching TV photo: 18:25) -->
+        <div class="tv-clock-display">
+          <span id="digital-clock" class="digital-time">18:25</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- LAYER 4: Interactive Modals & Drawers -->
+
+    <!-- Modal 1: Track & DJ Info Sheet -->
+    <aside id="modal-info" class="tv-modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close-btn" id="close-info-btn">✕</button>
+        <div class="info-header">
+          <img src="assets/klmr-2026-hd.png" alt="DJ KLMR" class="info-cover" onerror="this.src='assets/logo-klmr.png'">
+          <div>
+            <span class="tag-genre" id="modal-track-genre">ELECTRO HOUSE / VOCAL CLUB</span>
+            <h2 id="modal-track-title">Rise Eric Kupper VRemix By djklmr</h2>
+            <p id="modal-track-artist">djklmr Ft Samantha James & Eric Kupper</p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="info-item">
+            <span class="info-lbl">ÁLBUM / FUENTE</span>
+            <span class="info-val" id="modal-track-source">YouTube Oficial (@KLMROFFCIALCHANNEL)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-lbl">BPM & TONALIDAD</span>
+            <span class="info-val">124 BPM • A Minor (8A)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-lbl">SELLO / ALMACENAMIENTO</span>
+            <span class="info-val">ARKAIOS Cloud Pool (5TB Bóveda)</span>
+          </div>
+          <div class="info-item">
+            <span class="info-lbl">TRANSMISIÓN</span>
+            <span class="info-val">Sincronización Global en Tiempo Real</span>
+          </div>
+        </div>
+        <div class="info-footer">
+          <a href="https://www.youtube.com/@KLMROFFCIALCHANNEL" target="_blank" rel="noopener noreferrer" class="cta-link">
+            Ver Canal Oficial en YouTube ↗
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Modal 2: Channel Guide & Playlist Drawer -->
+    <aside id="modal-guide" class="tv-modal hidden" aria-hidden="true">
+      <div class="modal-card wide-card">
+        <div class="modal-nav-header">
+          <div>
+            <h2>GUÍA DE PROGRAMACIÓN KLMR TV</h2>
+            <p>Selecciona cualquier video del canal o de tu nube de Google Drive para emisión instantánea:</p>
+          </div>
+          <button class="modal-close-btn" id="close-guide-btn">✕</button>
+        </div>
+        
+        <!-- Filter Tabs -->
+        <div class="guide-tabs">
+          <button class="tab-btn active" data-filter="all">Todos los Videos</button>
+          <button class="tab-btn" data-filter="youtube">YouTube Oficial (@KLMROFFCIALCHANNEL)</button>
+          <button class="tab-btn" data-filter="drive">Google Drive Cloud (ssass)</button>
+          <button class="tab-btn" data-filter="remix">Remixes Exclusivos</button>
+        </div>
+
+        <!-- Video Item Grid -->
+        <div class="guide-grid" id="guide-items-list">
+          <!-- Dynamically populated via app.js -->
+        </div>
+      </div>
+    </aside>
+
+    <!-- Modal 3: Live Ingest Switcher (j2cast Audio & TikTok Video) -->
+    <aside id="modal-live" class="tv-modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close-btn" id="close-live-btn">✕</button>
+        <h2>CONMUTADOR MAESTRO DE STREAMING EN VIVO</h2>
+        <p class="subtitle">Conmuta la transmisión del canal instantáneamente a tus fuentes en directo:</p>
+
+        <div class="live-sources-list">
+          <!-- Option A: j2cast Audio Stream -->
+          <div class="source-card" id="source-j2cast">
+            <div class="source-badge audio-badge">🎙️ SOLO AUDIO</div>
+            <div class="source-details">
+              <h3>Transmisión de Audio en Vivo (j2cast / Icecast)</h3>
+              <p>Emite tu set en vivo desde VirtualDJ / Serato a través de j2cast. La pantalla proyectará visuales reactivos 3D y el logo HD de KLMR.</p>
+              <div class="stream-url-box">
+                <input type="text" id="j2cast-url-input" placeholder="http://stream.j2cast.com:8000/live" value="https://stream.zeno.fm/f3wvbbqmdg8uv">
+              </div>
+            </div>
+            <button class="btn-connect" id="btn-toggle-j2cast">Conectar j2cast</button>
+          </div>
+
+          <!-- Option B: TikTok / RTMP Video Stream -->
+          <div class="source-card" id="source-tiktok">
+            <div class="source-badge video-badge">📹 VIDEO EN DIRECTO</div>
+            <div class="source-details">
+              <h3>Transmisión de Video en Vivo (TikTok / OBS RTMP)</h3>
+              <p>Transmite video directo de cabina desde TikTok Live, Twitch o tu servidor RTMP/HLS hacia el canal HD mundial.</p>
+              <div class="stream-url-box">
+                <input type="text" id="tiktok-url-input" placeholder="https://www.tiktok.com/@djklmr/live o URL HLS (.m3u8)">
+              </div>
+            </div>
+            <button class="btn-connect" id="btn-toggle-tiktok">Conectar Video Live</button>
+          </div>
+
+          <!-- Return to Regular AutoDJ Programming -->
+          <button class="btn-reset-programming" id="btn-reset-regular">
+            ↺ Regresar a Programación Regular 24/7 (AutoDJ)
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Modal 4: Audio Quality Selector -->
+    <aside id="modal-audio" class="tv-modal hidden" aria-hidden="true">
+      <div class="modal-card">
+        <button class="modal-close-btn" id="close-audio-btn">✕</button>
+        <h2>SELECTOR DE AUDIO Y MOTOR DE SONIDO</h2>
+        <div class="audio-options-list">
+          <label class="audio-option-item">
+            <input type="radio" name="audio-quality" value="yt-standard" checked>
+            <div class="opt-info">
+              <strong>YouTube Master AAC (192-256 kbps)</strong>
+              <span>Audio sincronizado con el videoclip oficial</span>
+            </div>
+          </label>
+          <label class="audio-option-item">
+            <input type="radio" name="audio-quality" value="flac-cloud">
+            <div class="opt-info">
+              <strong>ARKAIOS Cloud Master (320 kbps Studio HD)</strong>
+              <span>Alimentado desde la Bóveda de Google Drive (Carpeta Música)</span>
+            </div>
+          </label>
+          <label class="audio-option-item">
+            <input type="radio" name="audio-quality" value="j2cast-direct">
+            <div class="opt-info">
+              <strong>j2cast Live Direct Feed</strong>
+              <span>Transmisión directa desde servidor de radio Icecast</span>
+            </div>
+          </label>
+        </div>
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- YouTube IFrame API Script -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="app.js"></script>
+</body>
+</html>

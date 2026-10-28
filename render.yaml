@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: klmr-digital-tv
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: ""
+    startCommand: "npm start"
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: NODE_ENV
+        value: production
+      - key: MASTER_ADMIN_KEY
+        value: arkaios_master_secret_2026_secure_bridge

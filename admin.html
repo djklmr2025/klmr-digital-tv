@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KLMR TV - Master Control Room (Backend Operador)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Outfit:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090c14;
+      --card: #131926;
+      --accent: #00f0ff;
+      --red: #ff2d55;
+      --green: #00e676;
+      --gold: #ffd700;
+      --border: rgba(255, 255, 255, 0.1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: #fff;
+      font-family: 'Outfit', sans-serif;
+      padding: 24px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 24px;
+    }
+    .title h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.6rem;
+      color: var(--accent);
+      letter-spacing: 1px;
+    }
+    .title p { color: #8892b0; font-size: 0.9rem; }
+    .live-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(0, 230, 118, 0.15);
+      border: 1px solid var(--green);
+      color: var(--green);
+      border-radius: 20px;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+    .live-badge.air {
+      background: rgba(255, 45, 85, 0.2);
+      border-color: var(--red);
+      color: var(--red);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    .card h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15rem;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 14px; }
+    .btn {
+      padding: 10px 18px;
+      border-radius: 8px;
+      border: none;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: 'Outfit', sans-serif;
+      transition: all 0.2s ease;
+    }
+    .btn-cyan { background: var(--accent); color: #000; }
+    .btn-red { background: var(--red); color: #fff; }
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: #fff; }
+    .btn:hover { filter: brightness(1.2); transform: translateY(-2px); }
+    .input-box { margin-bottom: 14px; }
+    .input-box label { display: block; font-size: 0.82rem; color: #8892b0; margin-bottom: 6px; }
+    .input-box input, .input-box select {
+      width: 100%;
+      padding: 10px 14px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: #fff;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+    }
+    .playlist-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+    }
+    .playlist-table th, .playlist-table td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .playlist-table th { color: #8892b0; font-family: 'Orbitron', sans-serif; font-size: 0.72rem; }
+    .status-box {
+      background: rgba(0, 240, 255, 0.08);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .status-item { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 0.9rem; }
+    .status-item span:first-child { color: #8892b0; }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="title">
+      <h1>KLMR MASTER CONTROL ROOM (MCR)</h1>
+      <p>Panel Backend de Programación, Cartelera y Conmutación en Tiempo Real para Render / Emisión Global</p>
+    </div>
+    <div id="live-indicator" class="live-badge">● MODO: AUTODJ 24/7 EN LÍNEA</div>
+  </header>
+
+  <div class="grid">
+    <!-- PANEL 1: Estado y Conmutador de Señal Maestra -->
+    <section class="card">
+      <h2>📡 CONMUTADOR DE SEÑAL EN TIEMPO REAL</h2>
+      
+      <div class="status-box">
+        <div class="status-item">
+          <span>PISTA AL AIRE:</span>
+          <strong id="mcr-now-playing">Rise - Eric Kupper VRemix By djklmr</strong>
+        </div>
+        <div class="status-item">
+          <span>FUENTE ACTIVA:</span>
+          <span id="mcr-source">YouTube Oficial (@KLMROFFCIALCHANNEL)</span>
+        </div>
+        <div class="status-item">
+          <span>ESPECTADORES CONECTADOS:</span>
+          <span style="color: var(--green);">Sincronizados en Tiempo Real</span>
+        </div>
+      </div>
+
+      <div class="input-box">
+        <label>CONMUTAR TRANSMISIÓN EN DIRECTO:</label>
+        <div class="btn-row">
+          <button class="btn btn-red" id="btn-act-j2cast">🔴 Poner al Aire: j2cast (Audio Live)</button>
+          <button class="btn btn-red" id="btn-act-tiktok">📹 Poner al Aire: TikTok Live / OBS</button>
+          <button class="btn btn-cyan" id="btn-act-regular">↺ Restaurar Cartelera AutoDJ</button>
+        </div>
+      </div>
+
+      <div class="input-box" style="margin-top: 20px;">
+        <label>URL / STREAMING j2cast ICECAST:</label>
+        <input type="text" id="mcr-j2cast-url" value="https://stream.zeno.fm/f3wvbbqmdg8uv">
+      </div>
+
+      <div class="input-box">
+        <label>URL VIDEO TIKTOK / OBS RTMP / HLS (.m3u8):</label>
+        <input type="text" id="mcr-tiktok-url" placeholder="https://www.tiktok.com/@djklmr/live">
+      </div>
+    </section>
+
+    <!-- PANEL 2: Cartelera y Episodios (EPG Scheduler) -->
+    <section class="card">
+      <h2>📅 CARTELERA Y EPISODIOS (EPG)</h2>
+      <p style="font-size: 0.85rem; color: #8892b0; margin-bottom: 12px;">
+        Selecciona o añade pistas que se emitirán automáticamente en todas las pantallas:
+      </p>
+
+      <table class="playlist-table">
+        <thead>
+          <tr>
+            <th>ESTADO</th>
+            <th>TÍTULO</th>
+            <th>FUENTE</th>
+            <th>ACCIÓN</th>
+          </tr>
+        </thead>
+        <tbody id="mcr-playlist-tbody">
+          <!-- Populated dynamically -->
+        </tbody>
+      </table>
+
+      <div class="btn-row" style="margin-top: 20px;">
+        <a href="/" target="_blank" class="btn btn-outline">📺 Abrir Pantalla de TV Pública ↗</a>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    async function loadMCRStatus() {
+      try {
+        const res = await fetch('/api/channel/status');
+        const data = await res.json();
+
+        document.getElementById('mcr-now-playing').textContent = data.currentTrack.title;
+        document.getElementById('mcr-source').textContent = data.isLive ? `🔴 EN VIVO (${data.liveSource})` : data.currentTrack.source;
+        
+        const badge = document.getElementById('live-indicator');
+        if (data.isLive) {
+          badge.className = 'live-badge air';
+          badge.textContent = `🔴 EN EL AIRE: ${data.liveSource.toUpperCase()}`;
+        } else {
+          badge.className = 'live-badge';
+          badge.textContent = '● MODO: AUTODJ 24/7 EN LÍNEA';
+        }
+
+        renderPlaylistTable(data.playlist, data.currentIndex);
+      } catch (err) {
+        console.error('Error cargando MCR:', err);
+      }
+    }
+
+    function renderPlaylistTable(playlist, activeIdx) {
+      const tbody = document.getElementById('mcr-playlist-tbody');
+      tbody.innerHTML = '';
+
+      playlist.forEach((item, idx) => {
+        const tr = document.createElement('tr');
+        const isCurrent = idx === activeIdx;
+
+        tr.innerHTML = `
+          <td>${isCurrent ? '<span style="color:var(--green); font-weight:bold;">AL AIRE</span>' : 'EN COLA'}</td>
+          <td>${item.title}</td>
+          <td>${item.source.toUpperCase()}</td>
+          <td>
+            <button class="btn btn-outline" style="padding:4px 8px; font-size:0.75rem;" onclick="forcePlayTrack(${idx})">
+              Emitir Ahora
+            </button>
+          </td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    async function sendMCRCommand(action, payload = {}) {
+      try {
+        await fetch('/api/channel/update', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action, ...payload })
+        });
+        loadMCRStatus();
+      } catch (e) {
+        alert('Error ejecutando comando: ' + e);
+      }
+    }
+
+    function forcePlayTrack(index) {
+      sendMCRCommand('change_track', { index });
+    }
+
+    document.getElementById('btn-act-j2cast').addEventListener('click', () => {
+      const url = document.getElementById('mcr-j2cast-url').value;
+      sendMCRCommand('start_live_audio', { streamUrl: url });
+    });
+
+    document.getElementById('btn-act-tiktok').addEventListener('click', () => {
+      const url = document.getElementById('mcr-tiktok-url').value;
+      sendMCRCommand('start_live_video', { streamUrl: url });
+    });
+
+    document.getElementById('btn-act-regular').addEventListener('click', () => {
+      sendMCRCommand('restore_autodj');
+    });
+
+    loadMCRStatus();
+    setInterval(loadMCRStatus, 3000);
+  </script>
+</body>
+</html>
