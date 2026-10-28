@@ -1231,14 +1231,13 @@ body, html {
   display: flex;
   align-items: center;
   gap: 6px;
-  background: rgba(4, 8, 16, 0.7);
+  background: rgba(4, 8, 16, 0.92);
   border: 1px solid rgba(0, 240, 255, 0.25);
   border-radius: 12px;
   padding: 3px 10px;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   color: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(8px);
 }
 
 .health-dot {
@@ -1284,5 +1283,30 @@ body, html {
 .health-separator {
   color: rgba(255, 255, 255, 0.3);
 }
+
+/* ==========================================================================
+   EMBED / IFRAME MODE (Responsive & Clean for Third-Party Websites)
+   ========================================================================== */
+body.embed-mode {
+  background: #000;
+  overflow: hidden;
+}
+
+body.embed-mode .broadcast-corner-clock {
+  bottom: 12px;
+  right: 14px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+}
+
+body.embed-mode .osd-top-bar {
+  padding: 10px 14px;
+}
+
+body.embed-mode .logo-watermark img {
+  width: 55px;
+  height: 55px;
+}
+
 
 

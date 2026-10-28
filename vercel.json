@@ -1,6 +1,18 @@
 {
   "rewrites": [
     {
+      "source": "/playlist.m3u",
+      "destination": "/api/channel/playlist"
+    },
+    {
+      "source": "/tv.m3u",
+      "destination": "/api/channel/playlist"
+    },
+    {
+      "source": "/embed",
+      "destination": "/index.html"
+    },
+    {
       "source": "/admin",
       "destination": "/admin.html"
     }

@@ -380,6 +380,9 @@ function getLiveFastPlayoutPosition() {
 
 // Initialize on DOM Ready
 document.addEventListener("DOMContentLoaded", () => {
+  if (window.location.search.includes('embed=1') || window.self !== window.top) {
+    document.body.classList.add('embed-mode');
+  }
   initClock();
   initIntroCurtain();
   initSignalHealthMonitor();
