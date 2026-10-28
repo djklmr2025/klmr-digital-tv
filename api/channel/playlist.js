@@ -20,8 +20,9 @@ module.exports = function handler(req, res) {
 ${baseUrl}/embed
 `;
 
+  const disposition = req.query.download ? 'attachment; filename="klmr-channel.m3u"' : 'inline; filename="klmr-channel.m3u"';
   res.setHeader('Content-Type', 'audio/x-mpegurl; charset=utf-8');
-  res.setHeader('Content-Disposition', 'inline; filename="klmr-channel.m3u"');
+  res.setHeader('Content-Disposition', disposition);
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Cache-Control', 'public, max-age=300, s-maxage=600');
   res.status(200).send(m3uContent);
