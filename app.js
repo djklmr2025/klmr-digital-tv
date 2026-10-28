@@ -390,12 +390,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* ==========================================================================
-   1. INTRO CURTAIN OVERLAY (Welcome Screen)
+   1. INTRO LOADING SCREEN (Modo Loading • Sintonización de Señal)
    ========================================================================== */
 function initIntroCurtain() {
   const overlay = document.getElementById("channel-intro-overlay");
   const introVideo = document.getElementById("intro-curtain-video");
   const skipBtn = document.getElementById("btn-skip-intro");
+  const startPrompt = document.getElementById("intro-start-prompt");
+  const startBtn = document.getElementById("btn-start-tuning");
 
   function dismissIntro() {
     if (ChannelState.hasEnteredLive) return;
@@ -409,35 +411,75 @@ function initIntroCurtain() {
       overlay.classList.add("fade-out");
       setTimeout(() => {
         overlay.style.display = "none";
-      }, 900);
+      }, 850);
     }
 
-    // Unmute YouTube player upon entering live
-    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.unMute === "function") {
-      ChannelState.ytPlayer.unMute();
-      ChannelState.ytPlayer.setVolume(100);
-      ChannelState.ytPlayer.playVideo();
+    // Now that intro has finished, sync and launch live broadcast with full volume
+    const livePos = getLiveFastPlayoutPosition();
+    ChannelState.currentTrackIndex = livePos.trackIndex;
+    const currentTrack = BroadcastPlaylist[livePos.trackIndex];
+
+    if (ChannelState.ytPlayer) {
+      if (typeof ChannelState.ytPlayer.loadVideoById === "function") {
+        ChannelState.ytPlayer.loadVideoById({
+          videoId: currentTrack.youtubeId,
+          startSeconds: livePos.startSeconds,
+          suggestedQuality: "hd720"
+        });
+      }
+      if (typeof ChannelState.ytPlayer.unMute === "function") {
+        ChannelState.ytPlayer.unMute();
+        ChannelState.ytPlayer.setVolume(100);
+        ChannelState.ytPlayer.playVideo();
+      }
     }
   }
 
-  if (skipBtn) {
-    skipBtn.addEventListener("click", dismissIntro);
+  function startIntroWithAudio() {
+    if (introVideo) {
+      introVideo.muted = false;
+      introVideo.volume = 1.0;
+      introVideo.play().then(() => {
+        if (startPrompt) startPrompt.classList.add("hidden");
+      }).catch(() => {
+        // Fallback if browser blocks sound without user gesture
+        if (startPrompt) startPrompt.classList.remove("hidden");
+      });
+    }
   }
 
-  if (introVideo) {
-    introVideo.addEventListener("ended", dismissIntro);
-    introVideo.play().catch(() => {
-      introVideo.muted = true;
-      introVideo.play().catch(() => {});
+  if (startBtn) {
+    startBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      startIntroWithAudio();
     });
   }
 
-  // Dismiss if clicking anywhere on the curtain after 4 seconds
-  setTimeout(() => {
-    overlay?.addEventListener("click", (e) => {
-      if (e.target !== skipBtn) dismissIntro();
-    }, { once: true });
-  }, 4000);
+  if (skipBtn) {
+    skipBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      dismissIntro();
+    });
+  }
+
+  if (introVideo) {
+    // When intro video finishes naturally, transition seamlessly to live linear stream
+    introVideo.addEventListener("ended", dismissIntro);
+    
+    // Attempt auto-play with sound; show prompt button if browser requires gesture
+    introVideo.muted = false;
+    introVideo.volume = 1.0;
+    introVideo.play().catch(() => {
+      if (startPrompt) startPrompt.classList.remove("hidden");
+    });
+  }
+
+  // Clicking overlay if prompt visible triggers audio playback
+  overlay?.addEventListener("click", () => {
+    if (!ChannelState.hasEnteredLive && introVideo && introVideo.paused) {
+      startIntroWithAudio();
+    }
+  });
 }
 
 /* ==========================================================================
@@ -474,7 +516,7 @@ window.onYouTubeIframeAPIReady = function() {
     videoId: currentTrack.youtubeId,
     host: "https://www.youtube.com",
     playerVars: {
-      autoplay: 1,
+      autoplay: 0,
       mute: 1,
       controls: 0,
       disablekb: 1,
@@ -499,42 +541,36 @@ window.onYouTubeIframeAPIReady = function() {
 };
 
 function onPlayerReady(event) {
-  const livePos = getLiveFastPlayoutPosition();
-  if (typeof event.target.seekTo === "function" && livePos.startSeconds > 0) {
-    event.target.seekTo(livePos.startSeconds, true);
-  }
-
   // Force disable subtitles/captions
   try {
     if (typeof event.target.unloadModule === "function") event.target.unloadModule("captions");
     if (typeof event.target.setOption === "function") event.target.setOption("captions", "track", {});
   } catch (e) {}
 
-  // Set smooth 720p 60fps streaming to avoid 4K buffering ("cargue y cargue")
   if (typeof event.target.setPlaybackQuality === "function") {
     event.target.setPlaybackQuality("hd720");
   }
 
-  event.target.playVideo();
-  ChannelState.isPlaying = true;
-  updateNowPlayingHUD();
-  startTimeTracking();
+  // If still watching the intro loading video, KEEP YouTube paused and muted
+  if (!ChannelState.hasEnteredLive) {
+    if (typeof event.target.pauseVideo === "function") event.target.pauseVideo();
+    if (typeof event.target.mute === "function") event.target.mute();
+  } else {
+    event.target.playVideo();
+    if (typeof event.target.unMute === "function") event.target.unMute();
+  }
 
-  // On first user interaction, unmute and ensure continuous playback
-  const unmuteHandler = () => {
-    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.unMute === "function") {
-      ChannelState.ytPlayer.unMute();
-      ChannelState.ytPlayer.setVolume(100);
-    }
-    window.removeEventListener("click", unmuteHandler);
-    window.removeEventListener("keydown", unmuteHandler);
-  };
-  window.addEventListener("click", unmuteHandler);
-  window.addEventListener("keydown", unmuteHandler);
+  startTimeTracking();
 }
 
 function onPlayerStateChange(event) {
   if (event.data === YT.PlayerState.PLAYING) {
+    // If user is still in intro curtain, do not let YouTube play ahead
+    if (!ChannelState.hasEnteredLive) {
+      if (typeof event.target.pauseVideo === "function") event.target.pauseVideo();
+      if (typeof event.target.mute === "function") event.target.mute();
+      return;
+    }
     ChannelState.isPlaying = true;
     updateNowPlayingHUD();
     try {
@@ -544,8 +580,8 @@ function onPlayerStateChange(event) {
       event.target.setPlaybackQuality("hd720");
     }
   } else if (event.data === YT.PlayerState.PAUSED) {
-    // CRITICAL: Live TV cannot be paused! Force resume immediately
-    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.playVideo === "function") {
+    // Once live has started, live TV cannot be paused! Force resume immediately
+    if (ChannelState.hasEnteredLive && ChannelState.ytPlayer && typeof ChannelState.ytPlayer.playVideo === "function") {
       ChannelState.ytPlayer.playVideo();
     }
   } else if (event.data === YT.PlayerState.BUFFERING) {

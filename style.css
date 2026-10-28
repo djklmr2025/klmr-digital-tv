@@ -1201,3 +1201,61 @@ body, html {
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0 6px 24px rgba(0, 240, 255, 0.7);
 }
+
+/* Minimalist Clean Cable TV Badge */
+.channel-live-status-pill {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  background: rgba(0, 240, 255, 0.12);
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  padding: 3px 10px;
+  border-radius: 12px;
+  letter-spacing: 0.8px;
+}
+
+/* Intro Loading Prompt Center Button */
+.intro-start-prompt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-start-prompt.hidden {
+  display: none !important;
+}
+
+.btn-start-tuning {
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.95) 0%, rgba(138, 43, 226, 0.95) 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  padding: 16px 36px;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 32px rgba(0, 240, 255, 0.6);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  letter-spacing: 1.5px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.btn-start-tuning:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 50px rgba(0, 240, 255, 0.9);
+}
+
+.btn-play-icon {
+  font-size: 1.2rem;
+}
+

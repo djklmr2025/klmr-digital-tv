@@ -77,24 +77,17 @@
           </div>
         </div>
 
-        <!-- Text Block: Channel Title, Now Playing, Next Up -->
+        <!-- Text Block: Clean Broadcast Header (Estilo Canal de Cable Minimalista) -->
         <div class="station-meta-block">
           <div class="station-header-row">
             <span class="channel-hd-title">KLMR HD</span>
+            <span class="channel-live-status-pill">SEÑAL EN VIVO 24/7</span>
             <div class="station-equalizer" title="Señal activa">
               <span class="bar bar-1"></span>
               <span class="bar bar-2"></span>
               <span class="bar bar-3"></span>
               <span class="bar bar-4"></span>
             </div>
-          </div>
-          <div class="now-playing-row">
-            <span class="epg-label">NU SPELAS:</span>
-            <span class="now-playing-title" id="now-playing-text">LIVE FRÅN STOCKHOLM (Rise Eric Kupper VRemix By djklmr)</span>
-          </div>
-          <div class="next-up-row">
-            <span class="epg-label next-label">NÄSTA:</span>
-            <span class="next-title" id="next-track-text">FUTURE BASS SESSIONS - 19:00</span>
           </div>
         </div>
       </div>
@@ -107,7 +100,7 @@
       <!-- BOTTOM ROW: Icons with Circular Outlines + Far Right Clock -->
       <div class="epg-bottom-controls-row">
         <nav class="epg-actions-list" aria-label="Controles del Canal">
-          <button id="btn-info" class="tv-control-btn" data-action="info" title="Mostrar/Ocultar Marquesina e Información (Tecla I)">
+          <button id="btn-info" class="tv-control-btn" data-action="info" title="Mostrar/Ocultar Marquesina (Tecla I)">
             <span class="circle-icon">ⓘ</span>
             <span class="control-label">Info</span>
           </button>
@@ -135,11 +128,20 @@
       </div>
     </footer>
 
-    <!-- LAYER 3.5: Video Intro Welcome Curtain (Opening del Canal) -->
+    <!-- LAYER 3.5: Video Intro Loading Screen (Opening del Canal) -->
     <div id="channel-intro-overlay" class="channel-intro-overlay">
-      <video id="intro-curtain-video" playsinline muted autoplay src="assets/intro.mp4"></video>
+      <video id="intro-curtain-video" playsinline preload="auto" src="assets/intro.mp4"></video>
+      <div id="intro-start-prompt" class="intro-start-prompt hidden">
+        <button id="btn-start-tuning" class="btn-start-tuning">
+          <span class="btn-play-icon">▶</span>
+          <span>SINTONIZAR KLMR HD CON AUDIO</span>
+        </button>
+      </div>
       <div class="intro-curtain-controls">
-        <div class="intro-badge-tag">KLMR OFFICIAL CHANNEL HD • SINTONIZANDO SEÑAL 24/7</div>
+        <div class="intro-badge-tag">
+          <span class="live-dot pulse"></span>
+          <span id="intro-status-label">SINTONIZANDO SEÑAL GLOBAL EN VIVO...</span>
+        </div>
         <button id="btn-skip-intro" class="btn-skip-intro">Omitir Intro e Ir En Vivo ▶</button>
       </div>
     </div>
