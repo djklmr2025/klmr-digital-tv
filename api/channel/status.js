@@ -84,9 +84,27 @@ module.exports = (req, res) => {
     return;
   }
 
-  const currentTrack = ChannelBroadcastState.playlist[ChannelBroadcastState.currentIndex] || ChannelBroadcastState.playlist[0];
+  const totalDuration = ChannelBroadcastState.playlist.reduce((acc, t) => acc + (t.duration || 300), 0);
+  const nowSeconds = Math.floor(Date.now() / 1000);
+  let cyclePosition = nowSeconds % totalDuration;
+  let activeIndex = 0;
+  let seekSeconds = 0;
+
+  for (let i = 0; i < ChannelBroadcastState.playlist.length; i++) {
+    const dur = ChannelBroadcastState.playlist[i].duration || 300;
+    if (cyclePosition < dur) {
+      activeIndex = i;
+      seekSeconds = Math.floor(cyclePosition);
+      break;
+    }
+    cyclePosition -= dur;
+  }
+
+  const currentTrack = ChannelBroadcastState.playlist[activeIndex] || ChannelBroadcastState.playlist[0];
   res.status(200).json({
     ...ChannelBroadcastState,
+    currentIndex: activeIndex,
+    seekSeconds: seekSeconds,
     currentTrack
   });
 };

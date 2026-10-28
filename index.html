@@ -113,38 +113,29 @@
       <!-- BOTTOM ROW: Icons with Circular Outlines + Far Right Clock -->
       <div class="epg-bottom-controls-row">
         <nav class="epg-actions-list" aria-label="Controles del Canal">
-          <button id="btn-info" class="tv-control-btn" data-action="info" title="Información de la Pista (Tecla I)">
+          <button id="btn-info" class="tv-control-btn" data-action="info" title="Mostrar/Ocultar Marquesina e Información (Tecla I)">
             <span class="circle-icon">ⓘ</span>
             <span class="control-label">Info</span>
           </button>
           
-          <button id="btn-audio" class="tv-control-btn" data-action="audio" title="Selector de Audio / Calidad">
+          <button id="btn-audio" class="tv-control-btn" data-action="audio" title="Audio / Selector de Sonido">
             <span class="circle-icon">🔊</span>
             <span class="control-label">Ljud</span>
           </button>
           
-          <button id="btn-subtitles" class="tv-control-btn" data-action="visuals" title="Visualizador y Luces">
+          <button id="btn-subtitles" class="tv-control-btn" data-action="visuals" title="Visualizador y Sintetizador Láser">
             <span class="circle-icon">≡</span>
             <span class="control-label">Undertexter</span>
           </button>
           
-          <button id="btn-favorites" class="tv-control-btn" data-action="guide" title="Guía y Lista de Videos (Tecla G)">
+          <button id="btn-favorites" class="tv-control-btn" data-action="guide" title="Guía de Videos y Cartelera (Tecla G)">
             <span class="circle-icon star-icon">⭐</span>
             <span class="control-label">Favoriter</span>
           </button>
 
-          <button id="btn-intro-play" class="tv-control-btn intro-btn" title="Emitir Video Intro del Canal">
-            <span class="circle-icon">▶</span>
-            <span class="control-label">Intro HD</span>
-          </button>
-
-          <button id="btn-live-switch" class="tv-control-btn live-btn" data-action="live-menu" title="Conmutador En Vivo (j2cast / TikTok)">
-            <span class="circle-icon pulse-red">🔴</span>
-            <span class="control-label">En Vivo</span>
-          </button>
-
           <button id="btn-fullscreen" class="tv-control-btn" data-action="fullscreen" title="Pantalla Completa (Tecla F)">
             <span class="circle-icon">⛶</span>
+            <span class="control-label">Full Screen</span>
           </button>
         </nav>
 
@@ -154,6 +145,15 @@
         </div>
       </div>
     </footer>
+
+    <!-- LAYER 3.5: Video Intro Welcome Curtain (Opening del Canal) -->
+    <div id="channel-intro-overlay" class="channel-intro-overlay">
+      <video id="intro-curtain-video" playsinline muted autoplay src="assets/intro.mp4"></video>
+      <div class="intro-curtain-controls">
+        <div class="intro-badge-tag">KLMR OFFICIAL CHANNEL HD • SINTONIZANDO SEÑAL 24/7</div>
+        <button id="btn-skip-intro" class="btn-skip-intro">Omitir Intro e Ir En Vivo ▶</button>
+      </div>
+    </div>
 
     <!-- LAYER 4: Interactive Modals & Drawers -->
 
@@ -221,47 +221,6 @@
       </div>
     </aside>
 
-    <!-- Modal 3: Live Ingest Switcher (j2cast Audio & TikTok Video) -->
-    <aside id="modal-live" class="tv-modal hidden" aria-hidden="true">
-      <div class="modal-card">
-        <button class="modal-close-btn" id="close-live-btn">✕</button>
-        <h2>CONMUTADOR MAESTRO DE STREAMING EN VIVO</h2>
-        <p class="subtitle">Conmuta la transmisión del canal instantáneamente a tus fuentes en directo:</p>
-
-        <div class="live-sources-list">
-          <!-- Option A: j2cast Audio Stream -->
-          <div class="source-card" id="source-j2cast">
-            <div class="source-badge audio-badge">🎙️ SOLO AUDIO</div>
-            <div class="source-details">
-              <h3>Transmisión de Audio en Vivo (j2cast / Icecast)</h3>
-              <p>Emite tu set en vivo desde VirtualDJ / Serato a través de j2cast. La pantalla proyectará visuales reactivos 3D y el logo HD de KLMR.</p>
-              <div class="stream-url-box">
-                <input type="text" id="j2cast-url-input" placeholder="http://stream.j2cast.com:8000/live" value="https://stream.zeno.fm/f3wvbbqmdg8uv">
-              </div>
-            </div>
-            <button class="btn-connect" id="btn-toggle-j2cast">Conectar j2cast</button>
-          </div>
-
-          <!-- Option B: TikTok / RTMP Video Stream -->
-          <div class="source-card" id="source-tiktok">
-            <div class="source-badge video-badge">📹 VIDEO EN DIRECTO</div>
-            <div class="source-details">
-              <h3>Transmisión de Video en Vivo (TikTok / OBS RTMP)</h3>
-              <p>Transmite video directo de cabina desde TikTok Live, Twitch o tu servidor RTMP/HLS hacia el canal HD mundial.</p>
-              <div class="stream-url-box">
-                <input type="text" id="tiktok-url-input" placeholder="https://www.tiktok.com/@djklmr/live o URL HLS (.m3u8)">
-              </div>
-            </div>
-            <button class="btn-connect" id="btn-toggle-tiktok">Conectar Video Live</button>
-          </div>
-
-          <!-- Return to Regular AutoDJ Programming -->
-          <button class="btn-reset-programming" id="btn-reset-regular">
-            ↺ Regresar a Programación Regular 24/7 (AutoDJ)
-          </button>
-        </div>
-      </div>
-    </aside>
 
     <!-- Modal 4: Audio Quality Selector -->
     <aside id="modal-audio" class="tv-modal hidden" aria-hidden="true">
