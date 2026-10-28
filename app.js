@@ -481,6 +481,8 @@ window.onYouTubeIframeAPIReady = function() {
       enablejsapi: 1,
       fs: 0,
       iv_load_policy: 3,
+      cc_load_policy: 0,
+      cc_lang_pref: "none",
       modestbranding: 1,
       rel: 0,
       showinfo: 0,
@@ -501,6 +503,12 @@ function onPlayerReady(event) {
   if (typeof event.target.seekTo === "function" && livePos.startSeconds > 0) {
     event.target.seekTo(livePos.startSeconds, true);
   }
+
+  // Force disable subtitles/captions
+  try {
+    if (typeof event.target.unloadModule === "function") event.target.unloadModule("captions");
+    if (typeof event.target.setOption === "function") event.target.setOption("captions", "track", {});
+  } catch (e) {}
 
   // Set smooth 720p 60fps streaming to avoid 4K buffering ("cargue y cargue")
   if (typeof event.target.setPlaybackQuality === "function") {
@@ -529,6 +537,9 @@ function onPlayerStateChange(event) {
   if (event.data === YT.PlayerState.PLAYING) {
     ChannelState.isPlaying = true;
     updateNowPlayingHUD();
+    try {
+      if (typeof event.target.unloadModule === "function") event.target.unloadModule("captions");
+    } catch (e) {}
     if (typeof event.target.setPlaybackQuality === "function") {
       event.target.setPlaybackQuality("hd720");
     }
@@ -590,6 +601,11 @@ function playTrackAtIndex(index, startSeconds = 0) {
         startSeconds: startSeconds,
         suggestedQuality: "hd720"
       });
+      try {
+        if (typeof ChannelState.ytPlayer.unloadModule === "function") {
+          ChannelState.ytPlayer.unloadModule("captions");
+        }
+      } catch (e) {}
     }
   } else if (track.source === "drive") {
     ChannelState.currentSourceType = "drive";
