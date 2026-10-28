@@ -703,17 +703,18 @@ function initFullscreenAndAutoHide() {
     if (isFullscreenActive()) resetTimer();
   });
 
-  // Global toggle function
+  // Global toggle function: Strictly toggles the bottom marquee HUD with auto-hide timer
   window.toggleMarqueeHUD = function() {
     if (!hud) return;
     if (hud.classList.contains("hud-hidden")) {
-      resetTimer();
-    } else {
-      if (isFullscreenActive()) {
+      showHUD();
+      if (hudInactivityTimer) clearTimeout(hudInactivityTimer);
+      hudInactivityTimer = setTimeout(() => {
         hideHUD();
-      } else {
-        toggleModal("modal-info");
-      }
+      }, 4500); // Auto-hide after 4.5s of visibility
+    } else {
+      hideHUD();
+      if (hudInactivityTimer) clearTimeout(hudInactivityTimer);
     }
   };
 }
@@ -739,14 +740,9 @@ function toggleFullscreen() {
    6. HUD CONTROLS & MODALS
    ========================================================================== */
 function initHUDControls() {
-  // Info Button: Reveals HUD if hidden, or toggles info modal
+  // Info Button: Simply toggles the bottom marquee strip, NEVER opens popups
   document.getElementById("btn-info")?.addEventListener("click", () => {
-    const hud = document.getElementById("epg-hud");
-    if (hud && hud.classList.contains("hud-hidden")) {
-      hud.classList.remove("hud-hidden");
-    } else {
-      toggleModal("modal-info");
-    }
+    window.toggleMarqueeHUD();
   });
 
   document.getElementById("btn-audio")?.addEventListener("click", () => toggleModal("modal-audio"));
