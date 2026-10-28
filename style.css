@@ -1259,3 +1259,63 @@ body, html {
   font-size: 1.2rem;
 }
 
+/* Signal Health & Stream Telemetry Badge (Only visible inside bottom marquee HUD) */
+.signal-health-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(4, 8, 16, 0.7);
+  border: 1px solid rgba(0, 240, 255, 0.25);
+  border-radius: 12px;
+  padding: 3px 10px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+}
+
+.health-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #00ff88;
+}
+
+.health-dot.pulse {
+  box-shadow: 0 0 8px #00ff88;
+  animation: pulseDotGreen 1.5s infinite ease-in-out;
+}
+
+@keyframes pulseDotGreen {
+  0% { transform: scale(0.9); opacity: 0.8; }
+  50% { transform: scale(1.3); opacity: 1; box-shadow: 0 0 12px #00ff88; }
+  100% { transform: scale(0.9); opacity: 0.8; }
+}
+
+.health-pct {
+  color: #00ff88;
+  font-weight: 700;
+}
+
+.health-pct.warning {
+  color: #ffbb00;
+}
+
+.health-pct.critical {
+  color: #ff3366;
+}
+
+.health-fps {
+  color: #00f0ff;
+  font-weight: 600;
+}
+
+.health-ping {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.health-separator {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+

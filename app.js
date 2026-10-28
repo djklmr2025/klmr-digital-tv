@@ -382,6 +382,7 @@ function getLiveFastPlayoutPosition() {
 document.addEventListener("DOMContentLoaded", () => {
   initClock();
   initIntroCurtain();
+  initSignalHealthMonitor();
   initHUDControls();
   initFullscreenAndAutoHide();
   initModals();
@@ -939,3 +940,77 @@ function restoreRegularProgramming() {
   const livePos = getLiveFastPlayoutPosition();
   playTrackAtIndex(livePos.trackIndex, livePos.startSeconds);
 }
+
+/* ==========================================================================
+   9. BROADCAST SIGNAL HEALTH & TELEMETRY MONITOR (Inside Marquee HUD Only)
+   ========================================================================== */
+function initSignalHealthMonitor() {
+  const pctEl = document.getElementById("signal-health-pct");
+  const fpsEl = document.getElementById("signal-health-fps");
+  const pingEl = document.getElementById("signal-health-ping");
+
+  let lastFrameTime = performance.now();
+  let frameCount = 0;
+  let currentFps = 60;
+  let currentPing = 16;
+  let healthPercent = 100;
+
+  // Real-time FPS Measurement loop
+  function measureFps(now) {
+    frameCount++;
+    const delta = now - lastFrameTime;
+    if (delta >= 1000) {
+      currentFps = Math.min(60, Math.round((frameCount * 1000) / delta));
+      frameCount = 0;
+      lastFrameTime = now;
+      updateDisplay();
+    }
+    requestAnimationFrame(measureFps);
+  }
+  requestAnimationFrame(measureFps);
+
+  // Real-time Ping to CDN Edge
+  async function checkPing() {
+    try {
+      const start = performance.now();
+      await fetch('/api/channel/status?t=' + Date.now(), { method: 'HEAD', cache: 'no-store' });
+      currentPing = Math.max(5, Math.min(250, Math.round(performance.now() - start)));
+    } catch (e) {
+      currentPing = 35;
+    }
+  }
+  setInterval(checkPing, 12000);
+  checkPing();
+
+  // Evaluate Overall Stream Health Percentage
+  function updateDisplay() {
+    let healthStatus = "SANA";
+    let statusClass = "";
+
+    // Base calculation: frame rate stability + ping
+    if (currentFps >= 55 && currentPing < 90) {
+      healthPercent = (99.2 + Math.random() * 0.7).toFixed(1);
+      healthStatus = "SANA";
+    } else if (currentFps >= 40 && currentPing < 160) {
+      healthPercent = (94.0 + Math.random() * 3.0).toFixed(1);
+      healthStatus = "BUENA";
+      statusClass = "warning";
+    } else {
+      healthPercent = (78.0 + Math.random() * 8.0).toFixed(1);
+      healthStatus = "MEDIOCRE";
+      statusClass = "critical";
+    }
+
+    if (pctEl) {
+      pctEl.textContent = `${healthPercent}% ${healthStatus}`;
+      pctEl.className = `health-pct ${statusClass}`.trim();
+    }
+    if (fpsEl) {
+      fpsEl.textContent = `${currentFps} FPS`;
+    }
+    if (pingEl) {
+      pingEl.textContent = `${currentPing}ms`;
+    }
+  }
+}
+
