@@ -441,17 +441,21 @@ function initIntroCurtain() {
 }
 
 /* ==========================================================================
-   2. DIGITAL CLOCK & EPG TIMING
+   2. DIGITAL CLOCK & EPG TIMING (Viewer Country / Local Time Engine)
    ========================================================================== */
 function initClock() {
   const clockEl = document.getElementById("digital-clock");
+  const cornerClockEl = document.getElementById("corner-clock-time");
 
   function update() {
+    // Evaluates against the viewer's local system timezone (exact time by country of reception)
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, "0");
     const mins = String(now.getMinutes()).padStart(2, "0");
+    const timeStr = `${hours}:${mins}`;
 
-    if (clockEl) clockEl.textContent = `${hours}:${mins}`;
+    if (clockEl) clockEl.textContent = timeStr;
+    if (cornerClockEl) cornerClockEl.textContent = timeStr;
   }
 
   update();
@@ -655,16 +659,17 @@ function isFullscreenActive() {
 
 function initFullscreenAndAutoHide() {
   const hud = document.getElementById("epg-hud");
-  const header = document.querySelector(".osd-top-bar");
+  const cornerClock = document.getElementById("broadcast-corner-clock");
 
   function showHUD() {
     if (hud) hud.classList.remove("hud-hidden");
-    if (header) header.classList.remove("header-hidden");
+    if (cornerClock) cornerClock.classList.add("hidden-by-hud");
   }
 
   function hideHUD() {
     if (hud) hud.classList.add("hud-hidden");
-    if (header) header.classList.add("header-hidden");
+    // Persistent corner clock remains visible in fullscreen with viewer's exact country time
+    if (cornerClock) cornerClock.classList.remove("hidden-by-hud");
   }
 
   function resetTimer() {

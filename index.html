@@ -40,27 +40,19 @@
       <div id="video-click-shield" class="video-click-shield"></div>
     </div>
 
-    <!-- LAYER 1: Top OSD (Watermark & Broadcast Badges) -->
+    <!-- LAYER 1: Top OSD (Clean Broadcast - Only Watermark) -->
     <header class="osd-top-bar">
-      <!-- Left: Channel & Signal Info -->
-      <div class="signal-info">
-        <div class="channel-pill">
-          <span class="live-dot pulse"></span>
-          <span class="channel-num" id="current-ch-num">CH 01</span>
-          <span class="channel-name" id="current-ch-name">KLMR MAIN STAGE HD</span>
-        </div>
-        <div class="resolution-pill">
-          <span class="badge-4k">4K ULTRA HD</span>
-          <span class="badge-fps">60 FPS</span>
-          <span class="badge-dolby">DOLBY ATMOS</span>
-        </div>
-      </div>
-
-      <!-- Right: Official Logo Watermark (2026 Chrome 3D Edition with Sunburst Flares) -->
+      <!-- Right: Official Logo Watermark (2026 Sunburst Edition matching TV Photo) -->
       <div class="logo-watermark">
-        <img src="assets/logo-chrome-3d.png" alt="KLMR OFFICIAL CHANNEL HD" class="klmr-logo-img" id="channel-logo">
+        <img src="assets/logo-official-3.png" alt="KLMR OFFICIAL CHANNEL HD" class="klmr-logo-img" id="channel-logo">
       </div>
     </header>
+
+    <!-- LAYER 1.5: Persistent Broadcast Digital Clock (Always shows local viewer country time) -->
+    <div id="broadcast-corner-clock" class="broadcast-corner-clock">
+      <span class="live-dot pulse"></span>
+      <span id="corner-clock-time" class="corner-clock-digits">00:00</span>
+    </div>
 
     <!-- LAYER 2: Live Ingest Alert Banner -->
     <div id="live-alert-banner" class="live-alert-banner hidden">
