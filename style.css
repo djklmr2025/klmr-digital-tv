@@ -79,14 +79,25 @@ body, html {
   width: 100%;
   height: 100%;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: none !important;
   transition: opacity 0.5s ease-in-out;
 }
 
 .player-wrapper.active {
   opacity: 1;
-  pointer-events: auto;
+  pointer-events: none !important;
   z-index: 2;
+}
+
+/* Broadcast Clean Feed: Crops YouTube's title bar (+60px top) and bottom watermark (-60px bottom) */
+#yt-player-wrapper {
+  position: absolute;
+  top: -8%;
+  left: -4%;
+  width: 108% !important;
+  height: 116% !important;
+  overflow: hidden;
+  pointer-events: none !important;
 }
 
 #yt-player-wrapper iframe,
@@ -97,6 +108,17 @@ body, html {
   width: 100% !important;
   height: 100% !important;
   border: none !important;
+  pointer-events: none !important; /* Zero clicks reach YouTube: no pause, no more videos, no watermark */
+}
+
+.video-click-shield {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 6;
+  cursor: default;
 }
 
 #native-video {

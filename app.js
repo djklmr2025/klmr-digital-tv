@@ -1,6 +1,7 @@
 /**
  * KLMR OFFICIAL CHANNEL HD - Interactive Electronic Music TV Engine
  * Linear FAST Playout Stream • Synchronized Global Cloud Broadcast
+ * Continuous 24/7 Playout with Complete @KLMROFFCIALCHANNEL Catalog
  */
 
 // Global Channel State
@@ -8,22 +9,18 @@ const ChannelState = {
   currentTrackIndex: 0,
   isPlaying: false,
   isLiveMode: false,
-  liveSource: null, // 'j2cast' | 'tiktok' | null
-  currentSourceType: 'youtube', // 'youtube' | 'drive' | 'live-audio' | 'live-video'
+  liveSource: null,
+  currentSourceType: 'youtube',
   audioQuality: 'yt-standard',
   visualsActive: true,
   ytPlayer: null,
-  audioContext: null,
-  audioElement: null,
-  analyser: null,
-  animationFrameId: null,
   hasEnteredLive: false
 };
 
-// Curated 24/7 Linear Playout Playlist (Official Tracks from @KLMROFFCIALCHANNEL & Cloud Pool)
+// Complete 24/7 Linear Playout Playlist (All 27 Official Tracks from @KLMROFFCIALCHANNEL + Cloud Pool)
 const BroadcastPlaylist = [
   {
-    id: "yt-rise",
+    id: "yt-EuKtIiPC3DA",
     title: "Rise - Eric Kupper VRemix By djklmr Ft Samantha James & Eric Kupper",
     artist: "djklmr Ft Samantha James & Eric Kupper",
     genre: "SOULFUL HOUSE / VOCAL CLUB",
@@ -35,7 +32,7 @@ const BroadcastPlaylist = [
     thumbnail: "assets/logo-chrome-3d.png"
   },
   {
-    id: "yt-tiesto",
+    id: "yt-r7Tf_hgvH3c",
     title: "La Noche VREMIX By DJKLMR & DJ TIESTO",
     artist: "DJKLMR & DJ Tiesto",
     genre: "ELECTRO HOUSE / MAIN STAGE",
@@ -47,7 +44,7 @@ const BroadcastPlaylist = [
     thumbnail: "assets/tiesto.png"
   },
   {
-    id: "yt-toy-story",
+    id: "yt-kkTj9x4kCC8",
     title: "Toy Story 5 Trailer Song, Never Tears Us Apart INXS VRemix By djklmr",
     artist: "INXS (VRemix By djklmr)",
     genre: "SYNTHPOP / DANCE VREMIX",
@@ -59,8 +56,8 @@ const BroadcastPlaylist = [
     thumbnail: "assets/logo-klmr.png"
   },
   {
-    id: "yt-vamos",
-    title: "Vamos a vivir - Videoclip Oficial",
+    id: "yt-7CmxP78alCk",
+    title: "Vamos a vivir",
     artist: "DJ KLMR",
     genre: "TRIBAL / LATIN TECHNO",
     source: "youtube",
@@ -71,7 +68,7 @@ const BroadcastPlaylist = [
     thumbnail: "assets/klmr-2025-hd.png"
   },
   {
-    id: "yt-sunshine",
+    id: "yt-EIHrIGpwTUE",
     title: "Sunshine Afro Costa",
     artist: "djklmr Afro Sessions",
     genre: "AFRO HOUSE / MELODIC",
@@ -83,16 +80,268 @@ const BroadcastPlaylist = [
     thumbnail: "assets/zamna.png"
   },
   {
-    id: "yt-queen-fisher",
-    title: "Queen Vs Fisher - Bohemian Rhapsody Vs Losing It (Mashup VRemix)",
-    artist: "Fisher vs Queen (Mashup by djklmr)",
+    id: "yt-4w4l0RSkjfM",
+    title: "CD TRCKAS VIDEOCLIP",
+    artist: "DJKLMR Official",
+    genre: "ELECTRONIC CLUB / TECH",
+    source: "youtube",
+    youtubeId: "4w4l0RSkjfM",
+    duration: 260,
+    bpm: 125,
+    badge: "VIDEOCLIP OFICIAL",
+    thumbnail: "assets/logo-hd.png"
+  },
+  {
+    id: "yt-vR3pjw44lkg",
+    title: "CD TRCKAS - Club Edit",
+    artist: "DJKLMR Official",
+    genre: "TECH HOUSE / CLUB",
+    source: "youtube",
+    youtubeId: "vR3pjw44lkg",
+    duration: 250,
+    bpm: 126,
+    badge: "CLUB MIX",
+    thumbnail: "assets/logo-chrome-3d.png"
+  },
+  {
+    id: "yt-XyXfo4HIeP8",
+    title: "Sunshine Tribal",
+    artist: "DJKLMR Official",
+    genre: "TRIBAL HOUSE / LATIN GROOVE",
+    source: "youtube",
+    youtubeId: "XyXfo4HIeP8",
+    duration: 275,
+    bpm: 128,
+    badge: "TRIBAL SESSION",
+    thumbnail: "assets/logo-klmr.png"
+  },
+  {
+    id: "yt-VHytGF4Alvs",
+    title: "I'm just a DJ - Female Voice English Version",
+    artist: "DJKLMR Official",
+    genre: "VOCAL CLUB / ELECTRO",
+    source: "youtube",
+    youtubeId: "VHytGF4Alvs",
+    duration: 290,
+    bpm: 126,
+    badge: "VOCAL ANTHEM",
+    thumbnail: "assets/logo-medal-3d.png"
+  },
+  {
+    id: "yt-yIhw58dVYsk",
+    title: "Stay for a while - VMOST Theme By djklmr",
+    artist: "djklmr VMOST",
+    genre: "MELODIC HOUSE / CHILL TECH",
+    source: "youtube",
+    youtubeId: "yIhw58dVYsk",
+    duration: 280,
+    bpm: 122,
+    badge: "VMOST THEME",
+    thumbnail: "assets/zamna.png"
+  },
+  {
+    id: "yt-JCbZJmIFzTc",
+    title: "LOVE STORY - Vals Version 2024 by djklmr",
+    artist: "DJKLMR Official",
+    genre: "ORCHESTRAL DANCE / VREMIX",
+    source: "youtube",
+    youtubeId: "JCbZJmIFzTc",
+    duration: 265,
+    bpm: 118,
+    badge: "EDICIÓN ESPECIAL",
+    thumbnail: "assets/logo-official-3.png"
+  },
+  {
+    id: "yt-psmn4o-PfTE",
+    title: "Todavía en el mismo lugar - By djklmr",
+    artist: "DJKLMR Official",
+    genre: "DEEP HOUSE / NOSTALGIA",
+    source: "youtube",
+    youtubeId: "psmn4o-PfTE",
+    duration: 270,
+    bpm: 123,
+    badge: "PRODUCCIÓN ORIGINAL",
+    thumbnail: "assets/klmr-2025-hd.png"
+  },
+  {
+    id: "yt-HUKOy-Qy_no",
+    title: "Le ciel est lourd au dessus de nous - VMOST Theme By djklmr",
+    artist: "djklmr VMOST",
+    genre: "FRENCH TOUCH / DEEP ELECTRONIC",
+    source: "youtube",
+    youtubeId: "HUKOy-Qy_no",
+    duration: 310,
+    bpm: 124,
+    badge: "VMOST THEME",
+    thumbnail: "assets/logo-chrome-3d.png"
+  },
+  {
+    id: "yt-sLfrbg5hfG4",
+    title: "Cítricos y Sal - Videoclip Oficial",
+    artist: "DJKLMR Official",
+    genre: "LATIN TECH / CLUB DANCE",
+    source: "youtube",
+    youtubeId: "sLfrbg5hfG4",
+    duration: 245,
+    bpm: 127,
+    badge: "VIDEOCLIP OFICIAL",
+    thumbnail: "assets/tiesto.png"
+  },
+  {
+    id: "yt-LRa1s_4QaJU",
+    title: "황금 다락방 By djklmr Original VRemix (VideoEdit Plastika 01)",
+    artist: "DJKLMR Original VRemix",
+    genre: "K-ELECTRO / CLUB VREMIX",
+    source: "youtube",
+    youtubeId: "LRa1s_4QaJU",
+    duration: 285,
+    bpm: 126,
+    badge: "GLOBAL VREMIX",
+    thumbnail: "assets/logo-hd.png"
+  },
+  {
+    id: "yt-z8HYbmwUGYI",
+    title: "Heaven's Doorstep 2 - By djklmr VEDIT",
+    artist: "DJKLMR VEDIT",
+    genre: "PROGRESSIVE HOUSE / CELESTIAL",
+    source: "youtube",
+    youtubeId: "z8HYbmwUGYI",
+    duration: 330,
+    bpm: 128,
+    badge: "PROGRESSIVE SESSIONS",
+    thumbnail: "assets/zamna.png"
+  },
+  {
+    id: "yt-OH_If-vgdEs",
+    title: "Heaven's Doorstep 1 - By djklmr VEDIT",
+    artist: "DJKLMR VEDIT",
+    genre: "PROGRESSIVE HOUSE / ANTHEM",
+    source: "youtube",
+    youtubeId: "OH_If-vgdEs",
+    duration: 315,
+    bpm: 126,
+    badge: "PROGRESSIVE SESSIONS",
+    thumbnail: "assets/logo-medal-3d.png"
+  },
+  {
+    id: "yt-teBAMPj1WzQ",
+    title: "I Like The Way - VRemix By Vdjklmr",
+    artist: "Vdjklmr",
     genre: "TECH HOUSE / PEAK TIME",
     source: "youtube",
-    youtubeId: "o4hPLMtAjMM",
-    duration: 290,
+    youtubeId: "teBAMPj1WzQ",
+    duration: 260,
+    bpm: 126,
+    badge: "CLUB VREMIX",
+    thumbnail: "assets/logo-klmr.png"
+  },
+  {
+    id: "yt-AYMQZbzx_dU",
+    title: "Blisser - Suzy Sheer (VEDIT By VDJKLMR)",
+    artist: "Suzy Sheer (VEDIT By VDJKLMR)",
+    genre: "ELECTRO DANCE / VEDIT",
+    source: "youtube",
+    youtubeId: "AYMQZbzx_dU",
+    duration: 250,
     bpm: 125,
-    badge: "CLUB BANGERS",
+    badge: "VEDIT EXCLUSIVO",
+    thumbnail: "assets/klmr-2025-hd.png"
+  },
+  {
+    id: "yt-QhFc871NS08",
+    title: "Siinamota - Young Girl A (Video Kayzo Trap VEdit By vdjklmr)",
+    artist: "Kayzo vs Siinamota (VEdit by vdjklmr)",
+    genre: "TRAP / HARD DANCE",
+    source: "youtube",
+    youtubeId: "QhFc871NS08",
+    duration: 220,
+    bpm: 150,
+    badge: "BASS & TRAP",
+    thumbnail: "assets/logo-chrome-3d.png"
+  },
+  {
+    id: "yt-ipCA5-k32xY",
+    title: "Airport DJ Pp Remix (Video Edit VDJKLMR)",
+    artist: "DJ Pp (Video Edit VDJKLMR)",
+    genre: "TECH HOUSE / AIRPORT SET",
+    source: "youtube",
+    youtubeId: "ipCA5-k32xY",
+    duration: 295,
+    bpm: 126,
+    badge: "TECH SESSIONS",
+    thumbnail: "assets/tiesto.png"
+  },
+  {
+    id: "yt-TxjzaPIFzXU",
+    title: "Ella ya me Olvidó - Leonardo Favio (By vdjklmr & Roberth Steve Quiroga) VREMIX",
+    artist: "vdjklmr & Roberth Steve Quiroga",
+    genre: "LATIN CLASSIC / DANCE VREMIX",
+    source: "youtube",
+    youtubeId: "TxjzaPIFzXU",
+    duration: 270,
+    bpm: 124,
+    badge: "COLABORACIÓN VIP",
+    thumbnail: "assets/logo-official-3.png"
+  },
+  {
+    id: "yt--Zk6vTrleoA",
+    title: "Gipsy Kings - Bamboleo VRemix By vdjklmr",
+    artist: "Gipsy Kings (VRemix By vdjklmr)",
+    genre: "FLAMENCO TECHNO / FIESTA",
+    source: "youtube",
+    youtubeId: "-Zk6vTrleoA",
+    duration: 260,
+    bpm: 128,
+    badge: "FIESTA ANTHEM",
     thumbnail: "assets/logo-hd.png"
+  },
+  {
+    id: "yt-DmOoyR8RS7g",
+    title: "Juan Gabriel - Bailando VEdit By djklmr",
+    artist: "Juan Gabriel (VEdit By djklmr)",
+    genre: "LATIN GROOVE / DANCE EDIT",
+    source: "youtube",
+    youtubeId: "DmOoyR8RS7g",
+    duration: 280,
+    bpm: 125,
+    badge: "HOMENAJE EXCLUSIVO",
+    thumbnail: "assets/logo-klmr.png"
+  },
+  {
+    id: "yt-RXzatHn8bNg",
+    title: "This Place - Nic Fanciulli Remix (VREMIX By vdj-klmr)",
+    artist: "Nic Fanciulli (VREMIX By vdj-klmr)",
+    genre: "UNDERGROUND TECHNO / IBIZA",
+    source: "youtube",
+    youtubeId: "RXzatHn8bNg",
+    duration: 340,
+    bpm: 127,
+    badge: "IBIZA UNDERGROUND",
+    thumbnail: "assets/zamna.png"
+  },
+  {
+    id: "yt-pL0JulX7Rok",
+    title: "VREMIX - Battery Low / Battery Operated By djklmr",
+    artist: "djklmr Original",
+    genre: "ELECTRO BREAKS / BASS",
+    source: "youtube",
+    youtubeId: "pL0JulX7Rok",
+    duration: 240,
+    bpm: 130,
+    badge: "ELECTRO CLUB",
+    thumbnail: "assets/logo-medal-3d.png"
+  },
+  {
+    id: "yt-9E8ayj0QvuA",
+    title: "I'm Not In Love - VRemix By djklmr",
+    artist: "10cc (VRemix By djklmr)",
+    genre: "SYNTHPOP DANCE / NOSTALGIA",
+    source: "youtube",
+    youtubeId: "9E8ayj0QvuA",
+    duration: 310,
+    bpm: 120,
+    badge: "CLASSIC VREMIX",
+    thumbnail: "assets/logo-chrome-3d.png"
   },
   {
     id: "drive-pool",
@@ -111,13 +360,13 @@ const BroadcastPlaylist = [
 
 // Calculate linear FAST real-time playout (Global Synced Virtual Playout)
 function getLiveFastPlayoutPosition() {
-  const totalDuration = BroadcastPlaylist.reduce((acc, t) => acc + (t.duration || 300), 0);
+  const totalDuration = BroadcastPlaylist.reduce((acc, t) => acc + (t.duration || 260), 0);
   const nowSeconds = Math.floor(Date.now() / 1000);
   let cyclePosition = nowSeconds % totalDuration;
 
   for (let i = 0; i < BroadcastPlaylist.length; i++) {
     const track = BroadcastPlaylist[i];
-    const trackDuration = track.duration || 300;
+    const trackDuration = track.duration || 260;
     if (cyclePosition < trackDuration) {
       return {
         trackIndex: i,
@@ -136,7 +385,6 @@ document.addEventListener("DOMContentLoaded", () => {
   initHUDControls();
   initFullscreenAndAutoHide();
   initModals();
-  initGuideGrid();
   initKeyboardNavigation();
   initBackendSync();
 });
@@ -178,14 +426,13 @@ function initIntroCurtain() {
 
   if (introVideo) {
     introVideo.addEventListener("ended", dismissIntro);
-    // Try to play intro with audio on user tap
     introVideo.play().catch(() => {
       introVideo.muted = true;
       introVideo.play().catch(() => {});
     });
   }
 
-  // Also dismiss if clicking anywhere on the curtain after 4 seconds
+  // Dismiss if clicking anywhere on the curtain after 4 seconds
   setTimeout(() => {
     overlay?.addEventListener("click", (e) => {
       if (e.target !== skipBtn) dismissIntro();
@@ -212,7 +459,7 @@ function initClock() {
 }
 
 /* ==========================================================================
-   3. YOUTUBE IFRAME PLAYER INTEGRATION (Optimized Smooth Streaming)
+   3. YOUTUBE IFRAME PLAYER INTEGRATION (Clean Feed Broadcast - No Pause, No Watermark)
    ========================================================================== */
 window.onYouTubeIframeAPIReady = function() {
   const livePos = getLiveFastPlayoutPosition();
@@ -224,7 +471,7 @@ window.onYouTubeIframeAPIReady = function() {
     host: "https://www.youtube.com",
     playerVars: {
       autoplay: 1,
-      mute: 1, // Needed for instant auto-play on browser policy
+      mute: 1,
       controls: 0,
       disablekb: 1,
       enablejsapi: 1,
@@ -251,7 +498,7 @@ function onPlayerReady(event) {
     event.target.seekTo(livePos.startSeconds, true);
   }
 
-  // Suggest smooth 720p 60fps streaming to avoid 4K buffering ("cargue y cargue")
+  // Set smooth 720p 60fps streaming to avoid 4K buffering ("cargue y cargue")
   if (typeof event.target.setPlaybackQuality === "function") {
     event.target.setPlaybackQuality("hd720");
   }
@@ -261,7 +508,7 @@ function onPlayerReady(event) {
   updateNowPlayingHUD();
   startTimeTracking();
 
-  // On first user interaction, unmute and ensure smooth playback
+  // On first user interaction, unmute and ensure continuous playback
   const unmuteHandler = () => {
     if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.unMute === "function") {
       ChannelState.ytPlayer.unMute();
@@ -281,8 +528,12 @@ function onPlayerStateChange(event) {
     if (typeof event.target.setPlaybackQuality === "function") {
       event.target.setPlaybackQuality("hd720");
     }
+  } else if (event.data === YT.PlayerState.PAUSED) {
+    // CRITICAL: Live TV cannot be paused! Force resume immediately
+    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.playVideo === "function") {
+      ChannelState.ytPlayer.playVideo();
+    }
   } else if (event.data === YT.PlayerState.BUFFERING) {
-    // Keep playback lightweight and fast
     if (typeof event.target.setPlaybackQuality === "function") {
       event.target.setPlaybackQuality("hd720");
     }
@@ -391,15 +642,6 @@ function updateNowPlayingHUD() {
   if (mArtist) mArtist.textContent = curTrack.artist;
   if (mGenre) mGenre.textContent = curTrack.genre;
   if (mSource) mSource.textContent = curTrack.source === "youtube" ? "YouTube Oficial (@KLMROFFCIALCHANNEL)" : "Bóveda Google Drive";
-
-  // Update Active Guide Card
-  document.querySelectorAll(".guide-card").forEach((card, idx) => {
-    if (idx === ChannelState.currentTrackIndex) {
-      card.classList.add("now-playing-card");
-    } else {
-      card.classList.remove("now-playing-card");
-    }
-  });
 }
 
 /* ==========================================================================
@@ -413,7 +655,7 @@ function isFullscreenActive() {
 
 function initFullscreenAndAutoHide() {
   const hud = document.getElementById("epg-hud");
-  const header = document.querySelector(".tv-header");
+  const header = document.querySelector(".osd-top-bar");
 
   function showHUD() {
     if (hud) hud.classList.remove("hud-hidden");
@@ -431,11 +673,10 @@ function initFullscreenAndAutoHide() {
     if (isFullscreenActive()) {
       hudInactivityTimer = setTimeout(() => {
         hideHUD();
-      }, 3500); // Auto-hide after 3.5s of inactivity
+      }, 3500); // Auto-hide after 3.5s of inactivity in fullscreen
     }
   }
 
-  // Listen to fullscreen changes across browsers
   const handleFullscreenChange = () => {
     if (isFullscreenActive()) {
       resetTimer();
@@ -449,7 +690,7 @@ function initFullscreenAndAutoHide() {
   document.addEventListener("webkitfullscreenchange", handleFullscreenChange);
   document.addEventListener("mozfullscreenchange", handleFullscreenChange);
 
-  // Wake up HUD on user interaction
+  // User activity awakens HUD temporarily in fullscreen
   window.addEventListener("mousemove", () => {
     if (isFullscreenActive()) resetTimer();
   });
@@ -504,22 +745,18 @@ function initHUDControls() {
   });
 
   document.getElementById("btn-audio")?.addEventListener("click", () => toggleModal("modal-audio"));
-  document.getElementById("btn-favorites")?.addEventListener("click", () => toggleModal("modal-guide"));
   document.getElementById("btn-fullscreen")?.addEventListener("click", toggleFullscreen);
 
   document.getElementById("btn-subtitles")?.addEventListener("click", () => {
     alert("Sintetizador láser y ecualizador visual activo en señal continua.");
   });
 
-  // Clicking on video stage toggles fullscreen rather than unwanted pause
-  const videoStage = document.getElementById("video-stage");
-  if (videoStage) {
-    videoStage.addEventListener("dblclick", toggleFullscreen);
-    videoStage.addEventListener("click", (e) => {
-      // If clicking stage while in fullscreen, toggle HUD visibility
-      if (isFullscreenActive()) {
-        window.toggleMarqueeHUD();
-      }
+  // Click Shield over video: clicking toggles HUD or fullscreen, NEVER pauses
+  const clickShield = document.getElementById("video-click-shield");
+  if (clickShield) {
+    clickShield.addEventListener("dblclick", toggleFullscreen);
+    clickShield.addEventListener("click", () => {
+      window.toggleMarqueeHUD();
     });
   }
 }
@@ -551,39 +788,7 @@ function closeAllModals() {
 }
 
 /* ==========================================================================
-   7. CHANNEL GUIDE (PLAYLIST) GRID
-   ========================================================================== */
-function initGuideGrid() {
-  const grid = document.getElementById("guide-items-list");
-  if (!grid) return;
-
-  grid.innerHTML = "";
-
-  BroadcastPlaylist.forEach((item, index) => {
-    const card = document.createElement("div");
-    card.className = `guide-card ${index === ChannelState.currentTrackIndex ? 'now-playing-card' : ''}`;
-    card.setAttribute("data-index", index);
-
-    card.innerHTML = `
-      <img src="${item.thumbnail}" class="guide-thumb" alt="${item.title}" onerror="this.src='assets/logo-klmr.png'">
-      <div class="guide-info">
-        <span class="guide-badge">${item.badge}</span>
-        <div class="guide-title">${item.title}</div>
-        <div class="guide-sub">${item.artist} • ${item.genre}</div>
-      </div>
-    `;
-
-    card.addEventListener("click", () => {
-      playTrackAtIndex(index, 0);
-      closeAllModals();
-    });
-
-    grid.appendChild(card);
-  });
-}
-
-/* ==========================================================================
-   8. SMART TV REMOTE & KEYBOARD CONTROLS
+   7. SMART TV REMOTE & KEYBOARD CONTROLS
    ========================================================================== */
 function initKeyboardNavigation() {
   window.addEventListener("keydown", (e) => {
@@ -602,12 +807,8 @@ function initKeyboardNavigation() {
         break;
       case "i":
       case "I":
-        // TV Remote 'Info' button: toggles marquee visibility or track info
+        // TV Remote 'Info' button: toggles marquee visibility
         window.toggleMarqueeHUD();
-        break;
-      case "g":
-      case "G":
-        toggleModal("modal-guide");
         break;
       case "m":
       case "M":
@@ -627,7 +828,7 @@ function initKeyboardNavigation() {
 }
 
 /* ==========================================================================
-   9. BACKEND SYNC WITH MASTER CONTROL ROOM (/admin)
+   8. BACKEND SYNC WITH MASTER CONTROL ROOM (/admin)
    ========================================================================== */
 function initBackendSync() {
   let lastSyncUpdatedAt = null;
