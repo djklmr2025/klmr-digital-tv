@@ -105,6 +105,13 @@ ${baseUrl}/embed
     sanitizedUrl = '/index.html';
   }
 
+  // API: Get Dynamic Cloud Playout Feed
+  if (sanitizedUrl === '/api/channel/feed') {
+    const feedHandler = require('./api/channel/feed');
+    feedHandler(req, res);
+    return;
+  }
+
   // API 1: Get Centralized Channel Status with Linear FAST calculation
   if (sanitizedUrl === '/api/channel/status') {
     res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
