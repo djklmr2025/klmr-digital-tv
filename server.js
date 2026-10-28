@@ -160,18 +160,16 @@ const server = http.createServer((req, res) => {
 
   if (sanitizedUrl === '/') sanitizedUrl = '/index.html';
 
-  const filePath = path.join(PUBLIC_DIR, sanitizedUrl);
-
-  if (!filePath.startsWith(PUBLIC_DIR)) {
-    res.writeHead(403);
-    res.end('Acceso denegado');
-    return;
+  const relPath = sanitizedUrl.replace(/^\/+/, '');
+  let filePath = path.join(__dirname, relPath);
+  if (!fs.existsSync(filePath)) {
+    filePath = path.join(process.cwd(), relPath);
   }
 
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
       res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-      res.end('404 Recurso no encontrado');
+      res.end(`404 Recurso no encontrado: ${sanitizedUrl}`);
       return;
     }
 
