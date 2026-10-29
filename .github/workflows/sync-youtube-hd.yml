@@ -1,0 +1,35 @@
+name: KLMR HD - Auto Sync New YouTube Videos to Queue (720p/1080p HD)
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-hd-queue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js & FFmpeg & yt-dlp
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg python3-pip
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+
+      - name: Append new YouTube videos in HD to end of queue without resetting timeline
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node upgrade_and_sync_hd.js
+
+      - name: Commit updated queue and timelineAnchorOffset
+        run: |
+          git config user.name "KLMR HD Broadcast Bot"
+          git config user.email "bot@klmr-digital-tv.vercel.app"
+          git add api/channel/feed.js .hd_upgraded.json
+          git diff --staged --quiet || (git commit -m "chore: append new HD tracks to queue preserving timeline position" && git push)

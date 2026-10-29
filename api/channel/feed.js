@@ -840,6 +840,8 @@ const MasterCatalog = [
   }
 ];
 
+const TIMELINE_ANCHOR_OFFSET = 0;
+
 module.exports = (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -853,7 +855,7 @@ module.exports = (req, res) => {
 
   const totalDuration = MasterCatalog.reduce((acc, t) => acc + (t.duration || 260), 0);
   const nowSeconds = Math.floor(Date.now() / 1000);
-  let cyclePosition = nowSeconds % totalDuration;
+  let cyclePosition = ((nowSeconds + TIMELINE_ANCHOR_OFFSET) % totalDuration + totalDuration) % totalDuration;
   let activeIndex = 0;
   let seekSeconds = 0;
 
@@ -876,6 +878,7 @@ module.exports = (req, res) => {
     status: "online",
     isLive: false,
     serverEpochSeconds: nowSeconds,
+    timelineAnchorOffset: TIMELINE_ANCHOR_OFFSET,
     totalDurationSeconds: totalDuration,
     totalTracks: MasterCatalog.length,
     currentIndex: activeIndex,
