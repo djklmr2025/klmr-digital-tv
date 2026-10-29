@@ -1,6 +1,6 @@
 /**
- * KLMR OFFICIAL CHANNEL HD - True 24/7 Continuous Linear TV Broadcast Engine
- * Real-Time Global Timeline Sync (Epoch UTC) • Zero Playlist Reset • 1:1 Mirror with Roku TV
+ * KLMR OFFICIAL CHANNEL HD - Interactive Electronic Music TV Engine
+ * Intro Loading Curtain (intro.mp4) -> Real-Time Continuous 24/7 Linear Broadcast Timeline
  */
 
 const ChannelState = {
@@ -12,10 +12,9 @@ const ChannelState = {
   audioQuality: 'yt-standard',
   visualsActive: true,
   ytPlayer: null,
-  hasEnteredLive: true
+  hasEnteredLive: false
 };
 
-// Continuous 24/7 Broadcast Timeline
 const BroadcastPlaylist = [
   {
     "id": "yt-7CmxP78alCk",
@@ -1008,23 +1007,9 @@ const BroadcastPlaylist = [
     "bpm": 120,
     "badge": "BÓVEDA GOOGLE DRIVE",
     "thumbnail": "assets/logo-hd.png"
-  },
-  {
-    "id": "klmr-station-ident",
-    "title": "KLMR OFFICIAL CHANNEL HD - Station ID",
-    "artist": "KLMR Network Official",
-    "genre": "STATION IDENT 24/7",
-    "source": "drive",
-    "driveUrl": "https://klmr-digital-tv.vercel.app/assets/intro.mp4",
-    "mp4Url": "https://klmr-digital-tv.vercel.app/assets/intro.mp4",
-    "duration": 30,
-    "bpm": 128,
-    "badge": "IDENT OFICIAL",
-    "thumbnail": "assets/logo-medal-3d.png"
   }
 ];
 
-// Calculate exact real-time position on the continuous 24/7 timeline
 function getLiveFastPlayoutPosition() {
   const totalDuration = BroadcastPlaylist.reduce((acc, t) => acc + (t.duration || 260), 0);
   const nowSeconds = Math.floor(Date.now() / 1000);
@@ -1049,7 +1034,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add('embed-mode');
   }
   initClock();
-  initLiveAutoplayOverlay();
+  initIntroCurtain();
   initSignalHealthMonitor();
   initHUDControls();
   initFullscreenAndAutoHide();
@@ -1058,50 +1043,74 @@ document.addEventListener("DOMContentLoaded", () => {
   initBackendSync();
 });
 
-/* ==========================================================================
-   1. IMMEDIATE LIVE BROADCAST TUNING (No reset to 0:00 or Track 1)
-   ========================================================================== */
-function initLiveAutoplayOverlay() {
+function initIntroCurtain() {
   const overlay = document.getElementById("channel-intro-overlay");
+  const introVideo = document.getElementById("intro-curtain-video");
   const skipBtn = document.getElementById("btn-skip-intro");
   const startPrompt = document.getElementById("intro-start-prompt");
   const startBtn = document.getElementById("btn-start-tuning");
 
-  // Hide the old intro overlay immediately so the live stream at current second is visible right away
-  if (overlay) {
-    overlay.style.display = "none";
-  }
+  function dismissIntro() {
+    if (ChannelState.hasEnteredLive) return;
+    ChannelState.hasEnteredLive = true;
 
-  function unmuteAndSyncLive() {
+    if (introVideo) {
+      introVideo.pause();
+    }
+
     if (overlay) {
       overlay.classList.add("fade-out");
-      setTimeout(() => { overlay.style.display = "none"; }, 300);
+      setTimeout(() => {
+        overlay.style.display = "none";
+      }, 850);
     }
+
     const livePos = getLiveFastPlayoutPosition();
     playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, true);
   }
 
-  if (startBtn) startBtn.addEventListener("click", (e) => { e.stopPropagation(); unmuteAndSyncLive(); });
-  if (skipBtn) skipBtn.addEventListener("click", (e) => { e.stopPropagation(); unmuteAndSyncLive(); });
-  overlay?.addEventListener("click", unmuteAndSyncLive);
+  function startIntroWithAudio() {
+    if (introVideo) {
+      introVideo.muted = false;
+      introVideo.volume = 1.0;
+      introVideo.play().then(() => {
+        if (startPrompt) startPrompt.classList.add("hidden");
+      }).catch(() => {
+        if (startPrompt) startPrompt.classList.remove("hidden");
+      });
+    }
+  }
 
-  // Also unmute on first click anywhere on the TV screen if browser started muted
-  window.addEventListener("click", () => {
-    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.isMuted === "function" && ChannelState.ytPlayer.isMuted()) {
-      ChannelState.ytPlayer.unMute();
-      ChannelState.ytPlayer.setVolume(100);
+  if (startBtn) {
+    startBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      startIntroWithAudio();
+    });
+  }
+
+  if (skipBtn) {
+    skipBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      dismissIntro();
+    });
+  }
+
+  if (introVideo) {
+    introVideo.addEventListener("ended", dismissIntro);
+    introVideo.muted = false;
+    introVideo.volume = 1.0;
+    introVideo.play().catch(() => {
+      if (startPrompt) startPrompt.classList.remove("hidden");
+    });
+  }
+
+  overlay?.addEventListener("click", () => {
+    if (!ChannelState.hasEnteredLive && introVideo && introVideo.paused) {
+      startIntroWithAudio();
     }
-    const nativeVideo = document.getElementById("native-video");
-    if (nativeVideo && nativeVideo.muted) {
-      nativeVideo.muted = false;
-      nativeVideo.volume = 1.0;
-    }
-  }, { once: true });
+  });
 }
 
-/* ==========================================================================
-   2. DIGITAL CLOCK & EPG TIMING (Viewer Country / Local Time Engine)
-   ========================================================================== */
 function initClock() {
   const clockEl = document.getElementById("digital-clock");
   const cornerClockEl = document.getElementById("corner-clock-time");
@@ -1120,22 +1129,18 @@ function initClock() {
   setInterval(update, 1000);
 }
 
-/* ==========================================================================
-   3. YOUTUBE & DIRECT MP4 CONTINUOUS STREAM ENGINE
-   ========================================================================== */
 window.onYouTubeIframeAPIReady = function() {
   const livePos = getLiveFastPlayoutPosition();
   ChannelState.currentTrackIndex = livePos.trackIndex;
   const currentTrack = BroadcastPlaylist[livePos.trackIndex];
-
   const initialVideoId = currentTrack.youtubeId || BroadcastPlaylist[0].youtubeId;
 
   ChannelState.ytPlayer = new YT.Player("yt-player", {
     videoId: initialVideoId,
     host: "https://www.youtube.com",
     playerVars: {
-      autoplay: 1,
-      mute: 0,
+      autoplay: 0,
+      mute: 1,
       controls: 0,
       disablekb: 1,
       enablejsapi: 1,
@@ -1165,21 +1170,30 @@ function onPlayerReady(event) {
     if (typeof event.target.setOption === "function") event.target.setOption("captions", "track", {});
   } catch (e) {}
 
-  // Immediately lock onto the exact live track & second on the continuous timeline
-  const livePos = getLiveFastPlayoutPosition();
-  playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, true);
+  if (!ChannelState.hasEnteredLive) {
+    if (typeof event.target.pauseVideo === "function") event.target.pauseVideo();
+    if (typeof event.target.mute === "function") event.target.mute();
+  } else {
+    const livePos = getLiveFastPlayoutPosition();
+    playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, true);
+  }
+
   startTimeTracking();
 }
 
 function onPlayerStateChange(event) {
   if (event.data === YT.PlayerState.PLAYING) {
+    if (!ChannelState.hasEnteredLive) {
+      if (typeof event.target.pauseVideo === "function") event.target.pauseVideo();
+      if (typeof event.target.mute === "function") event.target.mute();
+      return;
+    }
     ChannelState.isPlaying = true;
     try {
       if (typeof event.target.unloadModule === "function") event.target.unloadModule("captions");
     } catch (e) {}
   } else if (event.data === YT.PlayerState.PAUSED) {
-    // Live TV never pauses; resume and re-sync to live timeline
-    if (ChannelState.ytPlayer && typeof ChannelState.ytPlayer.playVideo === "function") {
+    if (ChannelState.hasEnteredLive && ChannelState.ytPlayer && typeof ChannelState.ytPlayer.playVideo === "function") {
       ChannelState.ytPlayer.playVideo();
     }
   } else if (event.data === YT.PlayerState.ENDED) {
@@ -1188,6 +1202,7 @@ function onPlayerStateChange(event) {
 }
 
 function onPlayerError(event) {
+  if (!ChannelState.hasEnteredLive) return;
   const livePos = getLiveFastPlayoutPosition();
   const track = BroadcastPlaylist[livePos.trackIndex];
   if (track && track.mp4Url) {
@@ -1225,6 +1240,7 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
 }
 
 function syncToLiveTimeline() {
+  if (!ChannelState.hasEnteredLive) return;
   const livePos = getLiveFastPlayoutPosition();
   playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, false);
 }
@@ -1277,9 +1293,6 @@ function startTimeTracking() {
   }, 500);
 }
 
-/* ==========================================================================
-   4. FULLSCREEN & EPG MARQUEE AUTO-HIDE CONTROLLER
-   ========================================================================== */
 let hudInactivityTimer = null;
 
 function isFullscreenActive() {
@@ -1335,9 +1348,6 @@ function toggleFullscreen() {
   }
 }
 
-/* ==========================================================================
-   5. HUD CONTROLS & MODALS (Strictly Linear TV - No Track Skipping)
-   ========================================================================== */
 function initHUDControls() {
   document.getElementById("btn-info")?.addEventListener("click", () => {
     window.toggleMarqueeHUD();
@@ -1403,11 +1413,9 @@ function initKeyboardNavigation() {
   });
 }
 
-/* ==========================================================================
-   6. CONTINUOUS TIMELINE WATCHDOG & LIVE MCR SYNC
-   ========================================================================== */
 function initBackendSync() {
   async function sync() {
+    if (!ChannelState.hasEnteredLive) return;
     try {
       const res = await fetch('/api/channel/status');
       if (!res.ok) return;
@@ -1422,7 +1430,6 @@ function initBackendSync() {
           hideLiveAlert();
           syncToLiveTimeline();
         } else if (data.currentIndex !== ChannelState.currentTrackIndex) {
-          // Join at the exact seekSeconds on the continuous timeline (NEVER reset to 0)
           playTrackAtIndex(data.currentIndex, data.seekSeconds || 0, false);
         }
       }
@@ -1446,9 +1453,6 @@ function hideLiveAlert() {
   if (banner) banner.classList.add("hidden");
 }
 
-/* ==========================================================================
-   7. BROADCAST SIGNAL HEALTH & TELEMETRY MONITOR
-   ========================================================================== */
 function initSignalHealthMonitor() {
   const pctEl = document.getElementById("signal-health-pct");
   const fpsEl = document.getElementById("signal-health-fps");
