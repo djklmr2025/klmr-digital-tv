@@ -1,10 +1,9 @@
-// Complete 24/7 Linear Playout Playlist (All 77 Official Tracks from @KLMROFFCIALCHANNEL + Cloud Pool)
+// Complete 24/7 Continuous Linear Broadcast Timeline
 const ChannelBroadcastState = {
   isLive: false,
   liveSource: null,
   liveStreamUrl: '',
   currentIndex: 0,
-  updatedAt: new Date().toISOString(),
   playlist: [
     {
         "id": "yt-7CmxP78alCk",
@@ -997,6 +996,19 @@ const ChannelBroadcastState = {
         "bpm": 120,
         "badge": "BÓVEDA GOOGLE DRIVE",
         "thumbnail": "assets/logo-hd.png"
+    },
+    {
+        "id": "klmr-station-ident",
+        "title": "KLMR OFFICIAL CHANNEL HD - Station ID",
+        "artist": "KLMR Network Official",
+        "genre": "STATION IDENT 24/7",
+        "source": "drive",
+        "driveUrl": "https://klmr-digital-tv.vercel.app/assets/intro.mp4",
+        "mp4Url": "https://klmr-digital-tv.vercel.app/assets/intro.mp4",
+        "duration": 30,
+        "bpm": 128,
+        "badge": "IDENT OFICIAL",
+        "thumbnail": "assets/logo-medal-3d.png"
     }
 ]
 };
@@ -1031,6 +1043,8 @@ module.exports = (req, res) => {
   const currentTrack = ChannelBroadcastState.playlist[activeIndex] || ChannelBroadcastState.playlist[0];
   res.status(200).json({
     ...ChannelBroadcastState,
+    serverEpochSeconds: nowSeconds,
+    totalDurationSeconds: totalDuration,
     totalTracks: ChannelBroadcastState.playlist.length,
     currentIndex: activeIndex,
     seekSeconds: seekSeconds,
