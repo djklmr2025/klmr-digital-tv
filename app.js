@@ -1197,16 +1197,17 @@ function onPlayerStateChange(event) {
       ChannelState.ytPlayer.playVideo();
     }
   } else if (event.data === YT.PlayerState.ENDED) {
-    syncToLiveTimeline();
+    advanceToNextTrackCleanly();
   }
 }
 
 function onPlayerError(event) {
   if (!ChannelState.hasEnteredLive) return;
-  const livePos = getLiveFastPlayoutPosition();
-  const track = BroadcastPlaylist[livePos.trackIndex];
+  const track = BroadcastPlaylist[ChannelState.currentTrackIndex];
   if (track && track.mp4Url) {
-    playDirectMp4Stream(track.mp4Url, livePos.startSeconds);
+    playDirectMp4Stream(track.mp4Url, 0);
+  } else {
+    advanceToNextTrackCleanly();
   }
 }
 
@@ -1226,12 +1227,12 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
     nativeVideo.loop = false;
     nativeVideo.src = mp4Url;
     nativeVideo.onloadedmetadata = () => {
-      if (startSeconds > 0 && startSeconds < nativeVideo.duration) {
+      if (startSeconds > 3 && startSeconds < (nativeVideo.duration - 15)) {
         nativeVideo.currentTime = startSeconds;
       }
     };
-    nativeVideo.onended = () => syncToLiveTimeline();
-    nativeVideo.onerror = () => setTimeout(syncToLiveTimeline, 1000);
+    nativeVideo.onended = () => advanceToNextTrackCleanly();
+    nativeVideo.onerror = () => setTimeout(advanceToNextTrackCleanly, 1000);
     nativeVideo.play().catch(() => {
       nativeVideo.muted = true;
       nativeVideo.play().catch(() => {});
@@ -1239,10 +1240,23 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
   }
 }
 
+function advanceToNextTrackCleanly() {
+  if (!ChannelState.hasEnteredLive || BroadcastPlaylist.length === 0) return;
+  const nextIndex = (ChannelState.currentTrackIndex + 1) % BroadcastPlaylist.length;
+  playTrackAtIndex(nextIndex, 0, false);
+}
+
 function syncToLiveTimeline() {
   if (!ChannelState.hasEnteredLive) return;
   const livePos = getLiveFastPlayoutPosition();
-  playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, false);
+  let idx = livePos.trackIndex;
+  let sec = livePos.startSeconds;
+  const trackDur = (BroadcastPlaylist[idx] && BroadcastPlaylist[idx].duration) ? BroadcastPlaylist[idx].duration : 260;
+  if ((trackDur - sec) <= 15) {
+    idx = (idx + 1) % BroadcastPlaylist.length;
+    sec = 0;
+  }
+  playTrackAtIndex(idx, sec, false);
 }
 
 function playTrackAtIndex(index, startSeconds = 0, forceUnmute = false) {
@@ -1429,8 +1443,6 @@ function initBackendSync() {
           ChannelState.isLiveMode = false;
           hideLiveAlert();
           syncToLiveTimeline();
-        } else if (data.currentIndex !== ChannelState.currentTrackIndex) {
-          playTrackAtIndex(data.currentIndex, data.seekSeconds || 0, false);
         }
       }
     } catch (err) {}
