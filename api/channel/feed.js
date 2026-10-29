@@ -837,17 +837,6 @@ const MasterCatalog = [
     "url": "https://drive.usercontent.google.com/download?id=1nS5jxzewjl9AyV2TXXK4Bw_6JadfpMKe&export=download",
     "duration": 255,
     "format": "mp4"
-  },
-  {
-    "id": "klmr-station-ident",
-    "title": "KLMR OFFICIAL CHANNEL HD - Station ID",
-    "artist": "KLMR Network Official",
-    "genre": "STATION IDENT 24/7",
-    "badge": "IDENT OFICIAL",
-    "youtubeId": null,
-    "url": "https://klmr-digital-tv.vercel.app/assets/intro.mp4",
-    "duration": 30,
-    "format": "mp4"
   }
 ];
 
