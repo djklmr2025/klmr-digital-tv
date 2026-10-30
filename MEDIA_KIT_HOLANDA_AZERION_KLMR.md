@@ -100,3 +100,4 @@ El servidor en [`api/channel/feed.js`](file:///C:/ARKAIOS/klmr-digital-tv/api/ch
    - `KLMR_SPONSOR_DURATION`: Duración exacta en segundos (ej. `15` o `30`).
    - `KLMR_SPONSOR_INTERVAL`: Cada cuántos videos musicales se inserta el comercial (por defecto `6`).
 2. **Tanto Roku TV como la Web reproducirán automáticamente el comercial cada 6 videos**, regresando a la programación electrónica sin interrupciones.
+
