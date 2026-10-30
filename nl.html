@@ -504,25 +504,10 @@
       <div class="iframe-container" id="iframeBox">
         <iframe
           id="klmrLiveIframe"
-          src="index.html?partner=nl-nordics"
+          src="/?embed=1"
           allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
           allowfullscreen
         ></iframe>
-      </div>
-
-      <div class="tv-telemetry-bar">
-        <div class="telemetry-item">
-          <span data-i18n="tel_now">Nu op TV:</span>
-          <strong id="liveTrackTitle">Signaal synchroniseren...</strong>
-        </div>
-        <div class="telemetry-item">
-          <span data-i18n="tel_catalog">Actieve Rotatie:</span>
-          <strong id="liveTotalTracks">276 HD Video's (24/7)</strong>
-        </div>
-        <div class="telemetry-item">
-          <span>Ad Engine:</span>
-          <strong style="color:#ff8800;">VAST 4.2 / Sponsor Ready</strong>
-        </div>
       </div>
     </div>
   </section>
@@ -592,55 +577,55 @@
     </div>
   </section>
 
-  <!-- Official Roku & Playout Server Endpoints -->
+  <!-- International Media Representation & Protected B2B Integration -->
   <section class="section" id="ad-endpoints">
-    <h2 class="section-title" data-i18n="tech_title">Officiële Server- & Playout-Endpoints (Technische Integratie)</h2>
+    <h2 class="section-title" data-i18n="tech_title">Internationale TV-Vertegenwoordiging & B2B Integratie (Benelux & Nordics)</h2>
     <p class="section-sub" data-i18n="tech_sub">
-      Deze portal maakt gebruik van exact dezelfde live productie-endpoints waarmee het officiële Roku TV-kanaal is gebouwd en gecertificeerd:
+      Om de integriteit van onze broadcast-infrastructuur en intellectuele eigendom te beschermen, worden technische playout-endpoints, SSAI-tokens en VAST 4.2 Deal ID's uitsluitend onder zakelijke geheimhouding (B2B NDA) verstrekt aan geverifieerde mediabureaus en adverteerders.
     </p>
 
     <div class="endpoint-box">
       <div class="endpoint-row">
         <div>
-          <strong>1. Roku OS & Web Linear Playout JSON API (Live Sync + Ad Config)</strong>
+          <strong data-i18n="ep1_title">1. Europese Directie Commerciële & Internationale TV-Relaties</strong>
           <div style="font-size:0.82rem; color:var(--text-muted);" data-i18n="ep1_desc">
-            Retourneert huidige track, exacte seconde (seekSeconds), VAST-status en volledige 276-track afspeellijst.
+            Anouk van der Berg (AETHYR-NL) — Head of International Broadcast & CTV Partnerships (Amsterdam • Stockholm • Kopenhagen).
           </div>
         </div>
-        <a class="endpoint-url" href="https://klmr-digital-tv.vercel.app/api/channel/feed" target="_blank" rel="noopener">
-          https://klmr-digital-tv.vercel.app/api/channel/feed
-        </a>
+        <span class="endpoint-url" data-i18n="ep1_badge">
+          🇳🇱🇸🇪 Exclusieve CTV Vertegenwoordiging
+        </span>
       </div>
 
       <div class="endpoint-row">
         <div>
-          <strong>2. Primaire Web OTT & Smart TV Broadcast Speler</strong>
+          <strong data-i18n="ep2_title">2. Programmatic VAST 4.2 / SSAI & Playout API (Bedrijfsgeheim / NDA)</strong>
           <div style="font-size:0.82rem; color:var(--text-muted);" data-i18n="ep2_desc">
-            Hoofddomein gekoppeld aan de Roku SceneGraph applicatie.
+            Beveiligde server-side ad-insertion endpoints voor Azerion, Improve Digital, Targetspot & Adform (alleen toegankelijk met geautoriseerde Deal-ID).
           </div>
         </div>
-        <a class="endpoint-url" href="https://klmr-digital-tv.vercel.app/" target="_blank" rel="noopener">
-          https://klmr-digital-tv.vercel.app/
-        </a>
+        <span class="endpoint-url" style="color:#ff9e2c; border:1px solid rgba(255,158,44,0.35);" data-i18n="ep2_badge">
+          🔒 B2B NDA Vereist (Private Endpoint)
+        </span>
       </div>
 
       <div class="endpoint-row">
         <div>
-          <strong>3. IPTV / M3U Global Broadcast Stream</strong>
+          <strong data-i18n="ep3_title">3. Zakelijke Entiteit & Productiehuis (Mexico — Eenmanszaak)</strong>
           <div style="font-size:0.82rem; color:var(--text-muted);" data-i18n="ep3_desc">
-            Universele M3U-feed voor Europese CTV-aggregators en Smart TV-distributeurs.
+            ARKAIOS / KLMR Digital Media México (Empresa Unipersonal) — Internationale rechten, master-catalogus & uitvoerende productie.
           </div>
         </div>
-        <a class="endpoint-url" href="https://klmr-digital-tv.vercel.app/playlist.m3u" target="_blank" rel="noopener">
-          https://klmr-digital-tv.vercel.app/playlist.m3u
-        </a>
+        <span class="endpoint-url" data-i18n="ep3_badge">
+          🇲🇽 Officiële B2B Contractpartner
+        </span>
       </div>
 
       <div class="endpoint-row">
         <div>
-          <strong>4. Directie & Commercieel Contact (C.O. & Executive DJ)</strong>
+          <strong data-i18n="ep4_title">4. Officieel Geverifieerd Uitzend- & Artiestenkanaal</strong>
           <div style="font-size:0.82rem; color:var(--text-muted);" data-i18n="ep4_desc">
-            DJ KLMR Official — Directe onboarding voor Azerion, Improve Digital & Noord-Europese sponsors.
+            Directe zakelijke verificatie en internationaal mediacontact via het officiële kanaal van Executive Producer DJ KLMR.
           </div>
         </div>
         <a class="endpoint-url" href="https://www.youtube.com/@KLMROFFCIALCHANNEL" target="_blank" rel="noopener">
@@ -651,7 +636,7 @@
   </section>
 
   <footer>
-    <p>© 2026 <strong>KLMR OFFICIAL CHANNEL HD</strong> • Executive Producer & C.O.: DJ KLMR (@KLMROFFCIALCHANNEL)</p>
+    <p data-i18n="footer_line1">© 2026 <strong>AETHYR-NL International Broadcast Representation</strong> • Namens <strong>ARKAIOS / KLMR Digital Media México</strong> (Empresa Unipersonal) & <strong>@KLMROFFCIALCHANNEL</strong></p>
     <p style="margin-top:6px;">Broadcasting 24/7 Electronic Dance Music to The Netherlands 🇳🇱, Belgium 🇧🇪, Sweden 🇸🇪, Norway 🇳🇴, Denmark 🇩🇰, Finland 🇫🇮 & Worldwide on Roku TV.</p>
   </footer>
 
@@ -667,112 +652,118 @@
         target.webkitRequestFullscreen();
       } else if (target.msRequestFullscreen) {
         target.msRequestFullscreen();
-      } else {
-        window.open('index.html', '_blank');
       }
     }
-
-    // Live Telemetry Poll from the Real Roku Playout API (/api/channel/feed)
-    async function syncPortalTelemetry() {
-      try {
-        const res = await fetch('/api/channel/feed');
-        if (!res.ok) return;
-        const data = await res.json();
-        if (data.currentTrack && data.currentTrack.title) {
-          document.getElementById('liveTrackTitle').textContent =
-            data.currentTrack.title + ' (' + (data.currentTrack.genre || 'EDM HD') + ')';
-        }
-        if (data.totalTracks) {
-          document.getElementById('liveTotalTracks').textContent =
-            data.totalTracks + " HD Video's (24/7)";
-          document.getElementById('statTrackCount').textContent = data.totalTracks;
-        }
-      } catch (e) {
-        // Fallback if local static
-      }
-    }
-    syncPortalTelemetry();
-    setInterval(syncPortalTelemetry, 12000);
 
     // Multi-language dictionary (Dutch default, English/Nordics, Spanish for C.O. verification)
     const i18n = {
       nl: {
-        nav_sub: "Nederland • Benelux • Nordics CTV Network",
+        nav_sub: "Internationale CTV- & Broadcast Vertegenwoordiging • Benelux & Nordics",
         hero_pill: "🇳🇱 Amsterdam • Stockholm • Kopenhagen • Oslo • Helsinki",
         hero_title: "Adverteer op het 24/7 Electronic Dance Music CTV- & Roku-Kanaal",
-        hero_desc: "<strong>KLMR OFFICIAL CHANNEL HD</strong> zendt 24 uur per dag, 7 dagen per week exclusief elektronische dansmuziek (Tech House, Melodic Techno, Deep House, EDM & Nu-Disco) uit in Full HD (60fps) op <strong>Roku Smart TV</strong> en <strong>Web OTT</strong>. Bereik een gepassioneerd publiek via VAST 4.2 CTV-campagnes of directe merk-sponsoring.",
-        cta_connect: "🔌 Verbind VAST / CTV Campagne",
+        hero_desc: "Welkom bij het Europese mediaportaal onder leiding van <strong>Anouk van der Berg</strong> (International Broadcast & CTV Director). Wij vertegenwoordigen exclusief <strong>KLMR OFFICIAL CHANNEL HD</strong> in Nederland, de Benelux en Scandinavië: 24/7 elektronische dansmuziek in Full HD (60fps) op <strong>Roku Smart TV</strong> en <strong>Web OTT</strong>.",
+        cta_connect: "🔌 Zakelijk Contact & CTV Deal-ID",
         cta_fullscreen: "⛶ Volledig Scherm TV (Maximize)",
         monitor_title: "LIVE UITZENDING — ROKU & WEB MASTER FEED",
         btn_max: "MAXIMALISEREN (VOLLEDIG SCHERM)",
-        tel_now: "Nu op TV:",
-        tel_catalog: "Actieve Rotatie:",
         stat_1: "Exclusieve Electronic Music HD Video's in rotatie (~18,5 uur per cyclus)",
-        stat_2: "Broadcast H.264 kwaliteit via Cloudflare R2 & GitHub Global CDN",
+        stat_2: "Broadcast H.264 kwaliteit via beveiligde Enterprise Cloud CDN",
         stat_3: "1:1 Gesynchroniseerde Lineaire TV-tijdlijn op Smart TV en Browser",
         stat_4: "Dynamische Server-Side Ad Insertion zonder app-herinstallatie",
         models_title: "Advertentie- & Sponsormogelijkheden (Benelux & Nordics)",
-        models_sub: "Ontworpen voor Nederlandse en Scandinavische mediabureaus, SSP-netwerken (Azerion, Improve Digital, Targetspot, Adform) en directe merkpartners in de elektronische muziekindustrie.",
+        models_sub: "Onder directe vertegenwoordiging voor Nederlandse en Scandinavische mediabureaus, SSP-netwerken (Azerion, Improve Digital, Targetspot, Adform) en merkpartners.",
         card1_title: "1. Programmatic CTV & VAST 4.2",
-        card1_desc: "Koppel uw SSP/DSP-vraag (Azerion, Improve Digital Amsterdam, Targetspot Benelux, Adform Nordics) direct aan onze Roku OS en Web OTT videospeler.",
+        card1_desc: "Koppel uw SSP/DSP-vraag (Azerion, Improve Digital Amsterdam, Targetspot Benelux, Adform Nordics) via een beveiligde Private Deal-ID aan onze Roku OS en Web OTT speler.",
         card2_title: "2. Gesponsorde TV-Spots (MP4 Direct)",
-        card2_desc: "Onze playout-server voegt uw 15 of 30 seconden Full HD merkspot automatisch in na elke 6 muziekvideo's op zowel Roku Smart TV als Web.",
+        card2_desc: "Onze playout-architectuur voegt uw 15 of 30 seconden Full HD merkspot automatisch in na elke 6 muziekvideo's op zowel Roku Smart TV als Web.",
         card3_title: "3. Festival, Label & DJ Gear Partner",
         card3_desc: "Exclusieve 'Presented by'-blokken voor Nederlandse en Noord-Europese platenlabels (Armada, Spinnin'), ADE-evenementen en drankenmerken.",
-        tech_title: "Officiële Server- & Playout-Endpoints (Technische Integratie)",
-        tech_sub: "Deze portal maakt gebruik van exact dezelfde live productie-endpoints waarmee het officiële Roku TV-kanaal is gebouwd:"
+        tech_title: "Internationale TV-Vertegenwoordiging & B2B Integratie (Benelux & Nordics)",
+        tech_sub: "Om de integriteit van onze broadcast-infrastructuur en intellectuele eigendom te beschermen, worden technische playout-endpoints en VAST 4.2 Deal ID's uitsluitend onder zakelijke geheimhouding (NDA) verstrekt:",
+        ep1_title: "1. Europese Directie Commerciële & Internationale TV-Relaties",
+        ep1_desc: "Anouk van der Berg (AETHYR-NL) — Head of International Broadcast & CTV Partnerships (Amsterdam • Stockholm • Kopenhagen).",
+        ep1_badge: "🇳🇱🇸🇪 Exclusieve CTV Vertegenwoordiging",
+        ep2_title: "2. Programmatic VAST 4.2 / SSAI & Playout API (Bedrijfsgeheim / NDA)",
+        ep2_desc: "Beveiligde server-side ad-insertion endpoints voor Azerion, Improve Digital, Targetspot & Adform (alleen toegankelijk met geautoriseerde Deal-ID).",
+        ep2_badge: "🔒 B2B NDA Vereist (Private Endpoint)",
+        ep3_title: "3. Zakelijke Entiteit & Productiehuis (Mexico — Eenmanszaak)",
+        ep3_desc: "ARKAIOS / KLMR Digital Media México (Empresa Unipersonal) — Internationale rechten, master-catalogus & uitvoerende productie.",
+        ep3_badge: "🇲🇽 Officiële B2B Contractpartner",
+        ep4_title: "4. Officieel Geverifieerd Uitzend- & Artiestenkanaal",
+        ep4_desc: "Directe zakelijke verificatie en internationaal mediacontact via het officiële kanaal van Executive Producer DJ KLMR.",
+        footer_line1: "© 2026 <strong>AETHYR-NL International Broadcast Representation</strong> • Namens <strong>ARKAIOS / KLMR Digital Media México</strong> (Empresa Unipersonal) & <strong>@KLMROFFCIALCHANNEL</strong>"
       },
       en: {
-        nav_sub: "Netherlands • Benelux • Nordics CTV Network",
-        hero_pill: "🇳🇱🇸🇪🇳🇴🇩🇰🇫🇮 Benelux & Nordic CTV / FAST Broadcast",
+        nav_sub: "International CTV & Broadcast Representation • Benelux & Nordics",
+        hero_pill: "🇳🇱🇸🇪🇳🇴🇩🇰🇫🇮 Benelux & Nordic CTV / FAST Division",
         hero_title: "Advertise on the 24/7 Electronic Dance Music CTV & Roku Channel",
-        hero_desc: "<strong>KLMR OFFICIAL CHANNEL HD</strong> broadcasts 24/7 pure Electronic Dance Music (Tech House, Melodic Techno, Deep House, EDM & Nu-Disco) in Full HD (60fps) across <strong>Roku Smart TV</strong> and <strong>Web OTT</strong>. Connect VAST 4.2 programmatic demand or direct brand sponsorships across the Netherlands and the Nordics.",
-        cta_connect: "🔌 Connect VAST / CTV Demand",
+        hero_desc: "Welcome to our European Media Representation portal led by <strong>Anouk van der Berg</strong> (International Broadcast & CTV Director). We exclusively represent <strong>KLMR OFFICIAL CHANNEL HD</strong> across the Netherlands, Benelux, and the Nordics: 24/7 pure Electronic Dance Music in Full HD (60fps) on <strong>Roku Smart TV</strong> and <strong>Web OTT</strong>.",
+        cta_connect: "🔌 Request B2B / CTV Deal ID",
         cta_fullscreen: "⛶ Maximize Live TV (Fullscreen)",
         monitor_title: "LIVE BROADCAST — ROKU & WEB MASTER FEED",
         btn_max: "MAXIMIZE (FULLSCREEN TV)",
-        tel_now: "Now Playing:",
-        tel_catalog: "Active Rotation:",
         stat_1: "Pure Electronic Music HD Videos in 24/7 rotation (~18.5-hour cycle)",
-        stat_2: "Broadcast H.264 quality powered by Cloudflare R2 & GitHub Global CDN",
+        stat_2: "Broadcast H.264 quality via Protected Enterprise Cloud CDN",
         stat_3: "1:1 Synchronized Linear TV Timeline across Roku OS and Web OTT",
         stat_4: "Dynamic Server-Side Ad Insertion without Roku app re-installation",
         models_title: "Advertising & Sponsorship Formats (Netherlands & Nordics)",
-        models_sub: "Built for Dutch and Nordic media agencies, CTV SSP networks (Azerion, Improve Digital, Targetspot, Adform), and direct Electronic Music sponsors.",
+        models_sub: "Represented for Dutch and Nordic media agencies, CTV SSP networks (Azerion, Improve Digital, Targetspot, Adform), and direct Electronic Music sponsors.",
         card1_title: "1. Programmatic CTV & VAST 4.2",
-        card1_desc: "Connect your SSP/DSP demand (Azerion, Improve Digital Amsterdam, Targetspot Benelux, Adform Nordics) directly to our Roku OS & Web CTV inventory.",
+        card1_desc: "Connect your SSP/DSP demand (Azerion, Improve Digital Amsterdam, Targetspot Benelux, Adform Nordics) via private Deal ID to our Roku OS & Web CTV inventory.",
         card2_title: "2. Sponsored TV Spots (Direct MP4)",
         card2_desc: "Our playout server automatically interleaves your 15s or 30s Full HD brand spot every 6 music videos across Roku Smart TV and Web OTT.",
         card3_title: "3. Festival, Label & DJ Brand Partner",
         card3_desc: "Exclusive 'Presented by' blocks for Dutch and Nordic record labels (Armada, Spinnin'), ADE showcases, beverage brands, and DJ hardware partners.",
-        tech_title: "Official Server & Playout Endpoints (Ad Ops Integration)",
-        tech_sub: "This portal runs on the exact live production endpoints powering the official Roku TV channel:"
+        tech_title: "International TV Representation & Protected B2B Integration",
+        tech_sub: "To protect broadcast infrastructure and trade secrets, private playout endpoints and VAST 4.2 Deal IDs are provisioned exclusively under B2B NDA to verified agencies:",
+        ep1_title: "1. European Directorate of Commercial & International TV Relations",
+        ep1_desc: "Anouk van der Berg (AETHYR-NL) — Head of International Broadcast & CTV Partnerships (Amsterdam • Stockholm • Copenhagen).",
+        ep1_badge: "🇳🇱🇸🇪 Exclusive CTV Representation",
+        ep2_title: "2. Programmatic VAST 4.2 / SSAI & Playout API (Trade Secret / NDA)",
+        ep2_desc: "Protected server-side ad-insertion endpoints for Azerion, Improve Digital, Targetspot & Adform (provisioned via authorized Deal ID only).",
+        ep2_badge: "🔒 B2B NDA Required (Private Endpoint)",
+        ep3_title: "3. Corporate Entity & Production House (Mexico — Sole Proprietorship)",
+        ep3_desc: "ARKAIOS / KLMR Digital Media México (Empresa Unipersonal) — International broadcast rights, master vault & executive production.",
+        ep3_badge: "🇲🇽 Official B2B Contracting Entity",
+        ep4_title: "4. Official Verified Broadcast & Artist Channel",
+        ep4_desc: "Direct corporate verification and international media contact via Executive Producer DJ KLMR's official channel.",
+        footer_line1: "© 2026 <strong>AETHYR-NL International Broadcast Representation</strong> • On behalf of <strong>ARKAIOS / KLMR Digital Media México</strong> (Sole Proprietorship) & <strong>@KLMROFFCIALCHANNEL</strong>"
       },
       es: {
-        nav_sub: "Portal Oficial de Patrocinadores — Holanda, Benelux y Países Nórdicos",
-        hero_pill: "🇳🇱🇸🇪🇳🇴🇩🇰🇫🇮 División Europea de Monetización CTV / FAST",
+        nav_sub: "Representación Internacional de TV y Medios CTV • Holanda y Países Nórdicos",
+        hero_pill: "🇳🇱🇸🇪🇳🇴🇩🇰🇫🇮 Agencia de Representación Comercial Europea CTV / FAST",
         hero_title: "Anúnciate en el Canal 24/7 de Música Electrónica en Roku TV y Web",
-        hero_desc: "<strong>KLMR OFFICIAL CHANNEL HD</strong> transmite 24/7 música electrónica pura (Tech House, Melodic Techno, Deep House, EDM y Nu-Disco) en Full HD (60fps) en <strong>Roku Smart TV</strong> y <strong>Web OTT</strong>. Conecta campañas VAST 4.2 o patrocinios directos para Holanda y los Países Nórdicos.",
-        cta_connect: "🔌 Conectar Campaña VAST / CTV",
+        hero_desc: "Bienvenido al portal europeo de representación comercial dirigido por <strong>Anouk van der Berg</strong> (Directora Internacional de Relaciones Televisivas y CTV). Representamos en exclusiva a <strong>KLMR OFFICIAL CHANNEL HD</strong> en Holanda, Benelux y Países Nórdicos: música electrónica 24/7 en Full HD (60fps) en <strong>Roku Smart TV</strong> y <strong>Web OTT</strong>.",
+        cta_connect: "🔌 Solicitar Convenio B2B / Deal ID",
         cta_fullscreen: "⛶ Maximizar Canal en Vivo (Pantalla Completa)",
-        monitor_title: "SEÑAL EN VIVO — SERVIDOR REAL DE ROKU & WEB",
+        monitor_title: "SEÑAL EN VIVO — TRANSMISIÓN OFICIAL ROKU & WEB",
         btn_max: "MAXIMIZAR CANAL (PANTALLA COMPLETA)",
-        tel_now: "Al Aire Ahora:",
-        tel_catalog: "Rotación Activa:",
         stat_1: "Videos HD de Música Electrónica en rotación (~18.5 horas continuas)",
-        stat_2: "Calidad Broadcast H.264 vía Cloudflare R2 & GitHub Global CDN",
+        stat_2: "Calidad Broadcast H.264 vía CDN Empresarial Protegida",
         stat_3: "Línea de tiempo lineal 1:1 sincronizada en Roku TV y Navegador",
         stat_4: "Inserción dinámica de comerciales desde el servidor sin reinstalar el .pkg",
         models_title: "Modelos de Publicidad y Patrocinio (Holanda y Países Nórdicos)",
-        models_sub: "Diseñado para agencias de medios en Ámsterdam y Escandinavia, redes SSP (Azerion, Improve Digital, Targetspot) y patrocinadores directos.",
+        models_sub: "Gestionado directamente para agencias de medios en Ámsterdam y Escandinavia, redes SSP (Azerion, Improve Digital, Targetspot) y patrocinadores directos.",
         card1_title: "1. CTV Programático & VAST 4.2",
-        card1_desc: "Conecta tu demanda SSP/DSP (Azerion, Improve Digital Ámsterdam, Targetspot Benelux, Adform Nordics) directamente a nuestro inventario Roku y Web.",
+        card1_desc: "Conecta tu demanda SSP/DSP (Azerion, Improve Digital Ámsterdam, Targetspot Benelux, Adform Nordics) mediante Deal ID privado a nuestro inventario Roku y Web.",
         card2_title: "2. Spots Patrocinados Directos (MP4)",
-        card2_desc: "Nuestro servidor inserta automáticamente tu spot HD de 15s o 30s cada 6 videos musicales tanto en Roku TV como en la Web.",
+        card2_desc: "Nuestra arquitectura inserta automáticamente tu spot HD de 15s o 30s cada 6 videos musicales tanto en Roku TV como en la Web.",
         card3_title: "3. Patrocinio de Festivales, Sellos y Marcas DJ",
         card3_desc: "Bloques exclusivos 'Presentado por' para sellos holandeses y nórdicos (Armada, Spinnin'), eventos ADE, bebidas y equipo para DJs.",
-        tech_title: "Direcciones Oficiales del Servidor de Roku (Integración Técnica)",
-        tech_sub: "Este portal opera conectado en tiempo real a los mismos endpoints de producción del canal de Roku:"
+        tech_title: "Representación Internacional y Protección de Secreto Empresarial (B2B)",
+        tech_sub: "Por seguridad operativa y secreto industrial, los endpoints técnicos de playout y llaves VAST 4.2 se entregan exclusivamente bajo convenio comercial (NDA) a agencias verificadas:",
+        ep1_title: "1. Dirección Europea de Relaciones Comerciales y Televisión Internacional",
+        ep1_desc: "Anouk van der Berg (AETHYR-NL) — Directora de Alianzas CTV y Publicidad Internacional (Ámsterdam • Estocolmo • Copenhague).",
+        ep1_badge: "🇳🇱🇸🇪 Representación CTV Exclusiva",
+        ep2_title: "2. API de Playout y Motor VAST 4.2 / SSAI (Secreto Empresarial / NDA)",
+        ep2_desc: "Infraestructura privada de inserción publicitaria para Azerion, Improve Digital, Targetspot y Adform (acceso exclusivo mediante Deal-ID autorizado).",
+        ep2_badge: "🔒 Protegido bajo NDA B2B",
+        ep3_title: "3. Enlace Corporativo y Razón Empresarial en México (Empresa Unipersonal)",
+        ep3_desc: "ARKAIOS / KLMR Digital Media México (Empresa Unipersonal) — Titularidad de derechos, bóveda maestra y producción ejecutiva.",
+        ep3_badge: "🇲🇽 Entidad Titular en México",
+        ep4_title: "4. Canal Oficial Verificado y Contacto Empresarial",
+        ep4_desc: "Enlace oficial de verificación comercial y contacto directo con la dirección general de DJ KLMR.",
+        footer_line1: "© 2026 <strong>AETHYR-NL International Broadcast Representation</strong> • En representación de <strong>ARKAIOS / KLMR Digital Media México</strong> (Empresa Unipersonal) y <strong>@KLMROFFCIALCHANNEL</strong>"
       }
     };
 

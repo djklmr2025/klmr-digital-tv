@@ -1285,28 +1285,129 @@ body, html {
 }
 
 /* ==========================================================================
-   EMBED / IFRAME MODE (Responsive & Clean for Third-Party Websites)
+   EMBED / IFRAME MODE (1:1 Exact Roku TV Marquee Proportions)
    ========================================================================== */
 body.embed-mode {
   background: #000;
   overflow: hidden;
 }
 
-body.embed-mode .broadcast-corner-clock {
-  bottom: 12px;
+body.embed-mode:not(:fullscreen) .broadcast-corner-clock {
+  bottom: 10px;
+  right: 12px;
+  padding: 3px 8px;
+  font-size: 0.72rem;
+}
+
+body.embed-mode:not(:fullscreen) .osd-top-bar {
+  padding: 8px 12px;
+}
+
+body.embed-mode:not(:fullscreen) .logo-watermark img {
+  width: 44px;
+  height: 44px;
+}
+
+body.embed-mode:not(:fullscreen) .epg-hud {
+  padding: 8px 14px 10px 14px;
+  gap: 6px;
+}
+
+body.embed-mode:not(:fullscreen) .epg-top-section {
+  gap: 8px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .station-medal-img {
+  width: 24px;
+  height: 24px;
+}
+
+body.embed-mode:not(:fullscreen) .station-badge-box {
+  padding: 2px 7px;
+}
+
+body.embed-mode:not(:fullscreen) .badge-klmr-text {
+  font-size: 0.72rem;
+}
+
+body.embed-mode:not(:fullscreen) .station-header-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  gap: 6px;
+}
+
+body.embed-mode:not(:fullscreen) .channel-hd-title {
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .channel-live-status-pill {
+  font-size: 0.56rem;
+  padding: 2px 7px;
+  white-space: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .signal-health-badge {
+  font-size: 0.54rem;
+  padding: 2px 7px;
+  gap: 4px;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .epg-bottom-controls-row {
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+body.embed-mode:not(:fullscreen) .epg-actions-list {
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .tv-control-btn {
+  padding: 3px 8px;
+  font-size: 0.62rem;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+body.embed-mode:not(:fullscreen) .circle-icon {
+  width: 16px;
+  height: 16px;
+  font-size: 0.58rem;
+}
+
+body.embed-mode:not(:fullscreen) .digital-time {
+  font-size: 0.95rem;
+}
+
+body.embed-mode:not(:fullscreen) .btn-start-tuning {
+  font-size: 0.78rem;
+  padding: 10px 20px;
+}
+
+body.embed-mode:not(:fullscreen) .intro-curtain-controls {
+  bottom: 14px;
   right: 14px;
-  padding: 4px 10px;
-  font-size: 0.85rem;
+  gap: 8px;
 }
 
-body.embed-mode .osd-top-bar {
-  padding: 10px 14px;
+body.embed-mode:not(:fullscreen) .intro-badge-tag {
+  font-size: 0.58rem;
+  padding: 5px 9px;
 }
 
-body.embed-mode .logo-watermark img {
-  width: 55px;
-  height: 55px;
+body.embed-mode:not(:fullscreen) .btn-skip-intro {
+  font-size: 0.65rem;
+  padding: 6px 12px;
 }
+
 
 
 
