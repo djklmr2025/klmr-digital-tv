@@ -15,6 +15,22 @@
     {
       "source": "/admin",
       "destination": "/admin.html"
+    },
+    {
+      "source": "/nl",
+      "destination": "/nl.html"
+    },
+    {
+      "source": "/nederland",
+      "destination": "/nl.html"
+    },
+    {
+      "source": "/nordics",
+      "destination": "/nl.html"
+    },
+    {
+      "source": "/sponsors",
+      "destination": "/nl.html"
     }
   ],
   "headers": [

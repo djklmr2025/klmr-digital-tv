@@ -3944,6 +3944,11 @@ ${baseUrl}/embed
     sanitizedUrl = '/admin.html';
   }
 
+  // Route: Dutch & Nordic CTV Sponsor Portal
+  if (sanitizedUrl === '/nl' || sanitizedUrl === '/nederland' || sanitizedUrl === '/nordics' || sanitizedUrl === '/sponsors') {
+    sanitizedUrl = '/nl.html';
+  }
+
   if (sanitizedUrl === '/') sanitizedUrl = '/index.html';
 
   const relPath = sanitizedUrl.replace(/^\/+/, '');
