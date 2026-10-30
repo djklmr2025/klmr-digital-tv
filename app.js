@@ -959,11 +959,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1zidNAjvp8ESC6byznAu3gYw1DmHWuPeZ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1zidNAjvp8ESC6byznAu3gYw1DmHWuPeZ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1zidNAjvp8ESC6byznAu3gYw1DmHWuPeZ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zidNAjvp8ES.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zidNAjvp8ES.mp4",
     "duration": 213,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -973,11 +973,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1B9sa7W7_sC1uS7VLOW5h0zIPX_2MW8-g",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1B9sa7W7_sC1uS7VLOW5h0zIPX_2MW8-g&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1B9sa7W7_sC1uS7VLOW5h0zIPX_2MW8-g&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1B9sa7W7_sC1.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1B9sa7W7_sC1.mp4",
     "duration": 307,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -987,11 +987,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1x0Z1mmvm3LWV9umrFs3JegpOIbjWCgYt",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1x0Z1mmvm3LWV9umrFs3JegpOIbjWCgYt&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1x0Z1mmvm3LWV9umrFs3JegpOIbjWCgYt&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1x0Z1mmvm3LW.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1x0Z1mmvm3LW.mp4",
     "duration": 238,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1001,11 +1001,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1KY1yDdWF7H_P20jB50ylg34edAzFTzgh",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1KY1yDdWF7H_P20jB50ylg34edAzFTzgh&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1KY1yDdWF7H_P20jB50ylg34edAzFTzgh&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KY1yDdWF7H_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KY1yDdWF7H_.mp4",
     "duration": 254,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1015,11 +1015,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1l2afdQzFKbUXFhB0wZHVsxxaod97lCrP",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1l2afdQzFKbUXFhB0wZHVsxxaod97lCrP&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1l2afdQzFKbUXFhB0wZHVsxxaod97lCrP&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1l2afdQzFKbU.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1l2afdQzFKbU.mp4",
     "duration": 136,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1029,11 +1029,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1ONLiJuPHqsw2ooR3ZdCNpq2CKZ4P_6fy",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ONLiJuPHqsw2ooR3ZdCNpq2CKZ4P_6fy&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ONLiJuPHqsw2ooR3ZdCNpq2CKZ4P_6fy&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ONLiJuPHqsw.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ONLiJuPHqsw.mp4",
     "duration": 273,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1043,11 +1043,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1nS5jxzewjl9AyV2TXXK4Bw_6JadfpMKe",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1nS5jxzewjl9AyV2TXXK4Bw_6JadfpMKe&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1nS5jxzewjl9AyV2TXXK4Bw_6JadfpMKe&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nS5jxzewjl9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nS5jxzewjl9.mp4",
     "duration": 270,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1057,11 +1057,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1Z7sxlWqE9jCnz6dVXdGWJBly8L4HwUQO",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Z7sxlWqE9jCnz6dVXdGWJBly8L4HwUQO&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Z7sxlWqE9jCnz6dVXdGWJBly8L4HwUQO&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z7sxlWqE9jC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z7sxlWqE9jC.mp4",
     "duration": 200,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1071,11 +1071,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1ZM84SkeV_S13XJdtZOBvHRE10GABA96A",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZM84SkeV_S13XJdtZOBvHRE10GABA96A&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ZM84SkeV_S13XJdtZOBvHRE10GABA96A&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZM84SkeV_S1.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZM84SkeV_S1.mp4",
     "duration": 211,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1085,11 +1085,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1yOtrw6-bilJPMl3X7Z1S0ttoxn-ujnou",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1yOtrw6-bilJPMl3X7Z1S0ttoxn-ujnou&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1yOtrw6-bilJPMl3X7Z1S0ttoxn-ujnou&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1yOtrw6-bilJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1yOtrw6-bilJ.mp4",
     "duration": 175,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1099,11 +1099,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1VmcP9wxNW14YW5BqH-FOxyuOFWrjHxO9",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VmcP9wxNW14YW5BqH-FOxyuOFWrjHxO9&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VmcP9wxNW14YW5BqH-FOxyuOFWrjHxO9&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VmcP9wxNW14.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VmcP9wxNW14.mp4",
     "duration": 222,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1113,11 +1113,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "14ZcmnklcAw_CivR_6Z5ri_oxFdrO2juh",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14ZcmnklcAw_CivR_6Z5ri_oxFdrO2juh&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14ZcmnklcAw_CivR_6Z5ri_oxFdrO2juh&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14ZcmnklcAw_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14ZcmnklcAw_.mp4",
     "duration": 205,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1127,11 +1127,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1YrJRtufu8k5O2VoAt4tMw-49YoV4XoLl",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1YrJRtufu8k5O2VoAt4tMw-49YoV4XoLl&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1YrJRtufu8k5O2VoAt4tMw-49YoV4XoLl&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YrJRtufu8k5.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YrJRtufu8k5.mp4",
     "duration": 315,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1141,11 +1141,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "164WGn8reZGk7NGxvelnPSdffQq8aGoOQ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=164WGn8reZGk7NGxvelnPSdffQq8aGoOQ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=164WGn8reZGk7NGxvelnPSdffQq8aGoOQ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-164WGn8reZGk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-164WGn8reZGk.mp4",
     "duration": 268,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1155,11 +1155,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1-EJ-7KXarB-_jmNVkT7ksVr60r4GC_gI",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1-EJ-7KXarB-_jmNVkT7ksVr60r4GC_gI&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1-EJ-7KXarB-_jmNVkT7ksVr60r4GC_gI&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-EJ-7KXarB-.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-EJ-7KXarB-.mp4",
     "duration": 303,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1169,11 +1169,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1hh2KJXz772aSygHbNG8gIfz9v7ioJmHl",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1hh2KJXz772aSygHbNG8gIfz9v7ioJmHl&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1hh2KJXz772aSygHbNG8gIfz9v7ioJmHl&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hh2KJXz772a.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hh2KJXz772a.mp4",
     "duration": 205,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1183,11 +1183,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1dq2glZ8_Hwwdba3H4VfzeoQgU0wMXRh2",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1dq2glZ8_Hwwdba3H4VfzeoQgU0wMXRh2&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1dq2glZ8_Hwwdba3H4VfzeoQgU0wMXRh2&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dq2glZ8_Hww.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dq2glZ8_Hww.mp4",
     "duration": 329,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1197,11 +1197,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1_r5ThUeo4M13tWFG9h20_nPCS9FeqkT5",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1_r5ThUeo4M13tWFG9h20_nPCS9FeqkT5&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1_r5ThUeo4M13tWFG9h20_nPCS9FeqkT5&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1_r5ThUeo4M1.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1_r5ThUeo4M1.mp4",
     "duration": 157,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1211,11 +1211,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1VYK5R3lFL_lvERyQy5au74HjrSLf-QJQ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VYK5R3lFL_lvERyQy5au74HjrSLf-QJQ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VYK5R3lFL_lvERyQy5au74HjrSLf-QJQ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VYK5R3lFL_l.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VYK5R3lFL_l.mp4",
     "duration": 168,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1225,11 +1225,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1imP7qWgtZOQ3YMGSvSORgWMA3sVILVRE",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1imP7qWgtZOQ3YMGSvSORgWMA3sVILVRE&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1imP7qWgtZOQ3YMGSvSORgWMA3sVILVRE&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1imP7qWgtZOQ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1imP7qWgtZOQ.mp4",
     "duration": 194,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1239,11 +1239,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1QN9EV5S7lwlZTMwYf75aGefU4lUP1Sr9",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1QN9EV5S7lwlZTMwYf75aGefU4lUP1Sr9&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1QN9EV5S7lwlZTMwYf75aGefU4lUP1Sr9&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1QN9EV5S7lwl.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1QN9EV5S7lwl.mp4",
     "duration": 182,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1253,11 +1253,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1LRiz6_pDnqX8qOnHTrn8Grji4aFwGbFj",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1LRiz6_pDnqX8qOnHTrn8Grji4aFwGbFj&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1LRiz6_pDnqX8qOnHTrn8Grji4aFwGbFj&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LRiz6_pDnqX.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LRiz6_pDnqX.mp4",
     "duration": 124,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1267,11 +1267,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1033EAGG3Tn3rea87SfLbQTh70B8SFBxn",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1033EAGG3Tn3rea87SfLbQTh70B8SFBxn&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1033EAGG3Tn3rea87SfLbQTh70B8SFBxn&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1033EAGG3Tn3.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1033EAGG3Tn3.mp4",
     "duration": 163,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1281,11 +1281,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1rywokydC9cuze2GBcODpzDNaGfKvhnp0",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1rywokydC9cuze2GBcODpzDNaGfKvhnp0&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1rywokydC9cuze2GBcODpzDNaGfKvhnp0&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rywokydC9cu.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rywokydC9cu.mp4",
     "duration": 201,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1295,11 +1295,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1Vv1BeskPBG7PxmCcU-wr0YGKSoEuTkFS",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Vv1BeskPBG7PxmCcU-wr0YGKSoEuTkFS&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Vv1BeskPBG7PxmCcU-wr0YGKSoEuTkFS&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Vv1BeskPBG7.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Vv1BeskPBG7.mp4",
     "duration": 175,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1309,11 +1309,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1ZlyMnVUPzGkv-6VRNP-pkld5lDtygX2V",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZlyMnVUPzGkv-6VRNP-pkld5lDtygX2V&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ZlyMnVUPzGkv-6VRNP-pkld5lDtygX2V&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZlyMnVUPzGk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZlyMnVUPzGk.mp4",
     "duration": 184,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1323,11 +1323,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1TVS5wJrGR0ve4IftmD0R2kX6Ed269bvV",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1TVS5wJrGR0ve4IftmD0R2kX6Ed269bvV&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1TVS5wJrGR0ve4IftmD0R2kX6Ed269bvV&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1TVS5wJrGR0v.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1TVS5wJrGR0v.mp4",
     "duration": 183,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1337,11 +1337,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1JKprgxFkVt1N6AjMPMVMhuthzdsF33I2",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1JKprgxFkVt1N6AjMPMVMhuthzdsF33I2&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1JKprgxFkVt1N6AjMPMVMhuthzdsF33I2&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1JKprgxFkVt1.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1JKprgxFkVt1.mp4",
     "duration": 279,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1351,11 +1351,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1IHqgwOYSRn9P3AQlLH-S0AULkYpL9iky",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1IHqgwOYSRn9P3AQlLH-S0AULkYpL9iky&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1IHqgwOYSRn9P3AQlLH-S0AULkYpL9iky&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1IHqgwOYSRn9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1IHqgwOYSRn9.mp4",
     "duration": 161,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1365,11 +1365,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "10VXYRxLB4MI8lABet4Bcd7n3pbGC2Pfb",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=10VXYRxLB4MI8lABet4Bcd7n3pbGC2Pfb&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=10VXYRxLB4MI8lABet4Bcd7n3pbGC2Pfb&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-10VXYRxLB4MI.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-10VXYRxLB4MI.mp4",
     "duration": 125,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1379,11 +1379,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1cx2yXzSsl21PltejfkyqiI5_YGp6Ytxq",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1cx2yXzSsl21PltejfkyqiI5_YGp6Ytxq&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1cx2yXzSsl21PltejfkyqiI5_YGp6Ytxq&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1cx2yXzSsl21.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1cx2yXzSsl21.mp4",
     "duration": 137,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1393,11 +1393,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1M-5RQ2FOQmmoFnZjEHzKPR7m2rN2sCuq",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1M-5RQ2FOQmmoFnZjEHzKPR7m2rN2sCuq&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1M-5RQ2FOQmmoFnZjEHzKPR7m2rN2sCuq&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1M-5RQ2FOQmm.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1M-5RQ2FOQmm.mp4",
     "duration": 194,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1407,11 +1407,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1VAPem5zq0iSJ4NwyAaHU4aqvOoV9p36q",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VAPem5zq0iSJ4NwyAaHU4aqvOoV9p36q&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VAPem5zq0iSJ4NwyAaHU4aqvOoV9p36q&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VAPem5zq0iS.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VAPem5zq0iS.mp4",
     "duration": 230,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1421,11 +1421,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1P5J0DaLathHsy-yAuG-7VC4fP3G31pbM",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1P5J0DaLathHsy-yAuG-7VC4fP3G31pbM&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1P5J0DaLathHsy-yAuG-7VC4fP3G31pbM&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1P5J0DaLathH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1P5J0DaLathH.mp4",
     "duration": 216,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1435,11 +1435,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1NaYKTxl4JtUeiVVFfW66FLI2o-Rn7M4X",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1NaYKTxl4JtUeiVVFfW66FLI2o-Rn7M4X&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1NaYKTxl4JtUeiVVFfW66FLI2o-Rn7M4X&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1NaYKTxl4JtU.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1NaYKTxl4JtU.mp4",
     "duration": 103,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1449,11 +1449,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1YVmbP-uTNg6u8kBO9qrxJVK2JkG0X06a",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1YVmbP-uTNg6u8kBO9qrxJVK2JkG0X06a&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1YVmbP-uTNg6u8kBO9qrxJVK2JkG0X06a&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YVmbP-uTNg6.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YVmbP-uTNg6.mp4",
     "duration": 67,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1463,11 +1463,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1LuRqIhjSUcXV_JxkmY4Kcm0QEfaJPuvd",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1LuRqIhjSUcXV_JxkmY4Kcm0QEfaJPuvd&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1LuRqIhjSUcXV_JxkmY4Kcm0QEfaJPuvd&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LuRqIhjSUcX.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LuRqIhjSUcX.mp4",
     "duration": 220,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1477,11 +1477,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1GQ3qYM67PrXAzYSXg63dQ4wRkB7rNRZP",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1GQ3qYM67PrXAzYSXg63dQ4wRkB7rNRZP&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1GQ3qYM67PrXAzYSXg63dQ4wRkB7rNRZP&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1GQ3qYM67PrX.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1GQ3qYM67PrX.mp4",
     "duration": 165,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1491,11 +1491,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1OVnU6DHie8Y_izRFKR3vF7ehUK37ZBsu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1OVnU6DHie8Y_izRFKR3vF7ehUK37ZBsu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1OVnU6DHie8Y_izRFKR3vF7ehUK37ZBsu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OVnU6DHie8Y.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OVnU6DHie8Y.mp4",
     "duration": 170,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1505,11 +1505,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1lEA4XJplnJ8Qj4P0eL3VywlK18X01b7k",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1lEA4XJplnJ8Qj4P0eL3VywlK18X01b7k&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1lEA4XJplnJ8Qj4P0eL3VywlK18X01b7k&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lEA4XJplnJ8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lEA4XJplnJ8.mp4",
     "duration": 135,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1519,11 +1519,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1evHl1ILbBa9T1QXaUda7XDpYioB6SuAa",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1evHl1ILbBa9T1QXaUda7XDpYioB6SuAa&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1evHl1ILbBa9T1QXaUda7XDpYioB6SuAa&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1evHl1ILbBa9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1evHl1ILbBa9.mp4",
     "duration": 222,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1533,11 +1533,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Xbr7mqvZqy7FYINS3FjApyLVIho6g_0C",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Xbr7mqvZqy7FYINS3FjApyLVIho6g_0C&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Xbr7mqvZqy7FYINS3FjApyLVIho6g_0C&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Xbr7mqvZqy7.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Xbr7mqvZqy7.mp4",
     "duration": 153,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1547,11 +1547,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1_BS4_JSKesM_3o67KK5rE8-_DZrM7pxf",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1_BS4_JSKesM_3o67KK5rE8-_DZrM7pxf&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1_BS4_JSKesM_3o67KK5rE8-_DZrM7pxf&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1_BS4_JSKesM.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1_BS4_JSKesM.mp4",
     "duration": 243,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1561,11 +1561,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1JaYsF1W39nDTDJ5oy06gjpDHDGpM6dHF",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1JaYsF1W39nDTDJ5oy06gjpDHDGpM6dHF&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1JaYsF1W39nDTDJ5oy06gjpDHDGpM6dHF&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JaYsF1W39nD.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JaYsF1W39nD.mp4",
     "duration": 205,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1575,11 +1575,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1NAw7HtCOjmDl3NCML43kbN-3oL0h5DYG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1NAw7HtCOjmDl3NCML43kbN-3oL0h5DYG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1NAw7HtCOjmDl3NCML43kbN-3oL0h5DYG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1NAw7HtCOjmD.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1NAw7HtCOjmD.mp4",
     "duration": 184,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1589,11 +1589,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1E1wl_hdVQDntusn7ibpg-YhwWV-YIVyM",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1E1wl_hdVQDntusn7ibpg-YhwWV-YIVyM&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1E1wl_hdVQDntusn7ibpg-YhwWV-YIVyM&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1E1wl_hdVQDn.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1E1wl_hdVQDn.mp4",
     "duration": 174,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1603,11 +1603,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1lnb0rXPJHTHAUe7MqOEiEKWK5qhFcViK",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1lnb0rXPJHTHAUe7MqOEiEKWK5qhFcViK&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1lnb0rXPJHTHAUe7MqOEiEKWK5qhFcViK&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1lnb0rXPJHTH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1lnb0rXPJHTH.mp4",
     "duration": 193,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1617,11 +1617,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1yKllVhXAsb9ZdJmJEQCO63G4bB9dBcRC",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1yKllVhXAsb9ZdJmJEQCO63G4bB9dBcRC&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1yKllVhXAsb9ZdJmJEQCO63G4bB9dBcRC&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1yKllVhXAsb9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1yKllVhXAsb9.mp4",
     "duration": 171,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1631,11 +1631,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1fR-S7rW9Ze3E5eT8zQsbsgjcfmx2_-Ni",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1fR-S7rW9Ze3E5eT8zQsbsgjcfmx2_-Ni&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1fR-S7rW9Ze3E5eT8zQsbsgjcfmx2_-Ni&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1fR-S7rW9Ze3.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1fR-S7rW9Ze3.mp4",
     "duration": 185,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1645,11 +1645,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1rMVbK4D2SkWqZXiPFFG5bPmkHso-rzaH",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1rMVbK4D2SkWqZXiPFFG5bPmkHso-rzaH&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1rMVbK4D2SkWqZXiPFFG5bPmkHso-rzaH&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1rMVbK4D2SkW.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1rMVbK4D2SkW.mp4",
     "duration": 195,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1659,11 +1659,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1WEFzC6c1-L1x06-REbLZd2f3xyddt7BG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1WEFzC6c1-L1x06-REbLZd2f3xyddt7BG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1WEFzC6c1-L1x06-REbLZd2f3xyddt7BG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1WEFzC6c1-L1.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1WEFzC6c1-L1.mp4",
     "duration": 210,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1673,11 +1673,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "100sc9WqebDAQWKiaoYaNk8t980KO4PRe",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=100sc9WqebDAQWKiaoYaNk8t980KO4PRe&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=100sc9WqebDAQWKiaoYaNk8t980KO4PRe&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-100sc9WqebDA.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-100sc9WqebDA.mp4",
     "duration": 189,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1687,11 +1687,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1JPBC2jeNcZsUJGXFS-djnprFv9cq4Tb-",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1JPBC2jeNcZsUJGXFS-djnprFv9cq4Tb-&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1JPBC2jeNcZsUJGXFS-djnprFv9cq4Tb-&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JPBC2jeNcZs.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JPBC2jeNcZs.mp4",
     "duration": 187,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1701,11 +1701,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1I_Mvfj-sMlZR_1OUISK-nLW2qhen8I53",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1I_Mvfj-sMlZR_1OUISK-nLW2qhen8I53&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1I_Mvfj-sMlZR_1OUISK-nLW2qhen8I53&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1I_Mvfj-sMlZ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1I_Mvfj-sMlZ.mp4",
     "duration": 219,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1715,11 +1715,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1TVWrinOyQgUjHaf4EHL6DQZbzXINQ9xo",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1TVWrinOyQgUjHaf4EHL6DQZbzXINQ9xo&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1TVWrinOyQgUjHaf4EHL6DQZbzXINQ9xo&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1TVWrinOyQgU.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1TVWrinOyQgU.mp4",
     "duration": 190,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1729,11 +1729,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "14add5G1kquf_hsNOopQBtNT-0k1FgcwQ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14add5G1kquf_hsNOopQBtNT-0k1FgcwQ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14add5G1kquf_hsNOopQBtNT-0k1FgcwQ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14add5G1kquf.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14add5G1kquf.mp4",
     "duration": 185,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1743,11 +1743,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Nh6RD-lJUyCFj4WBPUrbXDXIuChQoyIC",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Nh6RD-lJUyCFj4WBPUrbXDXIuChQoyIC&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Nh6RD-lJUyCFj4WBPUrbXDXIuChQoyIC&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Nh6RD-lJUyC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Nh6RD-lJUyC.mp4",
     "duration": 196,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1757,11 +1757,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1Q7jCmA1w4ZAkERv7OHEZ4fiOG_J7XoY9",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Q7jCmA1w4ZAkERv7OHEZ4fiOG_J7XoY9&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Q7jCmA1w4ZAkERv7OHEZ4fiOG_J7XoY9&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Q7jCmA1w4ZA.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Q7jCmA1w4ZA.mp4",
     "duration": 255,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1771,11 +1771,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1RfjQdCJ_qu-TSBKF3v4YOYm3xKQFdS9C",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1RfjQdCJ_qu-TSBKF3v4YOYm3xKQFdS9C&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1RfjQdCJ_qu-TSBKF3v4YOYm3xKQFdS9C&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1RfjQdCJ_qu-.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1RfjQdCJ_qu-.mp4",
     "duration": 246,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1785,11 +1785,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1EO12GA3EEtuJ2aco-INKscD3dWVgQEXd",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1EO12GA3EEtuJ2aco-INKscD3dWVgQEXd&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1EO12GA3EEtuJ2aco-INKscD3dWVgQEXd&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1EO12GA3EEtu.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1EO12GA3EEtu.mp4",
     "duration": 150,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1799,11 +1799,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1nG56ozAvigQ378tj3W9ty6xSn649nqVZ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1nG56ozAvigQ378tj3W9ty6xSn649nqVZ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1nG56ozAvigQ378tj3W9ty6xSn649nqVZ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nG56ozAvigQ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nG56ozAvigQ.mp4",
     "duration": 171,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1813,11 +1813,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1969wUXmqwsJaQBI-LKm7Kp88CPezuW1b",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1969wUXmqwsJaQBI-LKm7Kp88CPezuW1b&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1969wUXmqwsJaQBI-LKm7Kp88CPezuW1b&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1969wUXmqwsJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1969wUXmqwsJ.mp4",
     "duration": 273,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1827,11 +1827,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1Z4HY7r8tLoquHoZ-ISmqNKy4nMsFu4Dy",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Z4HY7r8tLoquHoZ-ISmqNKy4nMsFu4Dy&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Z4HY7r8tLoquHoZ-ISmqNKy4nMsFu4Dy&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z4HY7r8tLoq.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z4HY7r8tLoq.mp4",
     "duration": 212,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1841,11 +1841,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1LbeRDfI6QwoPnjkxmOHaxS2mnhjW1ETJ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1LbeRDfI6QwoPnjkxmOHaxS2mnhjW1ETJ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1LbeRDfI6QwoPnjkxmOHaxS2mnhjW1ETJ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LbeRDfI6Qwo.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LbeRDfI6Qwo.mp4",
     "duration": 220,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1855,11 +1855,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1vWKtz-JzOapw06ZzPTnqXBq9F8Y_RHrK",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1vWKtz-JzOapw06ZzPTnqXBq9F8Y_RHrK&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1vWKtz-JzOapw06ZzPTnqXBq9F8Y_RHrK&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1vWKtz-JzOap.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1vWKtz-JzOap.mp4",
     "duration": 165,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1869,11 +1869,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1I5JR3EcuVFohhmzYh7cWL0DdnTegbRm1",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1I5JR3EcuVFohhmzYh7cWL0DdnTegbRm1&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1I5JR3EcuVFohhmzYh7cWL0DdnTegbRm1&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1I5JR3EcuVFo.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1I5JR3EcuVFo.mp4",
     "duration": 318,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1883,11 +1883,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1RbiI1e_N3H7Vd5U4U2FDMnd3erkCvLLG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1RbiI1e_N3H7Vd5U4U2FDMnd3erkCvLLG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1RbiI1e_N3H7Vd5U4U2FDMnd3erkCvLLG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1RbiI1e_N3H7.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1RbiI1e_N3H7.mp4",
     "duration": 221,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -1897,11 +1897,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1z4LHDqKKBPJDaGFHpMbfOr61Y6cYtP4L",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1z4LHDqKKBPJDaGFHpMbfOr61Y6cYtP4L&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1z4LHDqKKBPJDaGFHpMbfOr61Y6cYtP4L&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
     "duration": 199,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -1911,11 +1911,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1-TtpTlI1Sd3jtsrKo-IDsmfNrNRszRKS",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1-TtpTlI1Sd3jtsrKo-IDsmfNrNRszRKS&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1-TtpTlI1Sd3jtsrKo-IDsmfNrNRszRKS&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-TtpTlI1Sd3.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-TtpTlI1Sd3.mp4",
     "duration": 244,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -1925,11 +1925,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1abHIVcMludumFw5UIws3gQhDsvwTO_gn",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1abHIVcMludumFw5UIws3gQhDsvwTO_gn&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1abHIVcMludumFw5UIws3gQhDsvwTO_gn&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1abHIVcMludu.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1abHIVcMludu.mp4",
     "duration": 175,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -1939,11 +1939,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1pIASq1-6QZXbsK1hqC54HdwN7nXJj4HY",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1pIASq1-6QZXbsK1hqC54HdwN7nXJj4HY&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1pIASq1-6QZXbsK1hqC54HdwN7nXJj4HY&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1pIASq1-6QZX.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1pIASq1-6QZX.mp4",
     "duration": 374,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -1953,11 +1953,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1SaARuhBT8YzOO765ieLZ-yJIR-Yg2InR",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1SaARuhBT8YzOO765ieLZ-yJIR-Yg2InR&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1SaARuhBT8YzOO765ieLZ-yJIR-Yg2InR&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1SaARuhBT8Yz.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1SaARuhBT8Yz.mp4",
     "duration": 258,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -1967,11 +1967,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1kiNe0G6vld2xXr6nMTIw9SZLcK-F2Lyw",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1kiNe0G6vld2xXr6nMTIw9SZLcK-F2Lyw&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1kiNe0G6vld2xXr6nMTIw9SZLcK-F2Lyw&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1kiNe0G6vld2.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1kiNe0G6vld2.mp4",
     "duration": 275,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -1981,11 +1981,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Tf-76CDgHF9JFfX1UtSSiuqEeXwPZFGL",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Tf-76CDgHF9JFfX1UtSSiuqEeXwPZFGL&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Tf-76CDgHF9JFfX1UtSSiuqEeXwPZFGL&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Tf-76CDgHF9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Tf-76CDgHF9.mp4",
     "duration": 242,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -1995,11 +1995,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1avEOus3_OL6MvtwZ74BZ2rK0CjVRGOr7",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1avEOus3_OL6MvtwZ74BZ2rK0CjVRGOr7&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1avEOus3_OL6MvtwZ74BZ2rK0CjVRGOr7&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1avEOus3_OL6.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1avEOus3_OL6.mp4",
     "duration": 144,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2009,11 +2009,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Mri0kJkhoTkvJD_DKcgL7LMYimXfik4U",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Mri0kJkhoTkvJD_DKcgL7LMYimXfik4U&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Mri0kJkhoTkvJD_DKcgL7LMYimXfik4U&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mri0kJkhoTk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mri0kJkhoTk.mp4",
     "duration": 198,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2023,11 +2023,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1uYBpHHV9PSOdU5ROaZxYAOTsDqPIQlIK",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1uYBpHHV9PSOdU5ROaZxYAOTsDqPIQlIK&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1uYBpHHV9PSOdU5ROaZxYAOTsDqPIQlIK&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1uYBpHHV9PSO.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1uYBpHHV9PSO.mp4",
     "duration": 380,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2037,11 +2037,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1mNbDT_sw6CC7n8HGKGODbP0mw71R0-AT",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1mNbDT_sw6CC7n8HGKGODbP0mw71R0-AT&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1mNbDT_sw6CC7n8HGKGODbP0mw71R0-AT&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1mNbDT_sw6CC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1mNbDT_sw6CC.mp4",
     "duration": 450,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2051,11 +2051,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1dbLgWn4VwXI16Rq1o4dwqhfEyVb_CpwU",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1dbLgWn4VwXI16Rq1o4dwqhfEyVb_CpwU&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1dbLgWn4VwXI16Rq1o4dwqhfEyVb_CpwU&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dbLgWn4VwXI.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dbLgWn4VwXI.mp4",
     "duration": 254,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2065,11 +2065,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1hb_PYTH75F_xKCnreZNoQ85opmWtBbmO",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1hb_PYTH75F_xKCnreZNoQ85opmWtBbmO&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1hb_PYTH75F_xKCnreZNoQ85opmWtBbmO&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hb_PYTH75F_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hb_PYTH75F_.mp4",
     "duration": 454,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2079,11 +2079,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "11OAGKfxnAxDDtVUOIqUkalUYhbPsMrow",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=11OAGKfxnAxDDtVUOIqUkalUYhbPsMrow&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=11OAGKfxnAxDDtVUOIqUkalUYhbPsMrow&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11OAGKfxnAxD.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11OAGKfxnAxD.mp4",
     "duration": 300,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2093,11 +2093,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "16b9MDEPzjBd5oipjDD2ixQEaI-B9df18",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=16b9MDEPzjBd5oipjDD2ixQEaI-B9df18&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=16b9MDEPzjBd5oipjDD2ixQEaI-B9df18&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-16b9MDEPzjBd.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-16b9MDEPzjBd.mp4",
     "duration": 242,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2107,11 +2107,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1HP7vDYWYpBcHYIHNnQUCaI6yr3xb0ofn",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1HP7vDYWYpBcHYIHNnQUCaI6yr3xb0ofn&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1HP7vDYWYpBcHYIHNnQUCaI6yr3xb0ofn&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1HP7vDYWYpBc.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1HP7vDYWYpBc.mp4",
     "duration": 227,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2121,11 +2121,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1UwEY7_cL6xJH6uVYwrpqNZdZiY19sR7K",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1UwEY7_cL6xJH6uVYwrpqNZdZiY19sR7K&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1UwEY7_cL6xJH6uVYwrpqNZdZiY19sR7K&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1UwEY7_cL6xJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1UwEY7_cL6xJ.mp4",
     "duration": 298,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2135,11 +2135,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1LT2Pn7g_wH_GC7LMuHe3EnXPbS41sz3O",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1LT2Pn7g_wH_GC7LMuHe3EnXPbS41sz3O&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1LT2Pn7g_wH_GC7LMuHe3EnXPbS41sz3O&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LT2Pn7g_wH_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LT2Pn7g_wH_.mp4",
     "duration": 250,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2149,11 +2149,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1C7UJrMefZuS37GRigrXFu9ojRfyi6357",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1C7UJrMefZuS37GRigrXFu9ojRfyi6357&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1C7UJrMefZuS37GRigrXFu9ojRfyi6357&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1C7UJrMefZuS.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1C7UJrMefZuS.mp4",
     "duration": 144,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2163,11 +2163,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Fja_jivGaWKl3q-fzEpLVxA6h7AeepM5",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Fja_jivGaWKl3q-fzEpLVxA6h7AeepM5&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Fja_jivGaWKl3q-fzEpLVxA6h7AeepM5&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Fja_jivGaWK.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Fja_jivGaWK.mp4",
     "duration": 191,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2177,11 +2177,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1x7Yw18jsvGhityGeCoWc7tHjhcvfA_tc",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1x7Yw18jsvGhityGeCoWc7tHjhcvfA_tc&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1x7Yw18jsvGhityGeCoWc7tHjhcvfA_tc&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1x7Yw18jsvGh.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1x7Yw18jsvGh.mp4",
     "duration": 165,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2191,11 +2191,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Ybmd5bkn7IeYfmiD5OUZf7U9FNCXj3ul",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Ybmd5bkn7IeYfmiD5OUZf7U9FNCXj3ul&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Ybmd5bkn7IeYfmiD5OUZf7U9FNCXj3ul&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Ybmd5bkn7Ie.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Ybmd5bkn7Ie.mp4",
     "duration": 232,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2205,11 +2205,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1EF1tLsZLYPBVrjs2mNae_5b5aQorXCph",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1EF1tLsZLYPBVrjs2mNae_5b5aQorXCph&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1EF1tLsZLYPBVrjs2mNae_5b5aQorXCph&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1EF1tLsZLYPB.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1EF1tLsZLYPB.mp4",
     "duration": 195,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2219,11 +2219,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1YNEHnN73lRS-9GB74T22GzDievnfTfNH",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1YNEHnN73lRS-9GB74T22GzDievnfTfNH&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1YNEHnN73lRS-9GB74T22GzDievnfTfNH&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1YNEHnN73lRS.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1YNEHnN73lRS.mp4",
     "duration": 202,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2233,11 +2233,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1uJQTzKBDwkOkJBmaEbsKQDC6hZ5H5He3",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1uJQTzKBDwkOkJBmaEbsKQDC6hZ5H5He3&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1uJQTzKBDwkOkJBmaEbsKQDC6hZ5H5He3&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1uJQTzKBDwkO.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1uJQTzKBDwkO.mp4",
     "duration": 259,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2247,11 +2247,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1-4MUj71cZwh2edGlpu1MHpdiasUXG6Hf",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1-4MUj71cZwh2edGlpu1MHpdiasUXG6Hf&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1-4MUj71cZwh2edGlpu1MHpdiasUXG6Hf&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1-4MUj71cZwh.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1-4MUj71cZwh.mp4",
     "duration": 136,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2261,11 +2261,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "12qvkGR6u-XN3pri8vDwToQXiHopzK7yr",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=12qvkGR6u-XN3pri8vDwToQXiHopzK7yr&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=12qvkGR6u-XN3pri8vDwToQXiHopzK7yr&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-12qvkGR6u-XN.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-12qvkGR6u-XN.mp4",
     "duration": 263,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2275,11 +2275,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1CqvH__nVrz4HQ1fmPSVdmqQWfXr47WxG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1CqvH__nVrz4HQ1fmPSVdmqQWfXr47WxG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1CqvH__nVrz4HQ1fmPSVdmqQWfXr47WxG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1CqvH__nVrz4.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1CqvH__nVrz4.mp4",
     "duration": 182,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2289,11 +2289,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1L0O6hSzNXKwHaqloYW76I88iFx-zzIDB",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1L0O6hSzNXKwHaqloYW76I88iFx-zzIDB&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1L0O6hSzNXKwHaqloYW76I88iFx-zzIDB&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1L0O6hSzNXKw.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1L0O6hSzNXKw.mp4",
     "duration": 195,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2303,11 +2303,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1FoRf7c78IxK12UujJ1KfD4nvD_37Wpz_",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1FoRf7c78IxK12UujJ1KfD4nvD_37Wpz_&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1FoRf7c78IxK12UujJ1KfD4nvD_37Wpz_&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1FoRf7c78IxK.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1FoRf7c78IxK.mp4",
     "duration": 223,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2317,11 +2317,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1ZSTFrCPKLCCXl1fSmpMTFhWK_ysHzKWp",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZSTFrCPKLCCXl1fSmpMTFhWK_ysHzKWp&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ZSTFrCPKLCCXl1fSmpMTFhWK_ysHzKWp&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZSTFrCPKLCC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZSTFrCPKLCC.mp4",
     "duration": 190,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2331,11 +2331,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "11VOvP-m74dEsAAODL8NP-TtnEJ_55NXb",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=11VOvP-m74dEsAAODL8NP-TtnEJ_55NXb&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=11VOvP-m74dEsAAODL8NP-TtnEJ_55NXb&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-11VOvP-m74dE.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-11VOvP-m74dE.mp4",
     "duration": 210,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2345,11 +2345,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1xHikCG5BVD0zWHvJLy6eWAV2ZUygIduX",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xHikCG5BVD0zWHvJLy6eWAV2ZUygIduX&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xHikCG5BVD0zWHvJLy6eWAV2ZUygIduX&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1xHikCG5BVD0.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1xHikCG5BVD0.mp4",
     "duration": 199,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2359,11 +2359,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1KLFwcIHwYA6psuWORO36u611tTWcvBLZ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1KLFwcIHwYA6psuWORO36u611tTWcvBLZ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1KLFwcIHwYA6psuWORO36u611tTWcvBLZ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1KLFwcIHwYA6.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1KLFwcIHwYA6.mp4",
     "duration": 215,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2373,11 +2373,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "194KDmi9wijI_o1lU_mM95czdjewKwb3Z",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=194KDmi9wijI_o1lU_mM95czdjewKwb3Z&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=194KDmi9wijI_o1lU_mM95czdjewKwb3Z&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-194KDmi9wijI.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-194KDmi9wijI.mp4",
     "duration": 216,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2387,11 +2387,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "16v9H0sklT5kaY8SclXt9w4VQyj7lOkMV",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=16v9H0sklT5kaY8SclXt9w4VQyj7lOkMV&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=16v9H0sklT5kaY8SclXt9w4VQyj7lOkMV&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-16v9H0sklT5k.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-16v9H0sklT5k.mp4",
     "duration": 222,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2401,11 +2401,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1apvNWt2OBmbjbZ7w4J3SQMjGLXnuKNDx",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1apvNWt2OBmbjbZ7w4J3SQMjGLXnuKNDx&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1apvNWt2OBmbjbZ7w4J3SQMjGLXnuKNDx&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1apvNWt2OBmb.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1apvNWt2OBmb.mp4",
     "duration": 162,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2415,11 +2415,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1EqSQ4cJ8iMfky97-yy54R-NuT6W_G_e6",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1EqSQ4cJ8iMfky97-yy54R-NuT6W_G_e6&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1EqSQ4cJ8iMfky97-yy54R-NuT6W_G_e6&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1EqSQ4cJ8iMf.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1EqSQ4cJ8iMf.mp4",
     "duration": 181,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2429,11 +2429,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1WKoCvpyXNzLcF2tnIaXsFZKLzDsHJ6hk",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1WKoCvpyXNzLcF2tnIaXsFZKLzDsHJ6hk&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1WKoCvpyXNzLcF2tnIaXsFZKLzDsHJ6hk&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1WKoCvpyXNzL.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1WKoCvpyXNzL.mp4",
     "duration": 207,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2443,11 +2443,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1qSJWFOI_WfLI6YOh-HxLlbFddB-2WxPA",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1qSJWFOI_WfLI6YOh-HxLlbFddB-2WxPA&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1qSJWFOI_WfLI6YOh-HxLlbFddB-2WxPA&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1qSJWFOI_WfL.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1qSJWFOI_WfL.mp4",
     "duration": 203,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2457,11 +2457,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1ZwOfNG66ul94i_dmh7icmXcXsF9PXz8-",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZwOfNG66ul94i_dmh7icmXcXsF9PXz8-&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ZwOfNG66ul94i_dmh7icmXcXsF9PXz8-&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZwOfNG66ul9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZwOfNG66ul9.mp4",
     "duration": 174,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2471,11 +2471,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "19dHDStoe5s0B3iDO0EoUqeO6nfU-Mds_",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=19dHDStoe5s0B3iDO0EoUqeO6nfU-Mds_&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=19dHDStoe5s0B3iDO0EoUqeO6nfU-Mds_&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
     "duration": 166,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2485,11 +2485,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1xApmKr__Pbyus0-bRDvdcTSuMzEmIUs5",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xApmKr__Pbyus0-bRDvdcTSuMzEmIUs5&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xApmKr__Pbyus0-bRDvdcTSuMzEmIUs5&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xApmKr__Pby.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xApmKr__Pby.mp4",
     "duration": 205,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2499,11 +2499,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "158SHHllgwDMki4HtWJIv2_DSOJNaTdCP",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=158SHHllgwDMki4HtWJIv2_DSOJNaTdCP&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=158SHHllgwDMki4HtWJIv2_DSOJNaTdCP&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-158SHHllgwDM.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-158SHHllgwDM.mp4",
     "duration": 213,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2513,11 +2513,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1v7-YankBfYCGoqRXhzXkDpBMes9VkkUU",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1v7-YankBfYCGoqRXhzXkDpBMes9VkkUU&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1v7-YankBfYCGoqRXhzXkDpBMes9VkkUU&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1v7-YankBfYC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1v7-YankBfYC.mp4",
     "duration": 178,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2527,11 +2527,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "14bwy7sjq1PA6K9imrnKdglAC_-w14-gu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14bwy7sjq1PA6K9imrnKdglAC_-w14-gu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14bwy7sjq1PA6K9imrnKdglAC_-w14-gu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14bwy7sjq1PA.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14bwy7sjq1PA.mp4",
     "duration": 181,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2541,11 +2541,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1eb2U2ozg7Seq6nUxmg5nNbXvuB1O3Vei",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1eb2U2ozg7Seq6nUxmg5nNbXvuB1O3Vei&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1eb2U2ozg7Seq6nUxmg5nNbXvuB1O3Vei&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1eb2U2ozg7Se.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1eb2U2ozg7Se.mp4",
     "duration": 205,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2555,11 +2555,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1uBm4a9f9mt9tM6h1bOdhvVbKYgLiCSbO",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1uBm4a9f9mt9tM6h1bOdhvVbKYgLiCSbO&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1uBm4a9f9mt9tM6h1bOdhvVbKYgLiCSbO&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uBm4a9f9mt9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uBm4a9f9mt9.mp4",
     "duration": 207,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2569,11 +2569,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "14aXT6BPT14GIP7oBqRK_n8TnBRaDHnKa",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14aXT6BPT14GIP7oBqRK_n8TnBRaDHnKa&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14aXT6BPT14GIP7oBqRK_n8TnBRaDHnKa&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14aXT6BPT14G.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14aXT6BPT14G.mp4",
     "duration": 161,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2583,11 +2583,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "12bsBzMQfVcs7DlghSM8bJa1X7xEGxZVh",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=12bsBzMQfVcs7DlghSM8bJa1X7xEGxZVh&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=12bsBzMQfVcs7DlghSM8bJa1X7xEGxZVh&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-12bsBzMQfVcs.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-12bsBzMQfVcs.mp4",
     "duration": 192,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2597,11 +2597,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "18YIASZbys6lkwWAwVsLH9B5X6I9gnGMa",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=18YIASZbys6lkwWAwVsLH9B5X6I9gnGMa&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=18YIASZbys6lkwWAwVsLH9B5X6I9gnGMa&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-18YIASZbys6l.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-18YIASZbys6l.mp4",
     "duration": 193,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2611,11 +2611,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1DgGBJvQ0nflpztRy3HUqyK_LL80-Qr-X",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1DgGBJvQ0nflpztRy3HUqyK_LL80-Qr-X&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1DgGBJvQ0nflpztRy3HUqyK_LL80-Qr-X&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1DgGBJvQ0nfl.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1DgGBJvQ0nfl.mp4",
     "duration": 186,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2625,11 +2625,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1ue_veldqhi8WMrKUNpXUS6C1nCVkPVtb",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ue_veldqhi8WMrKUNpXUS6C1nCVkPVtb&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ue_veldqhi8WMrKUNpXUS6C1nCVkPVtb&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1ue_veldqhi8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1ue_veldqhi8.mp4",
     "duration": 292,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2639,11 +2639,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1AMFNFAKzBeO5ejeXlTnWiLMmR2jOYVRB",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1AMFNFAKzBeO5ejeXlTnWiLMmR2jOYVRB&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1AMFNFAKzBeO5ejeXlTnWiLMmR2jOYVRB&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AMFNFAKzBeO.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AMFNFAKzBeO.mp4",
     "duration": 320,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2653,11 +2653,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1OOA2xgdJ4SFfIGqk5JZi5TOnW7--efRY",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1OOA2xgdJ4SFfIGqk5JZi5TOnW7--efRY&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1OOA2xgdJ4SFfIGqk5JZi5TOnW7--efRY&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OOA2xgdJ4SF.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OOA2xgdJ4SF.mp4",
     "duration": 328,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2667,11 +2667,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1xW072aRnG3KUyyUYaLS8QB97hMLXvkxg",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xW072aRnG3KUyyUYaLS8QB97hMLXvkxg&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xW072aRnG3KUyyUYaLS8QB97hMLXvkxg&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xW072aRnG3K.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xW072aRnG3K.mp4",
     "duration": 393,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2681,11 +2681,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1VyR-Bi0b3zu3Rv1Xvz8cO-ivHbxRmdFH",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VyR-Bi0b3zu3Rv1Xvz8cO-ivHbxRmdFH&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VyR-Bi0b3zu3Rv1Xvz8cO-ivHbxRmdFH&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1VyR-Bi0b3zu.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1VyR-Bi0b3zu.mp4",
     "duration": 339,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2695,11 +2695,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1E6FNQwo_NXHYUlo3Jb0e7SiP5bMhvEIb",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1E6FNQwo_NXHYUlo3Jb0e7SiP5bMhvEIb&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1E6FNQwo_NXHYUlo3Jb0e7SiP5bMhvEIb&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
     "duration": 239,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2709,11 +2709,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1gIF8mQpyX6IxmJUmmOnGGvYM4nDgHI3J",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1gIF8mQpyX6IxmJUmmOnGGvYM4nDgHI3J&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1gIF8mQpyX6IxmJUmmOnGGvYM4nDgHI3J&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
     "duration": 314,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2723,11 +2723,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1aFfuySNc4z8WBYWCa0oCHLNtkRK8w0bB",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1aFfuySNc4z8WBYWCa0oCHLNtkRK8w0bB&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1aFfuySNc4z8WBYWCa0oCHLNtkRK8w0bB&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
     "duration": 263,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2737,11 +2737,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "13eb0MSSK8BxAIl5R1qllXMfQ0X8Ltcrh",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=13eb0MSSK8BxAIl5R1qllXMfQ0X8Ltcrh&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=13eb0MSSK8BxAIl5R1qllXMfQ0X8Ltcrh&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-13eb0MSSK8Bx.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-13eb0MSSK8Bx.mp4",
     "duration": 338,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2751,11 +2751,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1qEUuIn3_2Sa8B0yC0rsOg6BQ2VWfLftw",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1qEUuIn3_2Sa8B0yC0rsOg6BQ2VWfLftw&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1qEUuIn3_2Sa8B0yC0rsOg6BQ2VWfLftw&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
     "duration": 341,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2765,11 +2765,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1T7QRjvGphkku-F5c0HeXFacqA04BruSc",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1T7QRjvGphkku-F5c0HeXFacqA04BruSc&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1T7QRjvGphkku-F5c0HeXFacqA04BruSc&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
     "duration": 253,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2779,11 +2779,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1xAOeMUG0_h5bTARNfbGHRG5yA4Ctuyzz",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xAOeMUG0_h5bTARNfbGHRG5yA4Ctuyzz&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xAOeMUG0_h5bTARNfbGHRG5yA4Ctuyzz&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
     "duration": 298,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2793,11 +2793,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1OZJYo-1fZMxsXxDIUcHLezaUQh--x5dE",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1OZJYo-1fZMxsXxDIUcHLezaUQh--x5dE&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1OZJYo-1fZMxsXxDIUcHLezaUQh--x5dE&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OZJYo-1fZMx.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OZJYo-1fZMx.mp4",
     "duration": 348,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2807,11 +2807,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1Sv8dguM8v8945kQ2qi7FtEhhhAGsUE6T",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Sv8dguM8v8945kQ2qi7FtEhhhAGsUE6T&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Sv8dguM8v8945kQ2qi7FtEhhhAGsUE6T&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1Sv8dguM8v89.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1Sv8dguM8v89.mp4",
     "duration": 320,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2821,11 +2821,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1HbDZDAh0V_2pFJrLzLchVN1ZLuANEH5g",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1HbDZDAh0V_2pFJrLzLchVN1ZLuANEH5g&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1HbDZDAh0V_2pFJrLzLchVN1ZLuANEH5g&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1HbDZDAh0V_2.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1HbDZDAh0V_2.mp4",
     "duration": 328,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2835,11 +2835,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1yQJ1SOIkifdlsq-fvG5aSVX9CaCMxF0s",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1yQJ1SOIkifdlsq-fvG5aSVX9CaCMxF0s&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1yQJ1SOIkifdlsq-fvG5aSVX9CaCMxF0s&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1yQJ1SOIkifd.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1yQJ1SOIkifd.mp4",
     "duration": 231,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2849,11 +2849,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1J4dbSpI6omBcSVkjrSktoDnp-09EXlkP",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1J4dbSpI6omBcSVkjrSktoDnp-09EXlkP&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1J4dbSpI6omBcSVkjrSktoDnp-09EXlkP&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1J4dbSpI6omB.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1J4dbSpI6omB.mp4",
     "duration": 280,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2863,11 +2863,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1xhnn82eUJPS76JLPqWuXxUyJiepvWR0x",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xhnn82eUJPS76JLPqWuXxUyJiepvWR0x&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xhnn82eUJPS76JLPqWuXxUyJiepvWR0x&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xhnn82eUJPS.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xhnn82eUJPS.mp4",
     "duration": 359,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2877,11 +2877,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1uPCGwX_hCe2QUf3ABSnpVzOnypeE_Xcm",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1uPCGwX_hCe2QUf3ABSnpVzOnypeE_Xcm&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1uPCGwX_hCe2QUf3ABSnpVzOnypeE_Xcm&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1uPCGwX_hCe2.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1uPCGwX_hCe2.mp4",
     "duration": 521,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -2891,11 +2891,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1AAh6s9ufJu8EyQCd73ZUnkY0WigPXgH9",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1AAh6s9ufJu8EyQCd73ZUnkY0WigPXgH9&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1AAh6s9ufJu8EyQCd73ZUnkY0WigPXgH9&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
     "duration": 578,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -2905,11 +2905,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1Y6A_dLVlZz_D-k3SyNwBQbndJIm6Epjo",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Y6A_dLVlZz_D-k3SyNwBQbndJIm6Epjo&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Y6A_dLVlZz_D-k3SyNwBQbndJIm6Epjo&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Y6A_dLVlZz_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Y6A_dLVlZz_.mp4",
     "duration": 184,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -2919,11 +2919,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1H6da9o7QBJsTleDasqVnfSVgy27n5Xeu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1H6da9o7QBJsTleDasqVnfSVgy27n5Xeu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1H6da9o7QBJsTleDasqVnfSVgy27n5Xeu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1H6da9o7QBJs.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1H6da9o7QBJs.mp4",
     "duration": 199,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -2933,11 +2933,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "159CdbBLyYfZpaWrRv-kWjg6C_DrygDez",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=159CdbBLyYfZpaWrRv-kWjg6C_DrygDez&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=159CdbBLyYfZpaWrRv-kWjg6C_DrygDez&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-159CdbBLyYfZ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-159CdbBLyYfZ.mp4",
     "duration": 397,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -2947,11 +2947,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1x5ONsr38VwFA2Hlf4LxNuiuoJYozrPM6",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1x5ONsr38VwFA2Hlf4LxNuiuoJYozrPM6&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1x5ONsr38VwFA2Hlf4LxNuiuoJYozrPM6&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1x5ONsr38VwF.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1x5ONsr38VwF.mp4",
     "duration": 552,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -2961,11 +2961,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1BUl5vyQS_WAbyPmj5buchZofse8j9h7U",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1BUl5vyQS_WAbyPmj5buchZofse8j9h7U&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1BUl5vyQS_WAbyPmj5buchZofse8j9h7U&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1BUl5vyQS_WA.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1BUl5vyQS_WA.mp4",
     "duration": 291,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -2975,11 +2975,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "14wxJJgiPWujiIee00Dwt9HQMMPa7HD27",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14wxJJgiPWujiIee00Dwt9HQMMPa7HD27&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14wxJJgiPWujiIee00Dwt9HQMMPa7HD27&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14wxJJgiPWuj.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14wxJJgiPWuj.mp4",
     "duration": 275,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -2989,11 +2989,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1FPw41FBbLJTDKTBV3yFZTbJrLZJBZfpt",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1FPw41FBbLJTDKTBV3yFZTbJrLZJBZfpt&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1FPw41FBbLJTDKTBV3yFZTbJrLZJBZfpt&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1FPw41FBbLJT.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1FPw41FBbLJT.mp4",
     "duration": 284,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3003,11 +3003,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1w5NAM3tfBuNEYnk7qsWSnVNJ59ZRiKVx",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1w5NAM3tfBuNEYnk7qsWSnVNJ59ZRiKVx&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1w5NAM3tfBuNEYnk7qsWSnVNJ59ZRiKVx&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1w5NAM3tfBuN.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1w5NAM3tfBuN.mp4",
     "duration": 270,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3017,11 +3017,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1OHoUsZ5EvQsLsdGpPLVr-JvEtnxCPF6Z",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1OHoUsZ5EvQsLsdGpPLVr-JvEtnxCPF6Z&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1OHoUsZ5EvQsLsdGpPLVr-JvEtnxCPF6Z&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1OHoUsZ5EvQs.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1OHoUsZ5EvQs.mp4",
     "duration": 226,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3031,11 +3031,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1CL3HYxOcKwTwl5ANUKG25SYcb9q9wsHF",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1CL3HYxOcKwTwl5ANUKG25SYcb9q9wsHF&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1CL3HYxOcKwTwl5ANUKG25SYcb9q9wsHF&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1CL3HYxOcKwT.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1CL3HYxOcKwT.mp4",
     "duration": 254,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3045,11 +3045,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1VUb2ivfrFpbsn1WHze7mPM1Yus0Pirxm",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VUb2ivfrFpbsn1WHze7mPM1Yus0Pirxm&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VUb2ivfrFpbsn1WHze7mPM1Yus0Pirxm&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VUb2ivfrFpb.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VUb2ivfrFpb.mp4",
     "duration": 266,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3059,11 +3059,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1zRWuGlJc6_IVnr3Imm_qEsORj8EERzKl",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1zRWuGlJc6_IVnr3Imm_qEsORj8EERzKl&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1zRWuGlJc6_IVnr3Imm_qEsORj8EERzKl&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1zRWuGlJc6_I.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1zRWuGlJc6_I.mp4",
     "duration": 165,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3073,11 +3073,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1n_qRWGNFnzdZWHybH8coQxs8pC14tPmI",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1n_qRWGNFnzdZWHybH8coQxs8pC14tPmI&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1n_qRWGNFnzdZWHybH8coQxs8pC14tPmI&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n_qRWGNFnzd.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n_qRWGNFnzd.mp4",
     "duration": 193,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3087,11 +3087,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1mcg0GTnPQJM3E0fwcY8UyDsIGrvqFnQ3",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1mcg0GTnPQJM3E0fwcY8UyDsIGrvqFnQ3&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1mcg0GTnPQJM3E0fwcY8UyDsIGrvqFnQ3&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1mcg0GTnPQJM.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1mcg0GTnPQJM.mp4",
     "duration": 218,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3101,11 +3101,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Rmo09C7ti5JTi1NhP0BPDu_0GSS9knnC",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Rmo09C7ti5JTi1NhP0BPDu_0GSS9knnC&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Rmo09C7ti5JTi1NhP0BPDu_0GSS9knnC&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1Rmo09C7ti5J.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1Rmo09C7ti5J.mp4",
     "duration": 202,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3115,11 +3115,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1qumrUxydcS-HV-Z_rKyaZ1RIv9qKIJ-H",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1qumrUxydcS-HV-Z_rKyaZ1RIv9qKIJ-H&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1qumrUxydcS-HV-Z_rKyaZ1RIv9qKIJ-H&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1qumrUxydcS-.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1qumrUxydcS-.mp4",
     "duration": 261,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3129,11 +3129,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1hm6FIh5mkzpGi5K8_ZyLt_8Ja1ssMt5G",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1hm6FIh5mkzpGi5K8_ZyLt_8Ja1ssMt5G&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1hm6FIh5mkzpGi5K8_ZyLt_8Ja1ssMt5G&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hm6FIh5mkzp.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hm6FIh5mkzp.mp4",
     "duration": 210,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3143,11 +3143,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "13YisAzlnCUTvuAqwSEaLAq-qMurYnr5i",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=13YisAzlnCUTvuAqwSEaLAq-qMurYnr5i&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=13YisAzlnCUTvuAqwSEaLAq-qMurYnr5i&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-13YisAzlnCUT.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-13YisAzlnCUT.mp4",
     "duration": 171,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3157,11 +3157,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "17Du3WHs8KAfqI5OPIgughppMtA4d2yZJ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=17Du3WHs8KAfqI5OPIgughppMtA4d2yZJ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=17Du3WHs8KAfqI5OPIgughppMtA4d2yZJ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-17Du3WHs8KAf.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-17Du3WHs8KAf.mp4",
     "duration": 216,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3171,11 +3171,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "11ah76qrX13iGb_Tyxqy1ptztx-RjeXIv",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=11ah76qrX13iGb_Tyxqy1ptztx-RjeXIv&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=11ah76qrX13iGb_Tyxqy1ptztx-RjeXIv&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11ah76qrX13i.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11ah76qrX13i.mp4",
     "duration": 364,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3185,11 +3185,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1PteOxylVUdZnS9wscUGZzcsgC9H0tQe2",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1PteOxylVUdZnS9wscUGZzcsgC9H0tQe2&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1PteOxylVUdZnS9wscUGZzcsgC9H0tQe2&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PteOxylVUdZ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PteOxylVUdZ.mp4",
     "duration": 245,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3199,11 +3199,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1XDy5KDB0nlQra7_LnvJ9zymCyfqkKce4",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1XDy5KDB0nlQra7_LnvJ9zymCyfqkKce4&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1XDy5KDB0nlQra7_LnvJ9zymCyfqkKce4&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XDy5KDB0nlQ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XDy5KDB0nlQ.mp4",
     "duration": 216,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3213,11 +3213,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1s9Q03VcM4UkTPAHePGvL78dlKcoAoM0i",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1s9Q03VcM4UkTPAHePGvL78dlKcoAoM0i&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1s9Q03VcM4UkTPAHePGvL78dlKcoAoM0i&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1s9Q03VcM4Uk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1s9Q03VcM4Uk.mp4",
     "duration": 174,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3227,11 +3227,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1oJMm8XecvzLzCelYpLKLUrdLZBEXQ6mT",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1oJMm8XecvzLzCelYpLKLUrdLZBEXQ6mT&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1oJMm8XecvzLzCelYpLKLUrdLZBEXQ6mT&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1oJMm8XecvzL.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1oJMm8XecvzL.mp4",
     "duration": 238,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3241,11 +3241,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Hdlx2KZBhOWHvqnkVkDGsr9mAvc06nvA",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Hdlx2KZBhOWHvqnkVkDGsr9mAvc06nvA&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Hdlx2KZBhOWHvqnkVkDGsr9mAvc06nvA&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Hdlx2KZBhOW.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Hdlx2KZBhOW.mp4",
     "duration": 327,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3255,11 +3255,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1lPK2gaKwLUaZjsemvzea8Ep57SAl_XBN",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1lPK2gaKwLUaZjsemvzea8Ep57SAl_XBN&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1lPK2gaKwLUaZjsemvzea8Ep57SAl_XBN&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lPK2gaKwLUa.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lPK2gaKwLUa.mp4",
     "duration": 257,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3269,11 +3269,11 @@ const BroadcastPlaylist = [
     "genre": "MELODIC TECHNO / DEEP HOUSE",
     "source": "drive",
     "fileId": "1KtuTZ7JNyuz_5hNLKMU6i4nlXhMUeuJP",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1KtuTZ7JNyuz_5hNLKMU6i4nlXhMUeuJP&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1KtuTZ7JNyuz_5hNLKMU6i4nlXhMUeuJP&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KtuTZ7JNyuz.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KtuTZ7JNyuz.mp4",
     "duration": 539,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3283,11 +3283,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1gJdo75oDK3m1bDG_pX0FM04YHA-TSW7y",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1gJdo75oDK3m1bDG_pX0FM04YHA-TSW7y&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1gJdo75oDK3m1bDG_pX0FM04YHA-TSW7y&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gJdo75oDK3m.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gJdo75oDK3m.mp4",
     "duration": 184,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3297,11 +3297,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1i6Bj7BoV-1PRasH_zTv1QyDonZkKbkmq",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1i6Bj7BoV-1PRasH_zTv1QyDonZkKbkmq&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1i6Bj7BoV-1PRasH_zTv1QyDonZkKbkmq&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1i6Bj7BoV-1P.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1i6Bj7BoV-1P.mp4",
     "duration": 191,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3311,11 +3311,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1PRBG1ZOjjUgc5GxN7IGhsF9etIisW5BU",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1PRBG1ZOjjUgc5GxN7IGhsF9etIisW5BU&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1PRBG1ZOjjUgc5GxN7IGhsF9etIisW5BU&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PRBG1ZOjjUg.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PRBG1ZOjjUg.mp4",
     "duration": 218,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3325,11 +3325,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Mr30jJrCEZd3lQR6cH0tDljMmfs_uo1x",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Mr30jJrCEZd3lQR6cH0tDljMmfs_uo1x&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Mr30jJrCEZd3lQR6cH0tDljMmfs_uo1x&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mr30jJrCEZd.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mr30jJrCEZd.mp4",
     "duration": 230,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3339,11 +3339,11 @@ const BroadcastPlaylist = [
     "genre": "DEEP HOUSE / CLUB GROOVE",
     "source": "drive",
     "fileId": "1rNbmHrc44lyqSCCLgnOpTzba8yj5szKu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1rNbmHrc44lyqSCCLgnOpTzba8yj5szKu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1rNbmHrc44lyqSCCLgnOpTzba8yj5szKu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rNbmHrc44ly.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rNbmHrc44ly.mp4",
     "duration": 249,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3353,11 +3353,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1zTXD17LGiDHu6u-thiXL2nwkaS0_1pe4",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1zTXD17LGiDHu6u-thiXL2nwkaS0_1pe4&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1zTXD17LGiDHu6u-thiXL2nwkaS0_1pe4&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zTXD17LGiDH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zTXD17LGiDH.mp4",
     "duration": 168,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3367,11 +3367,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Ov0ChIDhv0849UmoGKfyMgxPAvwKx-oo",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Ov0ChIDhv0849UmoGKfyMgxPAvwKx-oo&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Ov0ChIDhv0849UmoGKfyMgxPAvwKx-oo&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Ov0ChIDhv08.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Ov0ChIDhv08.mp4",
     "duration": 332,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3381,11 +3381,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1XyeOOClSdEYA9XvaYCjYGjSY8zXJHqCD",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1XyeOOClSdEYA9XvaYCjYGjSY8zXJHqCD&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1XyeOOClSdEYA9XvaYCjYGjSY8zXJHqCD&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XyeOOClSdEY.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XyeOOClSdEY.mp4",
     "duration": 207,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3395,11 +3395,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1RO7W4EKulB9hbPghuCDthCpBESD8fBMu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1RO7W4EKulB9hbPghuCDthCpBESD8fBMu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1RO7W4EKulB9hbPghuCDthCpBESD8fBMu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1RO7W4EKulB9.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1RO7W4EKulB9.mp4",
     "duration": 226,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3409,11 +3409,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1ZJqPHXRjTU2y7sHq-Ocj2TOKeqGxh2fk",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ZJqPHXRjTU2y7sHq-Ocj2TOKeqGxh2fk&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ZJqPHXRjTU2y7sHq-Ocj2TOKeqGxh2fk&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1ZJqPHXRjTU2.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1ZJqPHXRjTU2.mp4",
     "duration": 169,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3423,11 +3423,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1pqxA3qyDAiC-WwQBbkuAfg2UGny1rGnu",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1pqxA3qyDAiC-WwQBbkuAfg2UGny1rGnu&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1pqxA3qyDAiC-WwQBbkuAfg2UGny1rGnu&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1pqxA3qyDAiC.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1pqxA3qyDAiC.mp4",
     "duration": 272,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3437,11 +3437,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1iVtLjXo6AE-W5odai2ca4ePruXGQl07S",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1iVtLjXo6AE-W5odai2ca4ePruXGQl07S&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1iVtLjXo6AE-W5odai2ca4ePruXGQl07S&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1iVtLjXo6AE-.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1iVtLjXo6AE-.mp4",
     "duration": 252,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3451,11 +3451,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1W7lihkrdJq0WTvQYPyPg0U-4KUSw8aGn",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1W7lihkrdJq0WTvQYPyPg0U-4KUSw8aGn&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1W7lihkrdJq0WTvQYPyPg0U-4KUSw8aGn&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1W7lihkrdJq0.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1W7lihkrdJq0.mp4",
     "duration": 211,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3465,11 +3465,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1550vDSccJg_42MNGgu_c9_OiD-l4pCQb",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1550vDSccJg_42MNGgu_c9_OiD-l4pCQb&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1550vDSccJg_42MNGgu_c9_OiD-l4pCQb&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1550vDSccJg_.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1550vDSccJg_.mp4",
     "duration": 241,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3479,11 +3479,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1-MW_nbAOaHYHGrGEAR6mluVvaBE8n_bT",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1-MW_nbAOaHYHGrGEAR6mluVvaBE8n_bT&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1-MW_nbAOaHYHGrGEAR6mluVvaBE8n_bT&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1-MW_nbAOaHY.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1-MW_nbAOaHY.mp4",
     "duration": 146,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3493,11 +3493,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1VeKiGrg44SooI76cSVHpkHJEo3l1OqCG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1VeKiGrg44SooI76cSVHpkHJEo3l1OqCG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1VeKiGrg44SooI76cSVHpkHJEo3l1OqCG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VeKiGrg44So.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VeKiGrg44So.mp4",
     "duration": 185,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3507,11 +3507,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1HZkCRXKmfQJKNB2ZGqk9jELowTSWIohi",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1HZkCRXKmfQJKNB2ZGqk9jELowTSWIohi&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1HZkCRXKmfQJKNB2ZGqk9jELowTSWIohi&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1HZkCRXKmfQJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1HZkCRXKmfQJ.mp4",
     "duration": 225,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3521,11 +3521,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1A3xVSEwkZoEgL2943R205T0pafyWJxfD",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1A3xVSEwkZoEgL2943R205T0pafyWJxfD&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1A3xVSEwkZoEgL2943R205T0pafyWJxfD&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1A3xVSEwkZoE.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1A3xVSEwkZoE.mp4",
     "duration": 165,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3535,11 +3535,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1n9C_WQyouNleRR0hXQ9VM1_EWpvQxsHo",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1n9C_WQyouNleRR0hXQ9VM1_EWpvQxsHo&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1n9C_WQyouNleRR0hXQ9VM1_EWpvQxsHo&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n9C_WQyouNl.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n9C_WQyouNl.mp4",
     "duration": 201,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3549,11 +3549,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1xG72Wlp6r2q7WMdGsbVI99k6Fh3SFTJG",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xG72Wlp6r2q7WMdGsbVI99k6Fh3SFTJG&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xG72Wlp6r2q7WMdGsbVI99k6Fh3SFTJG&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1xG72Wlp6r2q.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1xG72Wlp6r2q.mp4",
     "duration": 184,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3563,11 +3563,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1xiDZlO_PYIu6HE_5fj4eKVEMvtpTmCLX",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xiDZlO_PYIu6HE_5fj4eKVEMvtpTmCLX&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xiDZlO_PYIu6HE_5fj4eKVEMvtpTmCLX&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xiDZlO_PYIu.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xiDZlO_PYIu.mp4",
     "duration": 291,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3577,11 +3577,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "10LyuQ0CdWaJNULvL2uIcueoHPARAnCFa",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=10LyuQ0CdWaJNULvL2uIcueoHPARAnCFa&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=10LyuQ0CdWaJNULvL2uIcueoHPARAnCFa&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-10LyuQ0CdWaJ.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-10LyuQ0CdWaJ.mp4",
     "duration": 161,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3591,11 +3591,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC VREMIX / KLMR",
     "source": "drive",
     "fileId": "1xgDnTArbcJkTDFEk9yvYRT5tnO5Y2T_F",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1xgDnTArbcJkTDFEk9yvYRT5tnO5Y2T_F&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1xgDnTArbcJkTDFEk9yvYRT5tnO5Y2T_F&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-1xgDnTArbcJk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-1xgDnTArbcJk.mp4",
     "duration": 181,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3605,11 +3605,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1LpSZzpHzuqcOrIif6aIvutw9aOGYcWNO",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1LpSZzpHzuqcOrIif6aIvutw9aOGYcWNO&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1LpSZzpHzuqcOrIif6aIvutw9aOGYcWNO&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1LpSZzpHzuqc.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1LpSZzpHzuqc.mp4",
     "duration": 215,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3619,11 +3619,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1C9BN9D0c12nlXzFfv_zFwyBKV2EoI1QQ",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1C9BN9D0c12nlXzFfv_zFwyBKV2EoI1QQ&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1C9BN9D0c12nlXzFfv_zFwyBKV2EoI1QQ&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1C9BN9D0c12n.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1C9BN9D0c12n.mp4",
     "duration": 212,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3633,11 +3633,11 @@ const BroadcastPlaylist = [
     "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
     "source": "drive",
     "fileId": "1sFXXQFu9jPxD2q9hN0VJzPIRt-jk8LAA",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1sFXXQFu9jPxD2q9hN0VJzPIRt-jk8LAA&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1sFXXQFu9jPxD2q9hN0VJzPIRt-jk8LAA&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1sFXXQFu9jPx.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1sFXXQFu9jPx.mp4",
     "duration": 380,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3647,11 +3647,11 @@ const BroadcastPlaylist = [
     "genre": "FUTURE FUNK / NU-DISCO",
     "source": "drive",
     "fileId": "1gm4YdTnyhCEd0VMFB7XpDjh3Wa3ondDF",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1gm4YdTnyhCEd0VMFB7XpDjh3Wa3ondDF&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1gm4YdTnyhCEd0VMFB7XpDjh3Wa3ondDF&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gm4YdTnyhCE.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gm4YdTnyhCE.mp4",
     "duration": 268,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3661,11 +3661,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "14kY5O71-hQHFjAuXnNIXtfc0b284CbI4",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=14kY5O71-hQHFjAuXnNIXtfc0b284CbI4&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=14kY5O71-hQHFjAuXnNIXtfc0b284CbI4&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14kY5O71-hQH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14kY5O71-hQH.mp4",
     "duration": 474,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3675,11 +3675,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1THII8Fh7ZYjhbOJqF9JMjpr1CmJoTJUW",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1THII8Fh7ZYjhbOJqF9JMjpr1CmJoTJUW&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1THII8Fh7ZYjhbOJqF9JMjpr1CmJoTJUW&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1THII8Fh7ZYj.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1THII8Fh7ZYj.mp4",
     "duration": 160,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3689,11 +3689,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1PzjwYcZPtqAeiC-C_laRtprAiaZTNlsp",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1PzjwYcZPtqAeiC-C_laRtprAiaZTNlsp&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1PzjwYcZPtqAeiC-C_laRtprAiaZTNlsp&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1PzjwYcZPtqA.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1PzjwYcZPtqA.mp4",
     "duration": 248,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   },
   {
@@ -3703,11 +3703,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1mcqo53eo3QXp15vi6kIBNoV363Fss8K_",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1mcqo53eo3QXp15vi6kIBNoV363Fss8K_&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1mcqo53eo3QXp15vi6kIBNoV363Fss8K_&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1mcqo53eo3QX.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1mcqo53eo3QX.mp4",
     "duration": 225,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
   },
   {
@@ -3717,11 +3717,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1S4CqOy-4m9wAUHcXr8gBC_EHnL5OZWp9",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1S4CqOy-4m9wAUHcXr8gBC_EHnL5OZWp9&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1S4CqOy-4m9wAUHcXr8gBC_EHnL5OZWp9&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1S4CqOy-4m9w.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1S4CqOy-4m9w.mp4",
     "duration": 254,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-hd.png"
   },
   {
@@ -3731,11 +3731,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1uiUmzDMtrsjft_I06TUf-3rgfxR1B6sF",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1uiUmzDMtrsjft_I06TUf-3rgfxR1B6sF&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1uiUmzDMtrsjft_I06TUf-3rgfxR1B6sF&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uiUmzDMtrsj.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uiUmzDMtrsj.mp4",
     "duration": 240,
     "bpm": 124,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
@@ -3745,11 +3745,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1OgR2TYFS86jkFusEakXjUO1swuHdkGL7",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1OgR2TYFS86jkFusEakXjUO1swuHdkGL7&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1OgR2TYFS86jkFusEakXjUO1swuHdkGL7&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OgR2TYFS86j.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OgR2TYFS86j.mp4",
     "duration": 237,
     "bpm": 125,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
   },
   {
@@ -3759,11 +3759,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1ut_UifNauCxXRbmzeGyENUSgXj4N8P7c",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1ut_UifNauCxXRbmzeGyENUSgXj4N8P7c&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1ut_UifNauCxXRbmzeGyENUSgXj4N8P7c&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1ut_UifNauCx.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1ut_UifNauCx.mp4",
     "duration": 203,
     "bpm": 126,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
@@ -3773,11 +3773,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1wYsf0xG-ljFchBA8tmCOBtB0hL9ZpLHf",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1wYsf0xG-ljFchBA8tmCOBtB0hL9ZpLHf&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1wYsf0xG-ljFchBA8tmCOBtB0hL9ZpLHf&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1wYsf0xG-ljF.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1wYsf0xG-ljF.mp4",
     "duration": 259,
     "bpm": 127,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/tiesto.png"
   },
   {
@@ -3787,11 +3787,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1B8YzOR9TyHd_dcydT5rhMM0FBAnCtCQL",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1B8YzOR9TyHd_dcydT5rhMM0FBAnCtCQL&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1B8YzOR9TyHd_dcydT5rhMM0FBAnCtCQL&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1B8YzOR9TyHd.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1B8YzOR9TyHd.mp4",
     "duration": 133,
     "bpm": 128,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-klmr.png"
   },
   {
@@ -3801,11 +3801,11 @@ const BroadcastPlaylist = [
     "genre": "ELECTRONIC / CLUB HD",
     "source": "drive",
     "fileId": "1Sn50A25MYJD4mCyucB9EjaqO2NXn0DAe",
-    "driveUrl": "https://drive.usercontent.google.com/download?id=1Sn50A25MYJD4mCyucB9EjaqO2NXn0DAe&export=download",
-    "mp4Url": "https://drive.usercontent.google.com/download?id=1Sn50A25MYJD4mCyucB9EjaqO2NXn0DAe&export=download",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Sn50A25MYJD.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Sn50A25MYJD.mp4",
     "duration": 195,
     "bpm": 129,
-    "badge": "BÓVEDA GOOGLE DRIVE HD",
+    "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/klmr-2025-hd.png"
   }
 ];
@@ -4032,7 +4032,19 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
       }
     };
     nativeVideo.onended = () => advanceToNextTrackCleanly();
-    nativeVideo.onerror = () => setTimeout(advanceToNextTrackCleanly, 1000);
+    nativeVideo.onerror = () => {
+      const safeIdx = ChannelState.currentTrackIndex % 72;
+      const safeTrack = BroadcastPlaylist[safeIdx];
+      if (safeTrack && safeTrack.mp4Url && mp4Url !== safeTrack.mp4Url) {
+        nativeVideo.src = safeTrack.mp4Url;
+        nativeVideo.play().catch(() => {
+          nativeVideo.muted = true;
+          nativeVideo.play().catch(() => {});
+        });
+      } else {
+        setTimeout(advanceToNextTrackCleanly, 1000);
+      }
+    };
     nativeVideo.play().catch(() => {
       nativeVideo.muted = true;
       nativeVideo.play().catch(() => {});
