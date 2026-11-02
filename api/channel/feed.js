@@ -2095,39 +2095,6 @@ const MasterCatalog = [
     "format": "mp4"
   },
   {
-    "id": "drive-1E6FNQwo_NXH",
-    "title": "RÜFÜS DU SOL You Were Right [Official Video]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
-    "duration": 239,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1gIF8mQpyX6I",
-    "title": "RÜFÜS DU SOL - Next To Me (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
-    "duration": 314,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1aFfuySNc4z8",
-    "title": "RÜFÜS DU SOL - On My Knees (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
-    "duration": 263,
-    "format": "mp4"
-  },
-  {
     "id": "drive-13eb0MSSK8Bx",
     "title": "The Blaze - TERRITORY (Official Video)",
     "artist": "The Blaze",
@@ -2136,39 +2103,6 @@ const MasterCatalog = [
     "youtubeId": null,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-13eb0MSSK8Bx.mp4",
     "duration": 338,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1qEUuIn3_2Sa",
-    "title": "RÜFÜS DU SOL - Alive (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
-    "duration": 341,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1T7QRjvGphkk",
-    "title": "RÜFÜS DU SOL No Place [Official Video]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
-    "duration": 253,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1xAOeMUG0_h5",
-    "title": "RÜFÜS DU SOL - Sundream (Official Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
-    "duration": 298,
     "format": "mp4"
   },
   {
@@ -2191,17 +2125,6 @@ const MasterCatalog = [
     "youtubeId": null,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1J4dbSpI6omB.mp4",
     "duration": 280,
-    "format": "mp4"
-  },
-  {
-    "id": "drive-1AAh6s9ufJu8",
-    "title": "RÜFÜS DU SOL Innerbloom (Official Video)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
-    "duration": 578,
     "format": "mp4"
   },
   {
