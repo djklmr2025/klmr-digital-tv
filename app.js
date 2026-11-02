@@ -1023,20 +1023,6 @@ const BroadcastPlaylist = [
     "thumbnail": "assets/zamna.png"
   },
   {
-    "id": "drive-1ONLiJuPHqsw",
-    "title": "ZHU - Good Life (Audio)",
-    "artist": "ZHU",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1ONLiJuPHqsw2ooR3ZdCNpq2CKZ4P_6fy",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ONLiJuPHqsw.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ONLiJuPHqsw.mp4",
-    "duration": 273,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
     "id": "drive-1nS5jxzewjl9",
     "title": "ANRI Anri Good Bye Boogie Dance Official Video",
     "artist": "DJ KLMR Vault HD",
@@ -2619,76 +2605,6 @@ const BroadcastPlaylist = [
     "thumbnail": "assets/logo-medal-3d.png"
   },
   {
-    "id": "drive-1ue_veldqhi8",
-    "title": "RÜFÜS DU SOL - Until The Sun Needs To Rise",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1ue_veldqhi8WMrKUNpXUS6C1nCVkPVtb",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1ue_veldqhi8.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1ue_veldqhi8.mp4",
-    "duration": 292,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1AMFNFAKzBeO",
-    "title": "RÜFÜS DU SOL - Devotion [Official Audio]",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1AMFNFAKzBeO5ejeXlTnWiLMmR2jOYVRB",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AMFNFAKzBeO.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AMFNFAKzBeO.mp4",
-    "duration": 320,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1OOA2xgdJ4SF",
-    "title": "RÜFÜS DU SOL - You Make Me (ft. Anyma) [F4U Remix _ Unreleased Track]",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1OOA2xgdJ4SFfIGqk5JZi5TOnW7--efRY",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OOA2xgdJ4SF.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OOA2xgdJ4SF.mp4",
-    "duration": 328,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
-  },
-  {
-    "id": "drive-1xW072aRnG3K",
-    "title": "Tom Odell - Another Love (Zwette Edit)",
-    "artist": "Tom Odell",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1xW072aRnG3KUyyUYaLS8QB97hMLXvkxg",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xW072aRnG3K.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xW072aRnG3K.mp4",
-    "duration": 393,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
-  },
-  {
-    "id": "drive-1VyR-Bi0b3zu",
-    "title": "RÜFÜS DU SOL - Surrender (feat. Curtis Harding) [Official Audio]",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1VyR-Bi0b3zu3Rv1Xvz8cO-ivHbxRmdFH",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1VyR-Bi0b3zu.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1VyR-Bi0b3zu.mp4",
-    "duration": 339,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
     "id": "drive-1E6FNQwo_NXH",
     "title": "RÜFÜS DU SOL You Were Right [Official Video]",
     "artist": "DJ KLMR Vault HD",
@@ -2787,48 +2703,6 @@ const BroadcastPlaylist = [
     "thumbnail": "assets/logo-klmr.png"
   },
   {
-    "id": "drive-1OZJYo-1fZMx",
-    "title": "RÜFÜS DU SOL Underwater [Official Audio]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1OZJYo-1fZMxsXxDIUcHLezaUQh--x5dE",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OZJYo-1fZMx.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1OZJYo-1fZMx.mp4",
-    "duration": 348,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
-    "id": "drive-1Sv8dguM8v89",
-    "title": "RÜFÜS DU SOL - See You Again [Official Audio]",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1Sv8dguM8v8945kQ2qi7FtEhhhAGsUE6T",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1Sv8dguM8v89.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1Sv8dguM8v89.mp4",
-    "duration": 320,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-1HbDZDAh0V_2",
-    "title": "RÜFÜS DU SOL New Sky [Official Audio Visual]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1HbDZDAh0V_2pFJrLzLchVN1ZLuANEH5g",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1HbDZDAh0V_2.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1HbDZDAh0V_2.mp4",
-    "duration": 328,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
     "id": "drive-1yQJ1SOIkifd",
     "title": "Elderbrook - Numb (Official Video)",
     "artist": "Elderbrook",
@@ -2855,34 +2729,6 @@ const BroadcastPlaylist = [
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1xhnn82eUJPS",
-    "title": "ODESZA - The Last Goodbye (feat. Bettye LaVette) - Official Visualizer",
-    "artist": "ODESZA",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1xhnn82eUJPS76JLPqWuXxUyJiepvWR0x",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xhnn82eUJPS.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xhnn82eUJPS.mp4",
-    "duration": 359,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1uPCGwX_hCe2",
-    "title": "Avoure - Aura",
-    "artist": "Avoure",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1uPCGwX_hCe2QUf3ABSnpVzOnypeE_Xcm",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1uPCGwX_hCe2.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1uPCGwX_hCe2.mp4",
-    "duration": 521,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
   },
   {
     "id": "drive-1AAh6s9ufJu8",
@@ -2925,34 +2771,6 @@ const BroadcastPlaylist = [
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-159CdbBLyYfZ",
-    "title": "Metropolis Sprite",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "159CdbBLyYfZpaWrRv-kWjg6C_DrygDez",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-159CdbBLyYfZ.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-159CdbBLyYfZ.mp4",
-    "duration": 397,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
-    "id": "drive-1x5ONsr38VwF",
-    "title": "Miradors (Lane 8 Remix)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1x5ONsr38VwFA2Hlf4LxNuiuoJYozrPM6",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1x5ONsr38VwF.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1x5ONsr38VwF.mp4",
-    "duration": 552,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
   },
   {
     "id": "drive-1BUl5vyQS_WA",
@@ -3289,20 +3107,6 @@ const BroadcastPlaylist = [
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
     "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1i6Bj7BoV-1P",
-    "title": "Superorganism - Everybody Wants To Be Famous (Cedric Gervais Remix) (Official Audio)",
-    "artist": "Superorganism",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1i6Bj7BoV-1PRasH_zTv1QyDonZkKbkmq",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1i6Bj7BoV-1P.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1i6Bj7BoV-1P.mp4",
-    "duration": 191,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
   },
   {
     "id": "drive-1PRBG1ZOjjUg",
@@ -3767,20 +3571,6 @@ const BroadcastPlaylist = [
     "thumbnail": "assets/logo-chrome-3d.png"
   },
   {
-    "id": "drive-1wYsf0xG-ljF",
-    "title": "Simplu - Oficial Imi Merge Bine",
-    "artist": "Simplu",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1wYsf0xG-ljFchBA8tmCOBtB0hL9ZpLHf",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1wYsf0xG-ljF.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1wYsf0xG-ljF.mp4",
-    "duration": 259,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
-  },
-  {
     "id": "drive-1B8YzOR9TyHd",
     "title": "Yolanda Be Cool DCUP - We No Speak Americano",
     "artist": "Yolanda Be Cool DCUP",
@@ -3810,23 +3600,79 @@ const BroadcastPlaylist = [
   }
 ];
 
+
+// ═══════════════════════════════════════════════════════════════════════════
+// KLMR SMART ROTATION ENGINE v1.0 — Deterministic Seeded Shuffle per Cycle
+// ═══════════════════════════════════════════════════════════════════════════
+// Algoritmo: Cycle 0 = Parrilla original. Cycle N>0 = Permutación Mulberry32 PRNG
+// con semilla basada en el número de ciclo. Todos los dispositivos (Roku + Web)
+// calculan idénticamente el mismo orden porque la semilla deriva del tiempo Unix global.
+// Regla de separación de artistas: nunca 2 del mismo artista consecutivos.
+// ═══════════════════════════════════════════════════════════════════════════
+
+function mulberry32(seed) {
+  return function() {
+    let t = seed += 0x6D2B79F5;
+    t = Math.imul(t ^ t >>> 15, t | 1);
+    t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+
+function shuffleWithSeed(arr, seed) {
+  const list = arr.slice();
+  const rng = mulberry32(seed * 10007 + 42);
+  for (let i = list.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    const tmp = list[i]; list[i] = list[j]; list[j] = tmp;
+  }
+  // Regla de separación de artistas
+  for (let i = 0; i < list.length - 1; i++) {
+    const a1 = (list[i].artist || list[i].title || '').slice(0, 25).toLowerCase();
+    const a2 = (list[i + 1].artist || list[i + 1].title || '').slice(0, 25).toLowerCase();
+    if (a1 && a2 && a1 === a2) {
+      let swapIdx = -1;
+      for (let k = i + 2; k < Math.min(list.length, i + 12); k++) {
+        const ak = (list[k].artist || list[k].title || '').slice(0, 25).toLowerCase();
+        if (ak !== a1) { swapIdx = k; break; }
+      }
+      if (swapIdx !== -1) {
+        const tmp = list[i + 1]; list[i + 1] = list[swapIdx]; list[swapIdx] = tmp;
+      }
+    }
+  }
+  return list;
+}
+
+function getSmartPlayoutQueue(baseCatalog, nowSeconds, totalDuration) {
+  const cycleNumber = Math.floor(nowSeconds / totalDuration);
+  if (cycleNumber === 0) return baseCatalog.slice();
+  return shuffleWithSeed(baseCatalog, cycleNumber);
+}
+// ════════════════════════════════════ FIN SMART ROTATION ENGINE ════════════
+
 function getLiveFastPlayoutPosition() {
   const totalDuration = BroadcastPlaylist.reduce((acc, t) => acc + (t.duration || 260), 0);
   const nowSeconds = Math.floor(Date.now() / 1000);
+  const activePlaylist = getSmartPlayoutQueue(BroadcastPlaylist, nowSeconds, totalDuration);
   let cyclePosition = nowSeconds % totalDuration;
 
-  for (let i = 0; i < BroadcastPlaylist.length; i++) {
-    const track = BroadcastPlaylist[i];
+  for (let i = 0; i < activePlaylist.length; i++) {
+    const track = activePlaylist[i];
     const trackDuration = track.duration || 260;
     if (cyclePosition < trackDuration) {
+      // Map back to BroadcastPlaylist index for compatibility
+      const origIdx = BroadcastPlaylist.findIndex(t => t.id === track.id);
       return {
-        trackIndex: i,
+        trackIndex: origIdx >= 0 ? origIdx : i,
+        smartIndex: i,
+        smartPlaylist: activePlaylist,
         startSeconds: Math.floor(cyclePosition)
       };
     }
     cyclePosition -= trackDuration;
   }
-  return { trackIndex: 0, startSeconds: 0 };
+  return { trackIndex: 0, smartIndex: 0, smartPlaylist: activePlaylist, startSeconds: 0 };
 }
 
 document.addEventListener("DOMContentLoaded", () => {
