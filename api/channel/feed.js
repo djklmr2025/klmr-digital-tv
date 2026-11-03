@@ -2896,7 +2896,22 @@ function buildEffectiveBroadcastQueue() {
 
 const TIMELINE_ANCHOR_OFFSET = 0;
 
-module.exports = (req, res) => {
+const SHOUTCAST_STATS_URL = 'http://uk5freenew.listen2myradio.com:15853/stats?sid=1&json=1';
+
+async function checkShoutcastLive() {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 2500);
+    const r = await fetch(SHOUTCAST_STATS_URL, { signal: controller.signal });
+    clearTimeout(timeout);
+    const stats = await r.json();
+    return stats.streamstatus === 1;
+  } catch {
+    return false;
+  }
+}
+
+module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', '*');
@@ -2906,6 +2921,8 @@ module.exports = (req, res) => {
     res.status(204).end();
     return;
   }
+
+  const isLive = await checkShoutcastLive();
 
   const baseCatalog = buildEffectiveBroadcastQueue();
   const totalDuration = baseCatalog.reduce((acc, t) => acc + (t.duration || 260), 0);
@@ -2934,7 +2951,7 @@ module.exports = (req, res) => {
     domainMirror: "https://klmr-digital-tv.vercel.app/",
     subDomainMirror: "https://djklmr2025.github.io/klmr-tv/",
     status: "online",
-    isLive: false,
+    isLive: isLive,
     serverEpochSeconds: nowSeconds,
     timelineAnchorOffset: TIMELINE_ANCHOR_OFFSET,
     totalDurationSeconds: totalDuration,
