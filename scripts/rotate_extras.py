@@ -36,7 +36,12 @@ R2_PUBLIC = os.environ.get("R2_PUBLIC_URL", "https://pub-00ab8b5a231a4f97a7c0cfc
 R2_PREFIX = "videos-rotacion"
 SWAP = int(os.environ.get("KLMR_ROTATION_SWAP", "12"))
 STATIC_MOTION = 8.5
-MIN_HEIGHT = 480  # HD channel: skip low-resolution sources
+TARGET_TOTAL = int(os.environ.get("KLMR_TARGET_TOTAL", "232"))  # fixed + extras on air (~16 h per cycle)
+
+
+def is_hd(item):
+    """Roku HD floor: the encoded frame must be at least 720 pixels on its short side."""
+    return min(item.get("width") or 0, item.get("height") or 0) >= 720
 
 
 def load(path, default=None):
@@ -55,11 +60,12 @@ def describe(entry):
     stem = re.sub(r"\.(mp4|m4v|mov|mkv|webm|avi|mpg|mpeg|wmv)$", "", entry["name"], flags=re.I).replace("_", " ").strip()
     artist = stem.split(" - ", 1)[0].strip() if " - " in stem else "KLMR Vault"
     genre = entry["folder"].split("/")[0].upper()
-    if re.fullmatch(r"video[ _-]?\d+", stem, flags=re.I):  # camera/export names carry no title
+    stem = re.sub(r"^\d+\.\s*", "", stem)  # drop playlist numbering like "36. "
+    if re.fullmatch(r"(video[ _-]?\d+|facebook undefined.*)", stem, flags=re.I):  # export names carry no title
         stem = f"{genre.title()} · KLMR VJ Mix"
     return {"id": track_id(entry["driveId"]), "title": stem, "artist": artist, "genre": f"{genre} / KLMR HD",
             "badge": "CLOUDFLARE R2 VAULT HD", "youtubeId": None, "source": "drive",
-            "duration": entry["duration"], "format": "mp4"}
+            "duration": entry["duration"], "format": "mp4", "width": entry.get("width"), "height": entry.get("height")}
 
 
 def init_state(active, library):
@@ -70,13 +76,13 @@ def init_state(active, library):
     return {"onAir": on_air, "queue": [e["driveId"] for e in eligible], "parked": {}, "hosted": [], "history": []}
 
 
-def pick_incoming(state, library_by_id, retired_ids):
+def pick_incoming(state, library_by_id, retired_ids, count):
     """Next SWAP items from the queue: ("parked", track) already hosted, or ("library", entry) to copy."""
     incoming, skipped = [], []
-    while state["queue"] and len(incoming) < SWAP:
+    while state["queue"] and len(incoming) < count:
         item = state["queue"].pop(0)
         if item in state["parked"]:
-            if item not in retired_ids and item not in state["onAir"]:
+            if item not in retired_ids and item not in state["onAir"] and is_hd(state["parked"][item]):
                 incoming.append(("parked", state["parked"][item]))
             continue
         entry = library_by_id.get(item)
@@ -85,7 +91,7 @@ def pick_incoming(state, library_by_id, retired_ids):
         if entry.get("motion") is None:
             skipped.append(item)  # not scanned yet: keep it for a later run
             continue
-        if entry["motion"] > STATIC_MOTION and (entry.get("height") or 0) >= MIN_HEIGHT:
+        if entry["motion"] > STATIC_MOTION and is_hd(entry):
             incoming.append(("library", entry))
     state["queue"].extend(skipped)
     return incoming
@@ -145,13 +151,22 @@ def main():
     library_by_id = {e["driveId"]: e for e in library}
     retired_ids = {r["track"]["id"] for r in load(CATALOG / "retired.json", [])}
     state = load(STATE) or init_state(active, library)
+    active_ids = {t["id"] for t in active}
+    state["onAir"] = [tid for tid in state["onAir"] if tid in active_ids]  # drop tracks retired by hand
+    known = set(state["queue"]) | set(state["parked"]) | {d for d in library_by_id if track_id(d) in state["onAir"]}
+    fresh = [d for d, e in library_by_id.items() if d not in known and e.get("motion") is not None
+             and e["motion"] > STATIC_MOTION and is_hd(e) and track_id(d) not in active_ids]
+    random.Random(len(state["queue"]) + len(fresh)).shuffle(fresh)
+    state["queue"].extend(fresh)  # videos scanned after the queue was built join it here
+    fixed_count = sum(1 for t in active if t["id"].startswith("yt-"))
+    deficit = max(0, TARGET_TOTAL - fixed_count - len(state["onAir"]))
     by_id = {t["id"]: t for t in active}
 
-    incoming = pick_incoming(state, library_by_id, retired_ids)
+    incoming = pick_incoming(state, library_by_id, retired_ids, SWAP + deficit)
     if not incoming:
         print("Nada nuevo que rotar (biblioteca sin escanear o agotada).")
         return
-    leaving = state["onAir"][:len(incoming)]
+    leaving = state["onAir"][:max(0, len(incoming) - deficit)]
 
     new_tracks = []
     for kind, item in incoming:
@@ -171,7 +186,7 @@ def main():
         if tid in by_id:
             state["parked"][tid] = by_id[tid]
             state["queue"].append(tid)
-    state["onAir"] = state["onAir"][len(incoming):] + [t["id"] for t in new_tracks]
+    state["onAir"] = state["onAir"][len(leaving):] + [t["id"] for t in new_tracks]
     state["history"] = (state["history"] + [{"at": int(time.time()), "in": [t["id"] for t in new_tracks], "out": leaving}])[-60:]
 
     fixed = [t for t in active if t["id"].startswith("yt-")]

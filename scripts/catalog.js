@@ -45,10 +45,19 @@ function writeAppFallback(list) {
   if (next !== src) fs.writeFileSync(APP, next);
 }
 
+// Roku HD floor: encoded frame at least 720 px on its short side. Unknown size = not verified.
+const isHd = (t) => Math.min(t.width || 0, t.height || 0) >= 720;
+
+function checkResolution(active) {
+  const low = active.filter((t) => !isHd(t));
+  if (low.length) throw new Error(`por debajo de 720p o sin medir: ${low.map((t) => `${t.id} ${t.width}x${t.height}`).join(', ')}`);
+}
+
 function check() {
   const active = readJson(ACTIVE);
   const retired = readJson(RETIRED);
   validate(active);
+  checkResolution(active);
   const overlap = active.filter((t) => retired.some((r) => r.track.id === t.id));
   if (overlap.length) throw new Error(`activos y retirados a la vez: ${overlap.map((t) => t.id).join(', ')}`);
   writeAppFallback(active);
