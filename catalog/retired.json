@@ -886,5 +886,22 @@
     },
     "reason": "imagen fija + audio (escaneo de movimiento 4.58)",
     "retiredAt": "2026-11-07"
+  },
+  {
+    "track": {
+      "id": "drive-1p1aV3JtImgn",
+      "title": "80´s Electro Remix · KLMR VJ Mix",
+      "artist": "KLMR Vault",
+      "genre": "80´S ELECTRO REMIX / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 204,
+      "format": "mp4",
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1p1aV3JtImgn.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1p1aV3JtImgn.mp4"
+    },
+    "reason": "resolución baja (426x320)",
+    "retiredAt": "2026-11-08"
   }
 ]

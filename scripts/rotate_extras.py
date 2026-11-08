@@ -36,6 +36,7 @@ R2_PUBLIC = os.environ.get("R2_PUBLIC_URL", "https://pub-00ab8b5a231a4f97a7c0cfc
 R2_PREFIX = "videos-rotacion"
 SWAP = int(os.environ.get("KLMR_ROTATION_SWAP", "12"))
 STATIC_MOTION = 8.5
+MIN_HEIGHT = 480  # HD channel: skip low-resolution sources
 
 
 def load(path, default=None):
@@ -54,6 +55,8 @@ def describe(entry):
     stem = re.sub(r"\.(mp4|m4v|mov|mkv|webm|avi|mpg|mpeg|wmv)$", "", entry["name"], flags=re.I).replace("_", " ").strip()
     artist = stem.split(" - ", 1)[0].strip() if " - " in stem else "KLMR Vault"
     genre = entry["folder"].split("/")[0].upper()
+    if re.fullmatch(r"video[ _-]?\d+", stem, flags=re.I):  # camera/export names carry no title
+        stem = f"{genre.title()} · KLMR VJ Mix"
     return {"id": track_id(entry["driveId"]), "title": stem, "artist": artist, "genre": f"{genre} / KLMR HD",
             "badge": "CLOUDFLARE R2 VAULT HD", "youtubeId": None, "source": "drive",
             "duration": entry["duration"], "format": "mp4"}
@@ -82,7 +85,7 @@ def pick_incoming(state, library_by_id, retired_ids):
         if entry.get("motion") is None:
             skipped.append(item)  # not scanned yet: keep it for a later run
             continue
-        if entry["motion"] > STATIC_MOTION:
+        if entry["motion"] > STATIC_MOTION and (entry.get("height") or 0) >= MIN_HEIGHT:
             incoming.append(("library", entry))
     state["queue"].extend(skipped)
     return incoming
@@ -189,7 +192,7 @@ def main():
     subprocess.run(["node", "scripts/catalog.js", "check"], cwd=ROOT, check=True, shell=True)
     if not opts.no_push:
         git_publish(f"chore(rotacion): entran {len(new_tracks)} extras, salen {len(leaving)}")
-    print("Rotación publicada.")
+    print("Rotación publicada." if not opts.no_push else "Rotación preparada (sin publicar).")
 
 
 if __name__ == "__main__":
