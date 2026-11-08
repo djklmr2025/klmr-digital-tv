@@ -111,7 +111,13 @@ function buildEffectiveBroadcastQueue() {
   return queue;
 }
 
-const TIMELINE_ANCHOR_OFFSET = 0;
+// Rotation anchor: the unix second when the current extras window went on air. The offset makes
+// that instant the start of the list, so each rotation begins at track 1 (Roku honors timelineAnchorOffset).
+const SCHEDULE = require('../../catalog/schedule.json');
+function anchorOffset(totalDuration) {
+  const anchor = Number(SCHEDULE.anchor) || 0;
+  return ((totalDuration - (anchor % totalDuration)) % totalDuration + totalDuration) % totalDuration;
+}
 
 const SHOUTCAST_STATS_URL = 'http://uk5freenew.listen2myradio.com:15853/stats?sid=1&json=1';
 
@@ -143,6 +149,7 @@ module.exports = async (req, res) => {
 
   const baseCatalog = buildEffectiveBroadcastQueue();
   const totalDuration = baseCatalog.reduce((acc, t) => acc + (t.duration || 260), 0);
+  const TIMELINE_ANCHOR_OFFSET = anchorOffset(totalDuration);
   const nowSeconds = Math.floor(Date.now() / 1000);
   const effectivePlaylist = getSmartPlayoutQueue(baseCatalog, nowSeconds + TIMELINE_ANCHOR_OFFSET, totalDuration);
   let cyclePosition = ((nowSeconds + TIMELINE_ANCHOR_OFFSET) % totalDuration + totalDuration) % totalDuration;

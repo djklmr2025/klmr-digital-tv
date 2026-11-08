@@ -4,3 +4,5 @@ deploy-render.js
 deploy.js
 
 .vercel
+catalog/library.json
+catalog/rotation.json

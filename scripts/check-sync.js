@@ -33,7 +33,11 @@ function fallback(src) {
 const squash = (s) => s.replace(/\/\/.*$/gm, '').replace(/\s+/g, ' ').trim();
 assert.strictEqual(squash(engine(app)), squash(engine(feedSrc)), 'rotation engine differs between app.js and feed.js');
 assert(feedSrc.includes("require('../../catalog/active.json')"), 'feed.js must read catalog/active.json');
-assert(app.includes('fetch("/catalog/active.json"'), 'app.js must load catalog/active.json');
+assert(app.includes('loadJson("/catalog/active.json")'), 'app.js must load catalog/active.json');
+assert(app.includes('loadJson("/catalog/schedule.json")'), 'app.js must load catalog/schedule.json');
+assert(feedSrc.includes("require('../../catalog/schedule.json')"), 'feed.js must read catalog/schedule.json');
+const anchorFormula = '((totalDuration - (';
+assert(app.includes(anchorFormula) && feedSrc.includes(anchorFormula), 'anchor offset formula must match on Web and Roku');
 assert.deepStrictEqual(fallback(app).map((t) => t.id), active.map((t) => t.id),
   'app.js fallback is stale: run node scripts/catalog.js check');
 

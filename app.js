@@ -3879,9 +3879,15 @@ function getSmartPlayoutQueue(baseCatalog, nowSeconds, totalDuration) {
 }
 // ════════════════════════════════════ FIN SMART ROTATION ENGINE ════════════
 
+// Same anchor as /api/channel/feed (catalog/schedule.json): each extras rotation starts at track 1.
+let TimelineAnchor = 0;
+function timelineAnchorOffset(totalDuration) {
+  return ((totalDuration - (TimelineAnchor % totalDuration)) % totalDuration + totalDuration) % totalDuration;
+}
+
 function getLiveFastPlayoutPosition() {
   const totalDuration = BroadcastPlaylist.reduce((acc, t) => acc + (t.duration || 260), 0);
-  const nowSeconds = Math.floor(Date.now() / 1000);
+  const nowSeconds = Math.floor(Date.now() / 1000) + timelineAnchorOffset(totalDuration);
   const activePlaylist = getSmartPlayoutQueue(BroadcastPlaylist, nowSeconds, totalDuration);
   let cyclePosition = nowSeconds % totalDuration;
 
@@ -4005,14 +4011,14 @@ function initClock() {
 
 // Single source of truth shared with Roku (/api/channel/feed reads the same file).
 // The embedded BroadcastPlaylist above is only an offline fallback.
-const catalogReady = fetch("/catalog/active.json", { cache: "no-cache" })
-  .then(res => (res.ok ? res.json() : null))
-  .then(list => {
+const loadJson = (url) => fetch(url, { cache: "no-cache" }).then(res => (res.ok ? res.json() : null)).catch(() => null);
+const catalogReady = Promise.all([loadJson("/catalog/active.json"), loadJson("/catalog/schedule.json")])
+  .then(([list, schedule]) => {
     if (Array.isArray(list) && list.length > 0) {
       BroadcastPlaylist.splice(0, BroadcastPlaylist.length, ...list);
     }
-  })
-  .catch(() => {});
+    if (schedule && Number(schedule.anchor)) TimelineAnchor = Number(schedule.anchor);
+  });
 
 window.onYouTubeIframeAPIReady = function() {
   catalogReady.then(startYouTubeBroadcast);
