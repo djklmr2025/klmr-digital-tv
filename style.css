@@ -198,7 +198,6 @@ body, html {
   letter-spacing: 1.5px;
   color: #ffffff;
   text-shadow: 0 0 8px rgba(0, 240, 255, 0.5);
-  white-space: nowrap;
 }
 
 .live-dot {

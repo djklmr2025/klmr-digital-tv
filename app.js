@@ -3989,14 +3989,11 @@ function initClock() {
   const clockEl = document.getElementById("digital-clock");
   const cornerClockEl = document.getElementById("corner-clock-time");
 
-  // Viewer's own time zone; weekday always in Spanish (es-MX), e.g. "SÁBADO 17:46".
-  const weekdayFmt = new Intl.DateTimeFormat("es-MX", { weekday: "long" });
-
   function update() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, "0");
     const mins = String(now.getMinutes()).padStart(2, "0");
-    const timeStr = `${weekdayFmt.format(now).toUpperCase()} ${hours}:${mins}`;
+    const timeStr = `${hours}:${mins}`;
 
     if (clockEl) clockEl.textContent = timeStr;
     if (cornerClockEl) cornerClockEl.textContent = timeStr;
