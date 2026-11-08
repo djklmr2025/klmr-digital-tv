@@ -27,7 +27,9 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 124,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-7CmxP78alCk.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-yIhw58dVYsk",
@@ -40,7 +42,9 @@ const BroadcastPlaylist = [
     "duration": 244,
     "bpm": 125,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-yIhw58dVYsk.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-psmn4o-PfTE",
@@ -53,7 +57,9 @@ const BroadcastPlaylist = [
     "duration": 215,
     "bpm": 126,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-psmn4o-PfTE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-HUKOy-Qy_no",
@@ -66,7 +72,9 @@ const BroadcastPlaylist = [
     "duration": 203,
     "bpm": 127,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-HUKOy-Qy_no.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-sLfrbg5hfG4",
@@ -79,7 +87,9 @@ const BroadcastPlaylist = [
     "duration": 164,
     "bpm": 128,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-sLfrbg5hfG4.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-r7Tf_hgvH3c",
@@ -92,7 +102,9 @@ const BroadcastPlaylist = [
     "duration": 385,
     "bpm": 129,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-r7Tf_hgvH3c.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-kkTj9x4kCC8",
@@ -105,7 +117,9 @@ const BroadcastPlaylist = [
     "duration": 589,
     "bpm": 124,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-kkTj9x4kCC8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-QhFc871NS08",
@@ -118,7 +132,9 @@ const BroadcastPlaylist = [
     "duration": 243,
     "bpm": 125,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-QhFc871NS08.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-ipCA5-k32xY",
@@ -131,7 +147,9 @@ const BroadcastPlaylist = [
     "duration": 424,
     "bpm": 126,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-ipCA5-k32xY.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-DmOoyR8RS7g",
@@ -144,7 +162,9 @@ const BroadcastPlaylist = [
     "duration": 424,
     "bpm": 127,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-DmOoyR8RS7g.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-RXzatHn8bNg",
@@ -157,7 +177,9 @@ const BroadcastPlaylist = [
     "duration": 426,
     "bpm": 128,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-RXzatHn8bNg.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-pL0JulX7Rok",
@@ -170,7 +192,9 @@ const BroadcastPlaylist = [
     "duration": 236,
     "bpm": 129,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-pL0JulX7Rok.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-oLifN2BbNiA",
@@ -183,7 +207,9 @@ const BroadcastPlaylist = [
     "duration": 228,
     "bpm": 124,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-oLifN2BbNiA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-6gFJQcTrcWs",
@@ -196,7 +222,9 @@ const BroadcastPlaylist = [
     "duration": 180,
     "bpm": 125,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-6gFJQcTrcWs.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-iSwAcQ0jqNg",
@@ -209,7 +237,9 @@ const BroadcastPlaylist = [
     "duration": 224,
     "bpm": 126,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-iSwAcQ0jqNg.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-o4hPLMtAjMM",
@@ -222,7 +252,9 @@ const BroadcastPlaylist = [
     "duration": 227,
     "bpm": 127,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-o4hPLMtAjMM.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-oZ9U_yW_kFg",
@@ -235,7 +267,9 @@ const BroadcastPlaylist = [
     "duration": 304,
     "bpm": 128,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-oZ9U_yW_kFg.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-VwsXGweoHdw",
@@ -248,7 +282,9 @@ const BroadcastPlaylist = [
     "duration": 360,
     "bpm": 129,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-VwsXGweoHdw.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-f-n-_HLo5ds",
@@ -261,7 +297,9 @@ const BroadcastPlaylist = [
     "duration": 194,
     "bpm": 124,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-f-n-_HLo5ds.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-sbENKabkuec",
@@ -274,7 +312,9 @@ const BroadcastPlaylist = [
     "duration": 329,
     "bpm": 125,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-sbENKabkuec.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-U54dJdK2uYA",
@@ -287,7 +327,9 @@ const BroadcastPlaylist = [
     "duration": 300,
     "bpm": 126,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-U54dJdK2uYA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-bol5MWyZkD0",
@@ -300,7 +342,9 @@ const BroadcastPlaylist = [
     "duration": 331,
     "bpm": 127,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-bol5MWyZkD0.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-hfcAPyqNWLE",
@@ -313,7 +357,9 @@ const BroadcastPlaylist = [
     "duration": 254,
     "bpm": 128,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-hfcAPyqNWLE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-vWb7u3FqLt8",
@@ -326,7 +372,9 @@ const BroadcastPlaylist = [
     "duration": 312,
     "bpm": 129,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-vWb7u3FqLt8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-evP_sy6X2tA",
@@ -339,7 +387,9 @@ const BroadcastPlaylist = [
     "duration": 287,
     "bpm": 124,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-evP_sy6X2tA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-fblzi3B-UuI",
@@ -352,7 +402,9 @@ const BroadcastPlaylist = [
     "duration": 505,
     "bpm": 125,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-fblzi3B-UuI.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-fWOf3x7zTUc",
@@ -365,7 +417,9 @@ const BroadcastPlaylist = [
     "duration": 392,
     "bpm": 126,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-fWOf3x7zTUc.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-2r-OeSqB8hk",
@@ -378,7 +432,9 @@ const BroadcastPlaylist = [
     "duration": 194,
     "bpm": 127,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-2r-OeSqB8hk.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-jI3Yzw2fQ2o",
@@ -391,7 +447,9 @@ const BroadcastPlaylist = [
     "duration": 199,
     "bpm": 128,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-jI3Yzw2fQ2o.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-RPoxn0WJ7w8",
@@ -404,7 +462,9 @@ const BroadcastPlaylist = [
     "duration": 273,
     "bpm": 129,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-RPoxn0WJ7w8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-xURN-tEugKU",
@@ -417,7 +477,9 @@ const BroadcastPlaylist = [
     "duration": 260,
     "bpm": 124,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-xURN-tEugKU.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-pN3r-xBZcIE",
@@ -430,7 +492,9 @@ const BroadcastPlaylist = [
     "duration": 226,
     "bpm": 125,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-pN3r-xBZcIE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-mnfnbVesHrg",
@@ -443,7 +507,9 @@ const BroadcastPlaylist = [
     "duration": 342,
     "bpm": 126,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-mnfnbVesHrg.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-EIHrIGpwTUE",
@@ -456,7 +522,9 @@ const BroadcastPlaylist = [
     "duration": 191,
     "bpm": 127,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-EIHrIGpwTUE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-XyXfo4HIeP8",
@@ -469,7 +537,9 @@ const BroadcastPlaylist = [
     "duration": 220,
     "bpm": 128,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-XyXfo4HIeP8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-VHytGF4Alvs",
@@ -482,7 +552,9 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 129,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-VHytGF4Alvs.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-JCbZJmIFzTc",
@@ -495,7 +567,9 @@ const BroadcastPlaylist = [
     "duration": 321,
     "bpm": 124,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-JCbZJmIFzTc.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-LRa1s_4QaJU",
@@ -508,7 +582,9 @@ const BroadcastPlaylist = [
     "duration": 187,
     "bpm": 125,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-LRa1s_4QaJU.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-z8HYbmwUGYI",
@@ -521,7 +597,9 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 126,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-z8HYbmwUGYI.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-OH_If-vgdEs",
@@ -534,7 +612,9 @@ const BroadcastPlaylist = [
     "duration": 223,
     "bpm": 127,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-OH_If-vgdEs.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-AYMQZbzx_dU",
@@ -547,7 +627,9 @@ const BroadcastPlaylist = [
     "duration": 219,
     "bpm": 128,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-AYMQZbzx_dU.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-TxjzaPIFzXU",
@@ -560,7 +642,9 @@ const BroadcastPlaylist = [
     "duration": 363,
     "bpm": 129,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-TxjzaPIFzXU.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-9E8ayj0QvuA",
@@ -573,7 +657,9 @@ const BroadcastPlaylist = [
     "duration": 340,
     "bpm": 124,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-9E8ayj0QvuA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-EuKtIiPC3DA",
@@ -586,7 +672,9 @@ const BroadcastPlaylist = [
     "duration": 453,
     "bpm": 125,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-EuKtIiPC3DA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-L3fHgdBgCLA",
@@ -599,7 +687,9 @@ const BroadcastPlaylist = [
     "duration": 243,
     "bpm": 126,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-L3fHgdBgCLA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-pQvXKUPxt_8",
@@ -612,7 +702,9 @@ const BroadcastPlaylist = [
     "duration": 222,
     "bpm": 127,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-pQvXKUPxt_8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-6b_W2TCKqQE",
@@ -625,7 +717,9 @@ const BroadcastPlaylist = [
     "duration": 211,
     "bpm": 128,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-6b_W2TCKqQE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-fESM5051BaA",
@@ -638,7 +732,9 @@ const BroadcastPlaylist = [
     "duration": 286,
     "bpm": 129,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-fESM5051BaA.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-AIPmMpgjVvQ",
@@ -651,7 +747,9 @@ const BroadcastPlaylist = [
     "duration": 185,
     "bpm": 124,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-AIPmMpgjVvQ.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-EHnDJf40RUM",
@@ -664,7 +762,9 @@ const BroadcastPlaylist = [
     "duration": 276,
     "bpm": 125,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-EHnDJf40RUM.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-m0kNyD5HFAw",
@@ -677,7 +777,9 @@ const BroadcastPlaylist = [
     "duration": 609,
     "bpm": 126,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-m0kNyD5HFAw.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-l7bb9Kc9qTI",
@@ -690,7 +792,9 @@ const BroadcastPlaylist = [
     "duration": 307,
     "bpm": 127,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-l7bb9Kc9qTI.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-aMIp4HHIpuQ",
@@ -703,7 +807,9 @@ const BroadcastPlaylist = [
     "duration": 150,
     "bpm": 128,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-aMIp4HHIpuQ.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-Qn9BZIRXrZo",
@@ -716,7 +822,9 @@ const BroadcastPlaylist = [
     "duration": 533,
     "bpm": 129,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-Qn9BZIRXrZo.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-qOmL2r2ehEI",
@@ -729,7 +837,9 @@ const BroadcastPlaylist = [
     "duration": 308,
     "bpm": 124,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-qOmL2r2ehEI.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-6LlYenDIpsw",
@@ -742,7 +852,9 @@ const BroadcastPlaylist = [
     "duration": 241,
     "bpm": 125,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-6LlYenDIpsw.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-0dFbUR07qdM",
@@ -755,7 +867,9 @@ const BroadcastPlaylist = [
     "duration": 429,
     "bpm": 126,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-0dFbUR07qdM.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-6Ob8hJhbnLs",
@@ -768,7 +882,9 @@ const BroadcastPlaylist = [
     "duration": 234,
     "bpm": 127,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-6Ob8hJhbnLs.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-3zfm4yR808A",
@@ -781,7 +897,9 @@ const BroadcastPlaylist = [
     "duration": 215,
     "bpm": 128,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-3zfm4yR808A.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-GPbSG7M_dO8",
@@ -794,7 +912,9 @@ const BroadcastPlaylist = [
     "duration": 376,
     "bpm": 129,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-GPbSG7M_dO8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-DgB_A3rkV7g",
@@ -807,7 +927,9 @@ const BroadcastPlaylist = [
     "duration": 256,
     "bpm": 124,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-DgB_A3rkV7g.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-s5JZolI44JI",
@@ -820,7 +942,9 @@ const BroadcastPlaylist = [
     "duration": 266,
     "bpm": 125,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-s5JZolI44JI.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-Z15NT2P64Y4",
@@ -833,7 +957,9 @@ const BroadcastPlaylist = [
     "duration": 263,
     "bpm": 126,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-Z15NT2P64Y4.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-nLVP4DzSUmk",
@@ -846,7 +972,9 @@ const BroadcastPlaylist = [
     "duration": 333,
     "bpm": 127,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-nLVP4DzSUmk.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-ZRyl__brhaw",
@@ -859,7 +987,9 @@ const BroadcastPlaylist = [
     "duration": 162,
     "bpm": 128,
     "badge": "CANAL OFICIAL HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-ZRyl__brhaw.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-TQ0sdbohvC4",
@@ -872,7 +1002,9 @@ const BroadcastPlaylist = [
     "duration": 121,
     "bpm": 129,
     "badge": "VREMIX EXCLUSIVO",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-TQ0sdbohvC4.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-aRzzlaf79Ic",
@@ -885,7 +1017,9 @@ const BroadcastPlaylist = [
     "duration": 413,
     "bpm": 124,
     "badge": "PRODUCCIÓN ORIGINAL",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-aRzzlaf79Ic.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-d7vJMbM_Trs",
@@ -898,7 +1032,9 @@ const BroadcastPlaylist = [
     "duration": 241,
     "bpm": 125,
     "badge": "CLUB SESSION 24/7",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-d7vJMbM_Trs.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-EoQd73j5SAY",
@@ -911,7 +1047,9 @@ const BroadcastPlaylist = [
     "duration": 237,
     "bpm": 126,
     "badge": "FESTIVAL VIP",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-EoQd73j5SAY.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-bUFPCO-bzXE",
@@ -924,7 +1062,9 @@ const BroadcastPlaylist = [
     "duration": 192,
     "bpm": 127,
     "badge": "VEDIT OFICIAL",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-bUFPCO-bzXE.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-IQmAZ5_W6c8",
@@ -937,7 +1077,9 @@ const BroadcastPlaylist = [
     "duration": 220,
     "bpm": 128,
     "badge": "MAIN STAGE HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-IQmAZ5_W6c8.mp4",
+    "format": "mp4"
   },
   {
     "id": "yt-_2bZo596TQA",
@@ -950,7 +1092,9 @@ const BroadcastPlaylist = [
     "duration": 228,
     "bpm": 129,
     "badge": "GLOBAL BROADCAST",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-_2bZo596TQA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1zidNAjvp8ES",
@@ -964,7 +1108,10 @@ const BroadcastPlaylist = [
     "duration": 213,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zidNAjvp8ES.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1B9sa7W7_sC1",
@@ -978,7 +1125,10 @@ const BroadcastPlaylist = [
     "duration": 307,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1B9sa7W7_sC1.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1x0Z1mmvm3LW",
@@ -992,7 +1142,10 @@ const BroadcastPlaylist = [
     "duration": 238,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1x0Z1mmvm3LW.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1KY1yDdWF7H_",
@@ -1006,21 +1159,10 @@ const BroadcastPlaylist = [
     "duration": 254,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
-    "id": "drive-1l2afdQzFKbU",
-    "title": "Lynnic, ItsArius & Kezano - On My Mind",
-    "artist": "Lynnic, ItsArius & Kezano",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1l2afdQzFKbUXFhB0wZHVsxxaod97lCrP",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1l2afdQzFKbU.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1l2afdQzFKbU.mp4",
-    "duration": 136,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KY1yDdWF7H_.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1nS5jxzewjl9",
@@ -1034,35 +1176,10 @@ const BroadcastPlaylist = [
     "duration": 270,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1Z7sxlWqE9jC",
-    "title": "Anri - Windy Summer (Night Tempo Edit)",
-    "artist": "Anri",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1Z7sxlWqE9jCnz6dVXdGWJBly8L4HwUQO",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z7sxlWqE9jC.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z7sxlWqE9jC.mp4",
-    "duration": 200,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1ZM84SkeV_S1",
-    "title": "Night Tempo - If You Love Me",
-    "artist": "Night Tempo",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1ZM84SkeV_S13XJdtZOBvHRE10GABA96A",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZM84SkeV_S1.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZM84SkeV_S1.mp4",
-    "duration": 211,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nS5jxzewjl9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1yOtrw6-bilJ",
@@ -1076,7 +1193,10 @@ const BroadcastPlaylist = [
     "duration": 175,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1yOtrw6-bilJ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1VmcP9wxNW14",
@@ -1090,21 +1210,10 @@ const BroadcastPlaylist = [
     "duration": 222,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
-  },
-  {
-    "id": "drive-14ZcmnklcAw_",
-    "title": "Moe Shop - You Look So Good [Pure Pure EP]",
-    "artist": "Moe Shop",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "14ZcmnklcAw_CivR_6Z5ri_oxFdrO2juh",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14ZcmnklcAw_.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14ZcmnklcAw_.mp4",
-    "duration": 205,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VmcP9wxNW14.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1YrJRtufu8k5",
@@ -1118,7 +1227,10 @@ const BroadcastPlaylist = [
     "duration": 315,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YrJRtufu8k5.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-164WGn8reZGk",
@@ -1132,7 +1244,10 @@ const BroadcastPlaylist = [
     "duration": 268,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-164WGn8reZGk.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1-EJ-7KXarB-",
@@ -1146,21 +1261,10 @@ const BroadcastPlaylist = [
     "duration": 303,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1hh2KJXz772a",
-    "title": "Something About Plastic Love (Future Funk)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1hh2KJXz772aSygHbNG8gIfz9v7ioJmHl",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hh2KJXz772a.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hh2KJXz772a.mp4",
-    "duration": 205,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-EJ-7KXarB-.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1dq2glZ8_Hww",
@@ -1174,21 +1278,10 @@ const BroadcastPlaylist = [
     "duration": 329,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1_r5ThUeo4M1",
-    "title": "EVADE FROM - MY DESTINY (Marina Saito - crazy for you REMIX)",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1_r5ThUeo4M13tWFG9h20_nPCS9FeqkT5",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1_r5ThUeo4M1.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1_r5ThUeo4M1.mp4",
-    "duration": 157,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dq2glZ8_Hww.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1VYK5R3lFL_l",
@@ -1202,49 +1295,10 @@ const BroadcastPlaylist = [
     "duration": 168,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
-  },
-  {
-    "id": "drive-1imP7qWgtZOQ",
-    "title": "LE SSERAFIM - Perfect Night (SATURN SUN Remix)",
-    "artist": "LE SSERAFIM",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1imP7qWgtZOQ3YMGSvSORgWMA3sVILVRE",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1imP7qWgtZOQ.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1imP7qWgtZOQ.mp4",
-    "duration": 194,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
-    "id": "drive-1QN9EV5S7lwl",
-    "title": "EVADE FROM - LOVING YOU ME",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1QN9EV5S7lwlZTMwYf75aGefU4lUP1Sr9",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1QN9EV5S7lwl.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1QN9EV5S7lwl.mp4",
-    "duration": 182,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-1LRiz6_pDnqX",
-    "title": "EVADE FROM - FRIDAY NIGHT LOVIN'",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1LRiz6_pDnqX8qOnHTrn8Grji4aFwGbFj",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LRiz6_pDnqX.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LRiz6_pDnqX.mp4",
-    "duration": 124,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VYK5R3lFL_l.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1033EAGG3Tn3",
@@ -1258,7 +1312,10 @@ const BroadcastPlaylist = [
     "duration": 163,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1033EAGG3Tn3.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1rywokydC9cu",
@@ -1272,49 +1329,10 @@ const BroadcastPlaylist = [
     "duration": 201,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1Vv1BeskPBG7",
-    "title": "EVADE FROM - SWEET LIKE CANDY",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1Vv1BeskPBG7PxmCcU-wr0YGKSoEuTkFS",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Vv1BeskPBG7.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Vv1BeskPBG7.mp4",
-    "duration": 175,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1ZlyMnVUPzGk",
-    "title": "Frenssu - Tatsumaki",
-    "artist": "Frenssu",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1ZlyMnVUPzGkv-6VRNP-pkld5lDtygX2V",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZlyMnVUPzGk.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1ZlyMnVUPzGk.mp4",
-    "duration": 184,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
-  },
-  {
-    "id": "drive-1TVS5wJrGR0v",
-    "title": "camoufly - Kaleidoscope (Me&U) [saturn sun's flip bootleg]",
-    "artist": "camoufly",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1TVS5wJrGR0ve4IftmD0R2kX6Ed269bvV",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1TVS5wJrGR0v.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1TVS5wJrGR0v.mp4",
-    "duration": 183,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rywokydC9cu.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1JKprgxFkVt1",
@@ -1328,7 +1346,10 @@ const BroadcastPlaylist = [
     "duration": 279,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1JKprgxFkVt1.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1IHqgwOYSRn9",
@@ -1342,35 +1363,10 @@ const BroadcastPlaylist = [
     "duration": 161,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-10VXYRxLB4MI",
-    "title": "EVADE FROM - FRIEND ZONE '84",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "10VXYRxLB4MI8lABet4Bcd7n3pbGC2Pfb",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-10VXYRxLB4MI.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-10VXYRxLB4MI.mp4",
-    "duration": 125,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
-    "id": "drive-1cx2yXzSsl21",
-    "title": "EVADE FROM - ETERNAL FANTASY",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1cx2yXzSsl21PltejfkyqiI5_YGp6Ytxq",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1cx2yXzSsl21.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1cx2yXzSsl21.mp4",
-    "duration": 137,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1IHqgwOYSRn9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1M-5RQ2FOQmm",
@@ -1384,7 +1380,10 @@ const BroadcastPlaylist = [
     "duration": 194,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1M-5RQ2FOQmm.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1VAPem5zq0iS",
@@ -1398,7 +1397,10 @@ const BroadcastPlaylist = [
     "duration": 230,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1VAPem5zq0iS.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1P5J0DaLathH",
@@ -1412,7 +1414,10 @@ const BroadcastPlaylist = [
     "duration": 216,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1P5J0DaLathH.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1NaYKTxl4JtU",
@@ -1426,7 +1431,10 @@ const BroadcastPlaylist = [
     "duration": 103,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1NaYKTxl4JtU.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1YVmbP-uTNg6",
@@ -1440,7 +1448,10 @@ const BroadcastPlaylist = [
     "duration": 67,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1YVmbP-uTNg6.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1LuRqIhjSUcX",
@@ -1454,7 +1465,10 @@ const BroadcastPlaylist = [
     "duration": 220,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LuRqIhjSUcX.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1GQ3qYM67PrX",
@@ -1468,7 +1482,10 @@ const BroadcastPlaylist = [
     "duration": 165,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1GQ3qYM67PrX.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1OVnU6DHie8Y",
@@ -1482,21 +1499,10 @@ const BroadcastPlaylist = [
     "duration": 170,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1lEA4XJplnJ8",
-    "title": "EVADE FROM - FLYDAY CHINATOWN",
-    "artist": "EVADE FROM",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1lEA4XJplnJ8Qj4P0eL3VywlK18X01b7k",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lEA4XJplnJ8.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lEA4XJplnJ8.mp4",
-    "duration": 135,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OVnU6DHie8Y.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1evHl1ILbBa9",
@@ -1510,7 +1516,10 @@ const BroadcastPlaylist = [
     "duration": 222,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1evHl1ILbBa9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Xbr7mqvZqy7",
@@ -1524,7 +1533,10 @@ const BroadcastPlaylist = [
     "duration": 153,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Xbr7mqvZqy7.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1_BS4_JSKesM",
@@ -1538,7 +1550,10 @@ const BroadcastPlaylist = [
     "duration": 243,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1_BS4_JSKesM.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1JaYsF1W39nD",
@@ -1552,7 +1567,10 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JaYsF1W39nD.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1NAw7HtCOjmD",
@@ -1566,7 +1584,10 @@ const BroadcastPlaylist = [
     "duration": 184,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1NAw7HtCOjmD.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1E1wl_hdVQDn",
@@ -1580,7 +1601,10 @@ const BroadcastPlaylist = [
     "duration": 174,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1E1wl_hdVQDn.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1lnb0rXPJHTH",
@@ -1594,7 +1618,10 @@ const BroadcastPlaylist = [
     "duration": 193,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1lnb0rXPJHTH.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1yKllVhXAsb9",
@@ -1608,7 +1635,10 @@ const BroadcastPlaylist = [
     "duration": 171,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1yKllVhXAsb9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1fR-S7rW9Ze3",
@@ -1622,7 +1652,10 @@ const BroadcastPlaylist = [
     "duration": 185,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1fR-S7rW9Ze3.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1rMVbK4D2SkW",
@@ -1636,7 +1669,10 @@ const BroadcastPlaylist = [
     "duration": 195,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1rMVbK4D2SkW.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1WEFzC6c1-L1",
@@ -1650,7 +1686,10 @@ const BroadcastPlaylist = [
     "duration": 210,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1WEFzC6c1-L1.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-100sc9WqebDA",
@@ -1664,7 +1703,10 @@ const BroadcastPlaylist = [
     "duration": 189,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-100sc9WqebDA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1JPBC2jeNcZs",
@@ -1678,7 +1720,10 @@ const BroadcastPlaylist = [
     "duration": 187,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1JPBC2jeNcZs.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1I_Mvfj-sMlZ",
@@ -1692,7 +1737,10 @@ const BroadcastPlaylist = [
     "duration": 219,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1I_Mvfj-sMlZ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1TVWrinOyQgU",
@@ -1706,7 +1754,10 @@ const BroadcastPlaylist = [
     "duration": 190,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1TVWrinOyQgU.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-14add5G1kquf",
@@ -1720,7 +1771,10 @@ const BroadcastPlaylist = [
     "duration": 185,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14add5G1kquf.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Nh6RD-lJUyC",
@@ -1734,7 +1788,10 @@ const BroadcastPlaylist = [
     "duration": 196,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Nh6RD-lJUyC.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Q7jCmA1w4ZA",
@@ -1748,7 +1805,10 @@ const BroadcastPlaylist = [
     "duration": 255,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Q7jCmA1w4ZA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1RfjQdCJ_qu-",
@@ -1762,7 +1822,10 @@ const BroadcastPlaylist = [
     "duration": 246,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1RfjQdCJ_qu-.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1EO12GA3EEtu",
@@ -1776,7 +1839,10 @@ const BroadcastPlaylist = [
     "duration": 150,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1EO12GA3EEtu.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1nG56ozAvigQ",
@@ -1790,63 +1856,10 @@ const BroadcastPlaylist = [
     "duration": 171,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-1969wUXmqwsJ",
-    "title": "Anri - Last Surf Holiday (Night Tempo Edit)",
-    "artist": "Anri",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1969wUXmqwsJaQBI-LKm7Kp88CPezuW1b",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1969wUXmqwsJ.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1969wUXmqwsJ.mp4",
-    "duration": 273,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
-    "id": "drive-1Z4HY7r8tLoq",
-    "title": "Tatsuro Yamashita - Kiss kara Hajimaru Mystery feat.RYO (Night Tempo Edit)",
-    "artist": "Tatsuro Yamashita",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1Z4HY7r8tLoquHoZ-ISmqNKy4nMsFu4Dy",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z4HY7r8tLoq.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Z4HY7r8tLoq.mp4",
-    "duration": 212,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1LbeRDfI6Qwo",
-    "title": "Give Me Up (Night Tempo Showa Groove Mix)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "1LbeRDfI6QwoPnjkxmOHaxS2mnhjW1ETJ",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LbeRDfI6Qwo.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LbeRDfI6Qwo.mp4",
-    "duration": 220,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1vWKtz-JzOap",
-    "title": "Run Away (DJ Favorite & Mr. Romano Remix)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1vWKtz-JzOapw06ZzPTnqXBq9F8Y_RHrK",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1vWKtz-JzOap.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1vWKtz-JzOap.mp4",
-    "duration": 165,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1nG56ozAvigQ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1I5JR3EcuVFo",
@@ -1860,7 +1873,10 @@ const BroadcastPlaylist = [
     "duration": 318,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1I5JR3EcuVFo.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1RbiI1e_N3H7",
@@ -1874,7 +1890,10 @@ const BroadcastPlaylist = [
     "duration": 221,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1RbiI1e_N3H7.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1z4LHDqKKBPJ",
@@ -1888,21 +1907,10 @@ const BroadcastPlaylist = [
     "duration": 199,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
-    "id": "drive-1-TtpTlI1Sd3",
-    "title": "LP - When We're High (Ossian Remix)",
-    "artist": "LP",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1-TtpTlI1Sd3jtsrKo-IDsmfNrNRszRKS",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-TtpTlI1Sd3.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1-TtpTlI1Sd3.mp4",
-    "duration": 244,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1abHIVcMludu",
@@ -1916,7 +1924,10 @@ const BroadcastPlaylist = [
     "duration": 175,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1abHIVcMludu.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1pIASq1-6QZX",
@@ -1930,7 +1941,10 @@ const BroadcastPlaylist = [
     "duration": 374,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1pIASq1-6QZX.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1SaARuhBT8Yz",
@@ -1944,7 +1958,10 @@ const BroadcastPlaylist = [
     "duration": 258,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1SaARuhBT8Yz.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1kiNe0G6vld2",
@@ -1958,35 +1975,10 @@ const BroadcastPlaylist = [
     "duration": 275,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1Tf-76CDgHF9",
-    "title": "Sade - Smooth Operator [RICHIE ROZEX REMIX] (Out now on all streaming service!)",
-    "artist": "Sade",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1Tf-76CDgHF9JFfX1UtSSiuqEeXwPZFGL",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Tf-76CDgHF9.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Tf-76CDgHF9.mp4",
-    "duration": 242,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
-  },
-  {
-    "id": "drive-1avEOus3_OL6",
-    "title": "Vigiland - UFO HQ 2015",
-    "artist": "Vigiland",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1avEOus3_OL6MvtwZ74BZ2rK0CjVRGOr7",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1avEOus3_OL6.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1avEOus3_OL6.mp4",
-    "duration": 144,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1kiNe0G6vld2.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Mri0kJkhoTk",
@@ -2000,7 +1992,10 @@ const BroadcastPlaylist = [
     "duration": 198,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mri0kJkhoTk.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1uYBpHHV9PSO",
@@ -2014,7 +2009,10 @@ const BroadcastPlaylist = [
     "duration": 380,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1uYBpHHV9PSO.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1mNbDT_sw6CC",
@@ -2028,7 +2026,10 @@ const BroadcastPlaylist = [
     "duration": 450,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1mNbDT_sw6CC.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1dbLgWn4VwXI",
@@ -2042,21 +2043,10 @@ const BroadcastPlaylist = [
     "duration": 254,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1hb_PYTH75F_",
-    "title": "On my mind - diplo - extended BrutalRemix",
-    "artist": "On my mind",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1hb_PYTH75F_xKCnreZNoQ85opmWtBbmO",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hb_PYTH75F_.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hb_PYTH75F_.mp4",
-    "duration": 454,
-    "bpm": 125,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1dbLgWn4VwXI.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-11OAGKfxnAxD",
@@ -2070,7 +2060,10 @@ const BroadcastPlaylist = [
     "duration": 300,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11OAGKfxnAxD.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-16b9MDEPzjBd",
@@ -2084,7 +2077,10 @@ const BroadcastPlaylist = [
     "duration": 242,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-16b9MDEPzjBd.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1HP7vDYWYpBc",
@@ -2098,7 +2094,10 @@ const BroadcastPlaylist = [
     "duration": 227,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1HP7vDYWYpBc.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1UwEY7_cL6xJ",
@@ -2112,7 +2111,10 @@ const BroadcastPlaylist = [
     "duration": 298,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1UwEY7_cL6xJ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1LT2Pn7g_wH_",
@@ -2126,7 +2128,10 @@ const BroadcastPlaylist = [
     "duration": 250,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1LT2Pn7g_wH_.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1C7UJrMefZuS",
@@ -2140,7 +2145,10 @@ const BroadcastPlaylist = [
     "duration": 144,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1C7UJrMefZuS.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Fja_jivGaWK",
@@ -2154,7 +2162,10 @@ const BroadcastPlaylist = [
     "duration": 191,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Fja_jivGaWK.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1x7Yw18jsvGh",
@@ -2168,7 +2179,10 @@ const BroadcastPlaylist = [
     "duration": 165,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1x7Yw18jsvGh.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Ybmd5bkn7Ie",
@@ -2182,7 +2196,10 @@ const BroadcastPlaylist = [
     "duration": 232,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1Ybmd5bkn7Ie.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1EF1tLsZLYPB",
@@ -2196,7 +2213,10 @@ const BroadcastPlaylist = [
     "duration": 195,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1EF1tLsZLYPB.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1YNEHnN73lRS",
@@ -2210,7 +2230,10 @@ const BroadcastPlaylist = [
     "duration": 202,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1YNEHnN73lRS.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1uJQTzKBDwkO",
@@ -2224,7 +2247,10 @@ const BroadcastPlaylist = [
     "duration": 259,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1uJQTzKBDwkO.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1-4MUj71cZwh",
@@ -2238,7 +2264,10 @@ const BroadcastPlaylist = [
     "duration": 136,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1-4MUj71cZwh.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-12qvkGR6u-XN",
@@ -2252,7 +2281,10 @@ const BroadcastPlaylist = [
     "duration": 263,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-12qvkGR6u-XN.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1CqvH__nVrz4",
@@ -2266,7 +2298,10 @@ const BroadcastPlaylist = [
     "duration": 182,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1CqvH__nVrz4.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1L0O6hSzNXKw",
@@ -2280,7 +2315,10 @@ const BroadcastPlaylist = [
     "duration": 195,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1L0O6hSzNXKw.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1FoRf7c78IxK",
@@ -2294,7 +2332,10 @@ const BroadcastPlaylist = [
     "duration": 223,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1FoRf7c78IxK.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1ZSTFrCPKLCC",
@@ -2308,7 +2349,10 @@ const BroadcastPlaylist = [
     "duration": 190,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZSTFrCPKLCC.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-11VOvP-m74dE",
@@ -2322,7 +2366,10 @@ const BroadcastPlaylist = [
     "duration": 210,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-11VOvP-m74dE.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1xHikCG5BVD0",
@@ -2336,7 +2383,10 @@ const BroadcastPlaylist = [
     "duration": 199,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1xHikCG5BVD0.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1KLFwcIHwYA6",
@@ -2350,7 +2400,10 @@ const BroadcastPlaylist = [
     "duration": 215,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1KLFwcIHwYA6.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-194KDmi9wijI",
@@ -2364,7 +2417,10 @@ const BroadcastPlaylist = [
     "duration": 216,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-194KDmi9wijI.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-16v9H0sklT5k",
@@ -2378,7 +2434,10 @@ const BroadcastPlaylist = [
     "duration": 222,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-16v9H0sklT5k.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1apvNWt2OBmb",
@@ -2392,7 +2451,10 @@ const BroadcastPlaylist = [
     "duration": 162,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1apvNWt2OBmb.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1EqSQ4cJ8iMf",
@@ -2406,7 +2468,10 @@ const BroadcastPlaylist = [
     "duration": 181,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1EqSQ4cJ8iMf.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1WKoCvpyXNzL",
@@ -2420,7 +2485,10 @@ const BroadcastPlaylist = [
     "duration": 207,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1WKoCvpyXNzL.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1qSJWFOI_WfL",
@@ -2434,7 +2502,10 @@ const BroadcastPlaylist = [
     "duration": 203,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1qSJWFOI_WfL.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1ZwOfNG66ul9",
@@ -2448,7 +2519,10 @@ const BroadcastPlaylist = [
     "duration": 174,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Video-Clips-Deep-House/drive-1ZwOfNG66ul9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-19dHDStoe5s0",
@@ -2462,7 +2536,10 @@ const BroadcastPlaylist = [
     "duration": 166,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1xApmKr__Pby",
@@ -2476,7 +2553,10 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xApmKr__Pby.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-158SHHllgwDM",
@@ -2490,7 +2570,10 @@ const BroadcastPlaylist = [
     "duration": 213,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-158SHHllgwDM.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1v7-YankBfYC",
@@ -2504,7 +2587,10 @@ const BroadcastPlaylist = [
     "duration": 178,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1v7-YankBfYC.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-14bwy7sjq1PA",
@@ -2518,7 +2604,10 @@ const BroadcastPlaylist = [
     "duration": 181,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14bwy7sjq1PA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1eb2U2ozg7Se",
@@ -2532,7 +2621,10 @@ const BroadcastPlaylist = [
     "duration": 205,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1eb2U2ozg7Se.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1uBm4a9f9mt9",
@@ -2546,7 +2638,10 @@ const BroadcastPlaylist = [
     "duration": 207,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uBm4a9f9mt9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-14aXT6BPT14G",
@@ -2560,7 +2655,10 @@ const BroadcastPlaylist = [
     "duration": 161,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-14aXT6BPT14G.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-12bsBzMQfVcs",
@@ -2574,7 +2672,10 @@ const BroadcastPlaylist = [
     "duration": 192,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-12bsBzMQfVcs.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-18YIASZbys6l",
@@ -2588,7 +2689,10 @@ const BroadcastPlaylist = [
     "duration": 193,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-18YIASZbys6l.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1DgGBJvQ0nfl",
@@ -2602,49 +2706,10 @@ const BroadcastPlaylist = [
     "duration": 186,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
-  },
-  {
-    "id": "drive-1E6FNQwo_NXH",
-    "title": "RÜFÜS DU SOL You Were Right [Official Video]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1E6FNQwo_NXHYUlo3Jb0e7SiP5bMhvEIb",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
-    "duration": 239,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-1gIF8mQpyX6I",
-    "title": "RÜFÜS DU SOL - Next To Me (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1gIF8mQpyX6IxmJUmmOnGGvYM4nDgHI3J",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
-    "duration": 314,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
-  },
-  {
-    "id": "drive-1aFfuySNc4z8",
-    "title": "RÜFÜS DU SOL - On My Knees (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1aFfuySNc4z8WBYWCa0oCHLNtkRK8w0bB",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
-    "duration": 263,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1DgGBJvQ0nfl.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-13eb0MSSK8Bx",
@@ -2658,49 +2723,10 @@ const BroadcastPlaylist = [
     "duration": 338,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1qEUuIn3_2Sa",
-    "title": "RÜFÜS DU SOL - Alive (Official Music Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1qEUuIn3_2Sa8B0yC0rsOg6BQ2VWfLftw",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
-    "duration": 341,
-    "bpm": 126,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1T7QRjvGphkk",
-    "title": "RÜFÜS DU SOL No Place [Official Video]",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1T7QRjvGphkku-F5c0HeXFacqA04BruSc",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
-    "duration": 253,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
-  },
-  {
-    "id": "drive-1xAOeMUG0_h5",
-    "title": "RÜFÜS DU SOL - Sundream (Official Video)",
-    "artist": "RÜFÜS DU SOL",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1xAOeMUG0_h5bTARNfbGHRG5yA4Ctuyzz",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
-    "duration": 298,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-13eb0MSSK8Bx.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1yQJ1SOIkifd",
@@ -2714,7 +2740,10 @@ const BroadcastPlaylist = [
     "duration": 231,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1yQJ1SOIkifd.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1J4dbSpI6omB",
@@ -2728,21 +2757,10 @@ const BroadcastPlaylist = [
     "duration": 280,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-1AAh6s9ufJu8",
-    "title": "RÜFÜS DU SOL Innerbloom (Official Video)",
-    "artist": "DJ KLMR Vault HD",
-    "genre": "MELODIC TECHNO / DEEP HOUSE",
-    "source": "drive",
-    "fileId": "1AAh6s9ufJu8EyQCd73ZUnkY0WigPXgH9",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
-    "duration": 578,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1J4dbSpI6omB.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Y6A_dLVlZz_",
@@ -2756,7 +2774,10 @@ const BroadcastPlaylist = [
     "duration": 184,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Y6A_dLVlZz_.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1H6da9o7QBJs",
@@ -2770,7 +2791,10 @@ const BroadcastPlaylist = [
     "duration": 199,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1H6da9o7QBJs.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1BUl5vyQS_WA",
@@ -2784,21 +2808,10 @@ const BroadcastPlaylist = [
     "duration": 291,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
-  },
-  {
-    "id": "drive-14wxJJgiPWuj",
-    "title": "Toshiki Kadomatsu - Love Junky (Night Tempo Edit)",
-    "artist": "Toshiki Kadomatsu",
-    "genre": "FUTURE FUNK / NU-DISCO",
-    "source": "drive",
-    "fileId": "14wxJJgiPWujiIee00Dwt9HQMMPa7HD27",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14wxJJgiPWuj.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14wxJJgiPWuj.mp4",
-    "duration": 275,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1BUl5vyQS_WA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1FPw41FBbLJT",
@@ -2812,7 +2825,10 @@ const BroadcastPlaylist = [
     "duration": 284,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1FPw41FBbLJT.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1w5NAM3tfBuN",
@@ -2826,7 +2842,10 @@ const BroadcastPlaylist = [
     "duration": 270,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1w5NAM3tfBuN.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1OHoUsZ5EvQs",
@@ -2840,7 +2859,10 @@ const BroadcastPlaylist = [
     "duration": 226,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1OHoUsZ5EvQs.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1CL3HYxOcKwT",
@@ -2854,7 +2876,10 @@ const BroadcastPlaylist = [
     "duration": 254,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1CL3HYxOcKwT.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1VUb2ivfrFpb",
@@ -2868,7 +2893,10 @@ const BroadcastPlaylist = [
     "duration": 266,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VUb2ivfrFpb.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1zRWuGlJc6_I",
@@ -2882,7 +2910,10 @@ const BroadcastPlaylist = [
     "duration": 165,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1zRWuGlJc6_I.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1n_qRWGNFnzd",
@@ -2896,7 +2927,10 @@ const BroadcastPlaylist = [
     "duration": 193,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n_qRWGNFnzd.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1mcg0GTnPQJM",
@@ -2910,7 +2944,10 @@ const BroadcastPlaylist = [
     "duration": 218,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1mcg0GTnPQJM.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Rmo09C7ti5J",
@@ -2924,7 +2961,10 @@ const BroadcastPlaylist = [
     "duration": 202,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1Rmo09C7ti5J.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1qumrUxydcS-",
@@ -2938,21 +2978,10 @@ const BroadcastPlaylist = [
     "duration": 261,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
-  },
-  {
-    "id": "drive-1hm6FIh5mkzp",
-    "title": "ph electro feat. andy reznik - gloria (Dj Splash Edit)",
-    "artist": "ph electro feat. andy reznik",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1hm6FIh5mkzpGi5K8_ZyLt_8Ja1ssMt5G",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hm6FIh5mkzp.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1hm6FIh5mkzp.mp4",
-    "duration": 210,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EURODANCE/drive-1qumrUxydcS-.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-13YisAzlnCUT",
@@ -2966,7 +2995,10 @@ const BroadcastPlaylist = [
     "duration": 171,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-13YisAzlnCUT.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-17Du3WHs8KAf",
@@ -2980,7 +3012,10 @@ const BroadcastPlaylist = [
     "duration": 216,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-17Du3WHs8KAf.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-11ah76qrX13i",
@@ -2994,7 +3029,10 @@ const BroadcastPlaylist = [
     "duration": 364,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-11ah76qrX13i.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1PteOxylVUdZ",
@@ -3008,7 +3046,10 @@ const BroadcastPlaylist = [
     "duration": 245,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PteOxylVUdZ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1XDy5KDB0nlQ",
@@ -3022,7 +3063,10 @@ const BroadcastPlaylist = [
     "duration": 216,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XDy5KDB0nlQ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1s9Q03VcM4Uk",
@@ -3036,7 +3080,10 @@ const BroadcastPlaylist = [
     "duration": 174,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1s9Q03VcM4Uk.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1oJMm8XecvzL",
@@ -3050,7 +3097,10 @@ const BroadcastPlaylist = [
     "duration": 238,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1oJMm8XecvzL.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Hdlx2KZBhOW",
@@ -3064,7 +3114,10 @@ const BroadcastPlaylist = [
     "duration": 327,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Hdlx2KZBhOW.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1lPK2gaKwLUa",
@@ -3078,7 +3131,10 @@ const BroadcastPlaylist = [
     "duration": 257,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1lPK2gaKwLUa.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1KtuTZ7JNyuz",
@@ -3092,7 +3148,10 @@ const BroadcastPlaylist = [
     "duration": 539,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1KtuTZ7JNyuz.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1gJdo75oDK3m",
@@ -3106,7 +3165,10 @@ const BroadcastPlaylist = [
     "duration": 184,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gJdo75oDK3m.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1PRBG1ZOjjUg",
@@ -3120,7 +3182,10 @@ const BroadcastPlaylist = [
     "duration": 218,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1PRBG1ZOjjUg.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Mr30jJrCEZd",
@@ -3134,7 +3199,10 @@ const BroadcastPlaylist = [
     "duration": 230,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Mr30jJrCEZd.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1rNbmHrc44ly",
@@ -3148,7 +3216,10 @@ const BroadcastPlaylist = [
     "duration": 249,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1rNbmHrc44ly.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1zTXD17LGiDH",
@@ -3162,35 +3233,10 @@ const BroadcastPlaylist = [
     "duration": 168,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
-  },
-  {
-    "id": "drive-1Ov0ChIDhv08",
-    "title": "A Tribe Called Quest - Stressed Out (Tchami Remix)",
-    "artist": "A Tribe Called Quest",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "1Ov0ChIDhv0849UmoGKfyMgxPAvwKx-oo",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Ov0ChIDhv08.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1Ov0ChIDhv08.mp4",
-    "duration": 332,
-    "bpm": 128,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
-  },
-  {
-    "id": "drive-1XyeOOClSdEY",
-    "title": "Tiesto vs. Axwell & Julie McKnight - Dimond Found Here (DJ Slide Mashizz-Edit)",
-    "artist": "Tiesto vs. Axwell & Julie McKnight",
-    "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
-    "source": "drive",
-    "fileId": "1XyeOOClSdEYA9XvaYCjYGjSY8zXJHqCD",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XyeOOClSdEY.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1XyeOOClSdEY.mp4",
-    "duration": 207,
-    "bpm": 129,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1zTXD17LGiDH.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1RO7W4EKulB9",
@@ -3204,7 +3250,10 @@ const BroadcastPlaylist = [
     "duration": 226,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1RO7W4EKulB9.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1ZJqPHXRjTU2",
@@ -3218,7 +3267,10 @@ const BroadcastPlaylist = [
     "duration": 169,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1ZJqPHXRjTU2.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1pqxA3qyDAiC",
@@ -3232,21 +3284,10 @@ const BroadcastPlaylist = [
     "duration": 272,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
-  },
-  {
-    "id": "drive-1iVtLjXo6AE-",
-    "title": "Galantis - No Money (Lyrics) (Vremix Dj Oscar Zevach) Clean",
-    "artist": "Galantis",
-    "genre": "MAIN STAGE EDM / ELECTRO HOUSE",
-    "source": "drive",
-    "fileId": "1iVtLjXo6AE-W5odai2ca4ePruXGQl07S",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1iVtLjXo6AE-.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1iVtLjXo6AE-.mp4",
-    "duration": 252,
-    "bpm": 127,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1pqxA3qyDAiC.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1W7lihkrdJq0",
@@ -3260,7 +3301,10 @@ const BroadcastPlaylist = [
     "duration": 211,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1W7lihkrdJq0.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1550vDSccJg_",
@@ -3274,7 +3318,10 @@ const BroadcastPlaylist = [
     "duration": 241,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/ELECTRO-HOUSE/drive-1550vDSccJg_.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1-MW_nbAOaHY",
@@ -3288,7 +3335,10 @@ const BroadcastPlaylist = [
     "duration": 146,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-INN/drive-1-MW_nbAOaHY.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1VeKiGrg44So",
@@ -3302,7 +3352,10 @@ const BroadcastPlaylist = [
     "duration": 185,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1VeKiGrg44So.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1HZkCRXKmfQJ",
@@ -3316,7 +3369,10 @@ const BroadcastPlaylist = [
     "duration": 225,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1HZkCRXKmfQJ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1A3xVSEwkZoE",
@@ -3330,7 +3386,10 @@ const BroadcastPlaylist = [
     "duration": 165,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1A3xVSEwkZoE.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1n9C_WQyouNl",
@@ -3344,7 +3403,10 @@ const BroadcastPlaylist = [
     "duration": 201,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/EDM-MASO/drive-1n9C_WQyouNl.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1xG72Wlp6r2q",
@@ -3358,7 +3420,10 @@ const BroadcastPlaylist = [
     "duration": 184,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/DEEP-HOUSE-MASO/drive-1xG72Wlp6r2q.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1xiDZlO_PYIu",
@@ -3372,7 +3437,10 @@ const BroadcastPlaylist = [
     "duration": 291,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1xiDZlO_PYIu.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-10LyuQ0CdWaJ",
@@ -3386,7 +3454,10 @@ const BroadcastPlaylist = [
     "duration": 161,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-10LyuQ0CdWaJ.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1xgDnTArbcJk",
@@ -3400,7 +3471,10 @@ const BroadcastPlaylist = [
     "duration": 181,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/HOUSE-RICO/drive-1xgDnTArbcJk.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1LpSZzpHzuqc",
@@ -3414,7 +3488,10 @@ const BroadcastPlaylist = [
     "duration": 215,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1LpSZzpHzuqc.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1C9BN9D0c12n",
@@ -3428,7 +3505,10 @@ const BroadcastPlaylist = [
     "duration": 212,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1C9BN9D0c12n.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1sFXXQFu9jPx",
@@ -3442,7 +3522,10 @@ const BroadcastPlaylist = [
     "duration": 380,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1sFXXQFu9jPx.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1gm4YdTnyhCE",
@@ -3456,7 +3539,10 @@ const BroadcastPlaylist = [
     "duration": 268,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1gm4YdTnyhCE.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-14kY5O71-hQH",
@@ -3470,7 +3556,10 @@ const BroadcastPlaylist = [
     "duration": 474,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/tiesto.png"
+    "thumbnail": "assets/tiesto.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-14kY5O71-hQH.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1THII8Fh7ZYj",
@@ -3484,7 +3573,10 @@ const BroadcastPlaylist = [
     "duration": 160,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1THII8Fh7ZYj.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1PzjwYcZPtqA",
@@ -3498,7 +3590,10 @@ const BroadcastPlaylist = [
     "duration": 248,
     "bpm": 127,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1PzjwYcZPtqA.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1mcqo53eo3QX",
@@ -3512,7 +3607,10 @@ const BroadcastPlaylist = [
     "duration": 225,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png"
+    "thumbnail": "assets/zamna.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1mcqo53eo3QX.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1S4CqOy-4m9w",
@@ -3526,7 +3624,10 @@ const BroadcastPlaylist = [
     "duration": 254,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-hd.png"
+    "thumbnail": "assets/logo-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1S4CqOy-4m9w.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1uiUmzDMtrsj",
@@ -3540,7 +3641,10 @@ const BroadcastPlaylist = [
     "duration": 240,
     "bpm": 124,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-medal-3d.png"
+    "thumbnail": "assets/logo-medal-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1uiUmzDMtrsj.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1OgR2TYFS86j",
@@ -3554,7 +3658,10 @@ const BroadcastPlaylist = [
     "duration": 237,
     "bpm": 125,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-official-3.png"
+    "thumbnail": "assets/logo-official-3.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1OgR2TYFS86j.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1ut_UifNauCx",
@@ -3568,7 +3675,10 @@ const BroadcastPlaylist = [
     "duration": 203,
     "bpm": 126,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-chrome-3d.png"
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1ut_UifNauCx.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1B8YzOR9TyHd",
@@ -3582,7 +3692,10 @@ const BroadcastPlaylist = [
     "duration": 133,
     "bpm": 128,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/logo-klmr.png"
+    "thumbnail": "assets/logo-klmr.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1B8YzOR9TyHd.mp4",
+    "format": "mp4"
   },
   {
     "id": "drive-1Sn50A25MYJD",
@@ -3596,7 +3709,122 @@ const BroadcastPlaylist = [
     "duration": 195,
     "bpm": 129,
     "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/klmr-2025-hd.png"
+    "thumbnail": "assets/klmr-2025-hd.png",
+    "youtubeId": null,
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-electro/drive-1Sn50A25MYJD.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1E6FNQwo_NXH",
+    "title": "RÜFÜS DU SOL You Were Right [Official Video]",
+    "artist": "DJ KLMR Vault HD",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1E6FNQwo_NXHYUlo3Jb0e7SiP5bMhvEIb",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
+    "duration": 239,
+    "bpm": 128,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/zamna.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1E6FNQwo_NXH.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1gIF8mQpyX6I",
+    "title": "RÜFÜS DU SOL - Next To Me (Official Music Video)",
+    "artist": "RÜFÜS DU SOL",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1gIF8mQpyX6IxmJUmmOnGGvYM4nDgHI3J",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
+    "duration": 314,
+    "bpm": 129,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/logo-hd.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1gIF8mQpyX6I.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1aFfuySNc4z8",
+    "title": "RÜFÜS DU SOL - On My Knees (Official Music Video)",
+    "artist": "RÜFÜS DU SOL",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1aFfuySNc4z8WBYWCa0oCHLNtkRK8w0bB",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
+    "duration": 263,
+    "bpm": 124,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/logo-medal-3d.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1aFfuySNc4z8.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1qEUuIn3_2Sa",
+    "title": "RÜFÜS DU SOL - Alive (Official Music Video)",
+    "artist": "RÜFÜS DU SOL",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1qEUuIn3_2Sa8B0yC0rsOg6BQ2VWfLftw",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
+    "duration": 341,
+    "bpm": 126,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/logo-chrome-3d.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1qEUuIn3_2Sa.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1T7QRjvGphkk",
+    "title": "RÜFÜS DU SOL No Place [Official Video]",
+    "artist": "DJ KLMR Vault HD",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1T7QRjvGphkku-F5c0HeXFacqA04BruSc",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
+    "duration": 253,
+    "bpm": 127,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/tiesto.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1T7QRjvGphkk.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1xAOeMUG0_h5",
+    "title": "RÜFÜS DU SOL - Sundream (Official Video)",
+    "artist": "RÜFÜS DU SOL",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1xAOeMUG0_h5bTARNfbGHRG5yA4Ctuyzz",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
+    "duration": 298,
+    "bpm": 128,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1xAOeMUG0_h5.mp4",
+    "format": "mp4"
+  },
+  {
+    "id": "drive-1AAh6s9ufJu8",
+    "title": "RÜFÜS DU SOL Innerbloom (Official Video)",
+    "artist": "DJ KLMR Vault HD",
+    "genre": "MELODIC TECHNO / DEEP HOUSE",
+    "source": "drive",
+    "fileId": "1AAh6s9ufJu8EyQCd73ZUnkY0WigPXgH9",
+    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
+    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
+    "duration": 578,
+    "bpm": 124,
+    "badge": "CLOUDFLARE R2 VAULT HD",
+    "thumbnail": "assets/logo-klmr.png",
+    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Rufus-du-Sol/drive-1AAh6s9ufJu8.mp4",
+    "format": "mp4"
   }
 ];
 
@@ -3761,11 +3989,14 @@ function initClock() {
   const clockEl = document.getElementById("digital-clock");
   const cornerClockEl = document.getElementById("corner-clock-time");
 
+  // Viewer's own time zone; weekday always in Spanish (es-MX), e.g. "SÁBADO 17:46".
+  const weekdayFmt = new Intl.DateTimeFormat("es-MX", { weekday: "long" });
+
   function update() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, "0");
     const mins = String(now.getMinutes()).padStart(2, "0");
-    const timeStr = `${hours}:${mins}`;
+    const timeStr = `${weekdayFmt.format(now).toUpperCase()} ${hours}:${mins}`;
 
     if (clockEl) clockEl.textContent = timeStr;
     if (cornerClockEl) cornerClockEl.textContent = timeStr;
@@ -3775,7 +4006,22 @@ function initClock() {
   setInterval(update, 1000);
 }
 
+// Single source of truth shared with Roku (/api/channel/feed reads the same file).
+// The embedded BroadcastPlaylist above is only an offline fallback.
+const catalogReady = fetch("/catalog/active.json", { cache: "no-cache" })
+  .then(res => (res.ok ? res.json() : null))
+  .then(list => {
+    if (Array.isArray(list) && list.length > 0) {
+      BroadcastPlaylist.splice(0, BroadcastPlaylist.length, ...list);
+    }
+  })
+  .catch(() => {});
+
 window.onYouTubeIframeAPIReady = function() {
+  catalogReady.then(startYouTubeBroadcast);
+};
+
+function startYouTubeBroadcast() {
   const livePos = getLiveFastPlayoutPosition();
   ChannelState.currentTrackIndex = livePos.trackIndex;
   const currentTrack = BroadcastPlaylist[livePos.trackIndex];
@@ -3808,7 +4054,7 @@ window.onYouTubeIframeAPIReady = function() {
       onError: onPlayerError
     }
   });
-};
+}
 
 function onPlayerReady(event) {
   try {
@@ -3898,10 +4144,36 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
   }
 }
 
+// Index in BroadcastPlaylist of the track that follows `index` in the clock's smart (rotated) order,
+// so web and Roku air the same sequence instead of the web walking the base list.
+function nextSmartTrackIndex(index) {
+  const livePos = getLiveFastPlayoutPosition();
+  const order = livePos.smartPlaylist;
+  const current = BroadcastPlaylist[index];
+  const pos = current ? order.findIndex(t => t.id === current.id) : -1;
+  const next = order[(pos >= 0 ? pos + 1 : livePos.smartIndex + 1) % order.length];
+  const nextIdx = BroadcastPlaylist.findIndex(t => t.id === next.id);
+  return nextIdx >= 0 ? nextIdx : (index + 1) % BroadcastPlaylist.length;
+}
+
 function advanceToNextTrackCleanly() {
   if (!ChannelState.hasEnteredLive || BroadcastPlaylist.length === 0) return;
-  const nextIndex = (ChannelState.currentTrackIndex + 1) % BroadcastPlaylist.length;
-  playTrackAtIndex(nextIndex, 0, false);
+  const livePos = getLiveFastPlayoutPosition();
+  if (livePos.trackIndex !== ChannelState.currentTrackIndex) {
+    playTrackAtIndex(livePos.trackIndex, livePos.startSeconds, false);
+    return;
+  }
+  playTrackAtIndex(nextSmartTrackIndex(ChannelState.currentTrackIndex), 0, false);
+}
+
+// True when the web player is more than one track away from what the clock says is airing.
+function isOffLiveTimeline() {
+  const livePos = getLiveFastPlayoutPosition();
+  const current = BroadcastPlaylist[ChannelState.currentTrackIndex];
+  if (!current) return true;
+  const pos = livePos.smartPlaylist.findIndex(t => t.id === current.id);
+  const gap = Math.abs(pos - livePos.smartIndex);
+  return pos < 0 || (gap > 1 && gap < livePos.smartPlaylist.length - 1);
 }
 
 function syncToLiveTimeline() {
@@ -3911,7 +4183,7 @@ function syncToLiveTimeline() {
   let sec = livePos.startSeconds;
   const trackDur = (BroadcastPlaylist[idx] && BroadcastPlaylist[idx].duration) ? BroadcastPlaylist[idx].duration : 260;
   if ((trackDur - sec) <= 15) {
-    idx = (idx + 1) % BroadcastPlaylist.length;
+    idx = nextSmartTrackIndex(idx);
     sec = 0;
   }
   playTrackAtIndex(idx, sec, false);
@@ -4100,6 +4372,8 @@ function initBackendSync() {
         if (ChannelState.isLiveMode) {
           ChannelState.isLiveMode = false;
           hideLiveAlert();
+          syncToLiveTimeline();
+        } else if (ChannelState.hasEnteredLive && isOffLiveTimeline()) {
           syncToLiveTimeline();
         }
       }
