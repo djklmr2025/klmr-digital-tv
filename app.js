@@ -1738,25 +1738,6 @@ const BroadcastPlaylist = [
     "height": 720
   },
   {
-    "id": "drive-19dHDStoe5s0",
-    "title": "Shapeless_ Talking Dirty - Vitas remix (7th Element) FREE DOWNLOAD 2018",
-    "artist": "Shapeless_ Talking Dirty",
-    "genre": "ELECTRONIC / CLUB HD",
-    "source": "drive",
-    "fileId": "19dHDStoe5s0B3iDO0EoUqeO6nfU-Mds_",
-    "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
-    "duration": 166,
-    "bpm": 124,
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "thumbnail": "assets/zamna.png",
-    "youtubeId": null,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Tech-House-Comercial/drive-19dHDStoe5s0.mp4",
-    "format": "mp4",
-    "width": 1280,
-    "height": 720
-  },
-  {
     "id": "drive-1xApmKr__Pby",
     "title": "Lolita - Joli Garçon (Rob & Chris Remix) Official Video",
     "artist": "Lolita",
@@ -3221,21 +3202,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1ktRcWGJWR-Y.mp4"
   },
   {
-    "id": "drive-1shMerBdbVV9",
-    "title": "Tech House Comercial · KLMR VJ Mix",
-    "artist": "KLMR Vault",
-    "genre": "TECH HOUSE COMERCIAL / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 123,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1shMerBdbVV9.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1shMerBdbVV9.mp4"
-  },
-  {
     "id": "drive-1VdZI1Gt9Wk_",
     "title": "Major Lazer & DJ Snake feat MØ - Lean on (Clean) ATAX Remix [DVDN]",
     "artist": "Major Lazer & DJ Snake feat MØ",
@@ -3251,21 +3217,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1VdZI1Gt9Wk_.mp4"
   },
   {
-    "id": "drive-1jhCMawLLms-",
-    "title": "Tech House Comercial · KLMR VJ Mix",
-    "artist": "KLMR Vault",
-    "genre": "TECH HOUSE COMERCIAL / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 93,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1jhCMawLLms-.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1jhCMawLLms-.mp4"
-  },
-  {
     "id": "drive-16QN-9pmjSpU",
     "title": "@-High School Musical - Breaking Free - Dj Goust [CLIKA BEATS].",
     "artist": "@-High School Musical",
@@ -3279,21 +3230,6 @@ const BroadcastPlaylist = [
     "height": 720,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-16QN-9pmjSpU.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-16QN-9pmjSpU.mp4"
-  },
-  {
-    "id": "drive-1dIMqkoPvzOY",
-    "title": "Tech House Comercial · KLMR VJ Mix",
-    "artist": "KLMR Vault",
-    "genre": "TECH HOUSE COMERCIAL / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 132,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1dIMqkoPvzOY.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1dIMqkoPvzOY.mp4"
   },
   {
     "id": "drive-1-GszTC0N1kL",
@@ -3744,21 +3680,6 @@ const BroadcastPlaylist = [
     "height": 720,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-17jJUDJbZo03.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-17jJUDJbZo03.mp4"
-  },
-  {
-    "id": "drive-11rG6VxP265Q",
-    "title": "Tech House Comercial · KLMR VJ Mix",
-    "artist": "KLMR Vault",
-    "genre": "TECH HOUSE COMERCIAL / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 115,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-11rG6VxP265Q.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-11rG6VxP265Q.mp4"
   },
   {
     "id": "drive-1IkCTMHSZ6qz",

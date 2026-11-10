@@ -15,7 +15,8 @@ import boveda_drive  # noqa: E402
 
 VIDEOS_FOLDER = "1yJNNnYunY956qiRH_qFP2nySL1sXXssH"
 ELECTRONIC = re.compile(r"electro|edm|house|deep|tech|trance|dance|hard ?style|drum|plastika|rufus|transition|edc|disco|techno|jpop", re.I)
-NOT_ELECTRONIC = re.compile(r"banda", re.I)
+# "Tech House Comercial" is another DJ's material (Roberth Steve Quiroga): owner asked never to air it.
+NOT_ELECTRONIC = re.compile(r"banda|tech house comercial", re.I)
 MIN_SECONDS = 90
 MAX_SECONDS = 600
 OUT = Path(__file__).resolve().parent.parent / "catalog" / "library.json"

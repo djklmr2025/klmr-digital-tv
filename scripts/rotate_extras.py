@@ -36,6 +36,7 @@ R2_PUBLIC = os.environ.get("R2_PUBLIC_URL", "https://pub-00ab8b5a231a4f97a7c0cfc
 R2_PREFIX = "videos-rotacion"
 SWAP = int(os.environ.get("KLMR_ROTATION_SWAP", "12"))
 STATIC_MOTION = 8.5
+BLOCKED_FOLDER = re.compile(r"tech house comercial", re.I)  # another DJ's material, owner asked never to air it
 TARGET_TOTAL = int(os.environ.get("KLMR_TARGET_TOTAL", "232"))  # fixed + extras on air (~16 h per cycle)
 
 
@@ -147,7 +148,8 @@ def main():
 
     s3 = None if opts.dry_run else r2_client()
     dry_run = opts.dry_run or s3 is None
-    active, library = load(ACTIVE), load(LIBRARY, [])
+    active = load(ACTIVE)
+    library = [e for e in load(LIBRARY, []) if not BLOCKED_FOLDER.search(e.get("folder", ""))]
     library_by_id = {e["driveId"]: e for e in library}
     retired_ids = {r["track"]["id"] for r in load(CATALOG / "retired.json", [])}
     state = load(STATE) or init_state(active, library)

@@ -54,7 +54,7 @@ function checkResolution(active) {
 }
 
 // Material the owner asked never to air again (matched against title + artist).
-const BLOCKED = /quiroga|roberth in da house/i;
+const BLOCKED = /quiroga|roberth in da house|tech house comercial|talking dirty/i;
 
 function checkBlocked(active) {
   const hits = active.filter((t) => BLOCKED.test(`${t.title} ${t.artist}`));
