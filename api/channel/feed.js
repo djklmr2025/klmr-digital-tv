@@ -169,6 +169,12 @@ module.exports = async (req, res) => {
   const currentTrack = effectivePlaylist[activeIndex] || effectivePlaylist[0];
 
   const activeCycleNumber = Math.floor((nowSeconds + TIMELINE_ANCHOR_OFFSET) / totalDuration);
+  // Roku .pkg <= 1.1.2 polls this feed every 15 s and, whenever currentIndex is more than one track
+  // away from what it plays, stops the video and re-tunes mid-song (black screen for seconds). Its
+  // local clock drifts a few seconds per track and every catalog change moves the server timeline,
+  // so those cuts kept happening. Roku already joins the live timeline on launch from
+  // serverEpochSeconds + timelineAnchorOffset, so it does not get the index.
+  const isRoku = /roku/i.test(req.headers['user-agent'] || '');
   res.status(200).json({
     channel: "KLMR OFFICIAL CHANNEL HD",
     cycleNumber: activeCycleNumber,
@@ -180,8 +186,8 @@ module.exports = async (req, res) => {
     timelineAnchorOffset: TIMELINE_ANCHOR_OFFSET,
     totalDurationSeconds: totalDuration,
     totalTracks: effectivePlaylist.length,
-    currentIndex: activeIndex,
-    seekSeconds: seekSeconds,
+    currentIndex: isRoku ? undefined : activeIndex,
+    seekSeconds: isRoku ? undefined : seekSeconds,
     currentTrack: currentTrack,
     nextTrack: effectivePlaylist[(activeIndex + 1) % effectivePlaylist.length],
     adMonetization: {
