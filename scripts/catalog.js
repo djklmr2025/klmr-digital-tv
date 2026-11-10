@@ -53,11 +53,20 @@ function checkResolution(active) {
   if (low.length) throw new Error(`por debajo de 720p o sin medir: ${low.map((t) => `${t.id} ${t.width}x${t.height}`).join(', ')}`);
 }
 
+// Material the owner asked never to air again (matched against title + artist).
+const BLOCKED = /quiroga|roberth in da house/i;
+
+function checkBlocked(active) {
+  const hits = active.filter((t) => BLOCKED.test(`${t.title} ${t.artist}`));
+  if (hits.length) throw new Error(`material bloqueado en el aire: ${hits.map((t) => t.id).join(', ')}`);
+}
+
 function check() {
   const active = readJson(ACTIVE);
   const retired = readJson(RETIRED);
   validate(active);
   checkResolution(active);
+  checkBlocked(active);
   const overlap = active.filter((t) => retired.some((r) => r.track.id === t.id));
   if (overlap.length) throw new Error(`activos y retirados a la vez: ${overlap.map((t) => t.id).join(', ')}`);
   writeAppFallback(active);

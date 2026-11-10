@@ -2410,5 +2410,70 @@
     },
     "reason": "fijo del canal menor a 720p (reintegrar si se sube en HD)",
     "retiredAt": "2026-11-08"
+  },
+  {
+    "track": {
+      "id": "yt-VwsXGweoHdw",
+      "title": "Luis miguel Si no supiste amar VREMIX By djklmr & Roberth Steve Quiroga",
+      "artist": "DJ KLMR Official (@KLMROFFCIALCHANNEL)",
+      "genre": "SYNTHPOP / ELECTRO DANCE",
+      "source": "youtube",
+      "youtubeId": "VwsXGweoHdw",
+      "mp4Url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-VwsXGweoHdw.mp4",
+      "duration": 360,
+      "bpm": 129,
+      "badge": "VREMIX EXCLUSIVO",
+      "thumbnail": "assets/tiesto.png",
+      "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-VwsXGweoHdw.mp4",
+      "format": "mp4",
+      "width": 1920,
+      "height": 1080
+    },
+    "reason": "material del DJ externo Roberth (Boberth) Steve Quiroga — retirado a pedido del usuario",
+    "retiredAt": "2026-11-10"
+  },
+  {
+    "track": {
+      "id": "yt-TxjzaPIFzXU",
+      "title": "Ella ya me Olvido - Leonardo Flavio (By_vdjklmr & Roberth Steve Quiroga) VREMIX",
+      "artist": "DJ KLMR Official (@KLMROFFCIALCHANNEL)",
+      "genre": "SYNTHPOP / ELECTRO DANCE",
+      "source": "youtube",
+      "youtubeId": "TxjzaPIFzXU",
+      "mp4Url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-TxjzaPIFzXU.mp4",
+      "duration": 363,
+      "bpm": 129,
+      "badge": "VREMIX EXCLUSIVO",
+      "thumbnail": "assets/tiesto.png",
+      "url": "https://github.com/djklmr2025/klmr-digital-tv/releases/download/v2.0-catalog/yt-TxjzaPIFzXU.mp4",
+      "format": "mp4",
+      "width": 1920,
+      "height": 1080
+    },
+    "reason": "material del DJ externo Roberth (Boberth) Steve Quiroga — retirado a pedido del usuario",
+    "retiredAt": "2026-11-10"
+  },
+  {
+    "track": {
+      "id": "drive-1z4LHDqKKBPJ",
+      "title": "Kylie Minogue - In Your Eyes (Official Video)",
+      "artist": "Kylie Minogue",
+      "genre": "ELECTRONIC / CLUB HD",
+      "source": "drive",
+      "fileId": "1z4LHDqKKBPJDaGFHpMbfOr61Y6cYtP4L",
+      "driveUrl": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
+      "duration": 199,
+      "bpm": 125,
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "thumbnail": "assets/klmr-2025-hd.png",
+      "youtubeId": null,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/Videos-Alls-Priority/drive-1z4LHDqKKBPJ.mp4",
+      "format": "mp4",
+      "width": 1280,
+      "height": 720
+    },
+    "reason": "códec AV1 (1280x720): Roku no lo decodifica; reintegrar solo si se re-codifica a H.264",
+    "retiredAt": "2026-11-10"
   }
 ]
