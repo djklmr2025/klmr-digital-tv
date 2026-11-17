@@ -19,6 +19,10 @@ VIDEOS_FOLDER = "1Dxm1UTAxH-dyFWREh6hNnblnh3uK0S7u"  # DJKLMR/Videos, re-uploade
 PRIORITY = ("videos alls", "jazz beat", "electro house")
 OTHER_PRIORITY = 9
 BLOCKED_NAME = re.compile(r"roberth|quiroga", re.I)  # same DJ as the blocked folder, credited in file names
+# Owner (2026-11-17): no regional Mexican on air unless it is an electronic remix/edit of it.
+REGIONAL = re.compile(r"calibre 50|corrido|grupo firme|peso pluma|fuerza regida|natanael|junior h|carin le[oó]n|"
+                      r"eslab[oó]n armado|alfredo olivas|conriquez|de la sierra|mi banda el mexicano|sonidos de terror", re.I)
+REMIX = re.compile(r"remix|edit|bootleg|mix\b", re.I)
 CATALOG = Path(__file__).resolve().parent.parent / "catalog"
 CREDITS = re.compile(r"\b(by|ft|feat|vj|v?djklmr|vdj|klmr|official|oficial|video|videoclip|vremix|vedit|vmost|theme|"
                      r"version|hd|mp3|director de escena codex)\b", re.I)
@@ -108,7 +112,7 @@ def main():
         for f, path in videos_under(svc, folder["id"], folder["name"]):
             meta = f.get("videoMediaMetadata") or {}
             seconds = int(meta.get("durationMillis", 0)) // 1000
-            if BLOCKED_NAME.search(f["name"]):
+            if BLOCKED_NAME.search(f["name"]) or (REGIONAL.search(f["name"]) and not REMIX.search(f["name"])):
                 skipped["otro_dj"] += 1
                 continue
             if not seconds:
