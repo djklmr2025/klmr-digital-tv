@@ -1909,36 +1909,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1CU4qD2HaglU.mp4"
   },
   {
-    "id": "drive-1dCMrdJP7Njx",
-    "title": "Mi Banda El Mexicano - Ramito De Violetas (DJ Georgia & Dozarm Remix & Dj Jalex Dvj Edit)",
-    "artist": "Mi Banda El Mexicano",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 221,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1dCMrdJP7Njx.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1dCMrdJP7Njx.mp4"
-  },
-  {
-    "id": "drive-1kE99djiZgft",
-    "title": "Mi Banda El Mexicano - Ramito de Violetas (Rozhes Beats Edit)",
-    "artist": "Mi Banda El Mexicano",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 185,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kE99djiZgft.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kE99djiZgft.mp4"
-  },
-  {
     "id": "drive-1S8Hx28EIQOq",
     "title": "CamelPhat – Constellations  (Official Video)",
     "artist": "KLMR Vault",
@@ -1982,21 +1952,6 @@ const BroadcastPlaylist = [
     "height": 1080,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Rdrhj64jJOQ.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Rdrhj64jJOQ.mp4"
-  },
-  {
-    "id": "drive-1LOVuITT0DaS",
-    "title": "A Band Of Bitches - Noreste Caliente (DJ Radikall Video Mix)",
-    "artist": "A Band Of Bitches",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 283,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1LOVuITT0DaS.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1LOVuITT0DaS.mp4"
   },
   {
     "id": "drive-1ms4SxtX5TL4",
@@ -2134,21 +2089,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1mJ92LU3gZZV.mp4"
   },
   {
-    "id": "drive-1J9GZKMJ4mOA",
-    "title": "Tragos de Gasolina   Ramon ft Daddy Yankee Dj Nemuz V Edit ft Dj Lagunas Beats",
-    "artist": "KLMR Vault",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 215,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1J9GZKMJ4mOA.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1J9GZKMJ4mOA.mp4"
-  },
-  {
     "id": "drive-19ML4wp-8g7I",
     "title": "Jdr - Ese sonidito",
     "artist": "Jdr",
@@ -2269,21 +2209,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1WsPVRb3aZZU.mp4"
   },
   {
-    "id": "drive-1vwWwVb5JGk1",
-    "title": "y2mate.com - Los Ángeles Azules  17 Años DJ Explow Puro Eztilo Mix Ulises Ramirez Dj V Rmx v720P",
-    "artist": "y2mate.com",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 218,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1vwWwVb5JGk1.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1vwWwVb5JGk1.mp4"
-  },
-  {
     "id": "drive-1yqb0JpHxArn",
     "title": "SAMBA",
     "artist": "KLMR Vault",
@@ -2357,21 +2282,6 @@ const BroadcastPlaylist = [
     "height": 1014,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1ywAqTap2J-w.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1ywAqTap2J-w.mp4"
-  },
-  {
-    "id": "drive-1xLT5W5l4KEh",
-    "title": "Dj Lombriz-Banda Recodo VAMONOS DE FIESTA-Remix Video",
-    "artist": "KLMR Vault",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 189,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1xLT5W5l4KEh.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1xLT5W5l4KEh.mp4"
   },
   {
     "id": "drive-1ZMRx8vcr-h4",
