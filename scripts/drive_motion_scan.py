@@ -46,7 +46,8 @@ def grab(file_id: str, second: int):
 
 
 def motion(entry: dict):
-    frames = [f for f in (grab(entry["driveId"], int(entry["duration"] * p)) for p in POINTS) if f]
+    file_id = entry.get("fileId", entry["driveId"])
+    frames = [f for f in (grab(file_id, int(entry["duration"] * p)) for p in POINTS) if f]
     if len(frames) < 3:
         return None
     diffs = [sum(abs(a - b) for a, b in zip(frames[i], frames[j])) / (W * H)
@@ -56,7 +57,9 @@ def motion(entry: dict):
 
 def main():
     library = json.loads(LIBRARY.read_text(encoding="utf-8"))
-    todo = [e for e in library if "motion" not in e]
+    # below 720p or a copy of an official-channel track never airs, so it is not worth scanning
+    todo = [e for e in library if "motion" not in e and not e.get("duplicateOf")
+            and min(e.get("width") or 0, e.get("height") or 0) >= 720]
     print(f"{len(todo)} por escanear de {len(library)}", flush=True)
     done = 0
 

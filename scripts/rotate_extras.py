@@ -29,20 +29,27 @@ sys.path.insert(0, r"C:\Ruta")
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "catalog"
 ACTIVE, LIBRARY, STATE, SCHEDULE = (CATALOG / n for n in ("active.json", "library.json", "rotation.json", "schedule.json"))
-FFMPEG_DIR = Path(r"C:\Users\Arkaios\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
+PAUSE = CATALOG / "rotation.paused"  # while this file exists only --dry-run works (owner reviews first)
+FFMPEG_DIR =Path(r"C:\Users\Arkaios\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-9.0.2-full_build\bin")
 R2_ACCOUNT = os.environ.get("R2_ACCOUNT_ID", "6537ec0e12dbf4fca196ff3e1128326e")
 R2_BUCKET = os.environ.get("R2_BUCKET", "klmr-vault-hd")
 R2_PUBLIC = os.environ.get("R2_PUBLIC_URL", "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev").rstrip("/")
 R2_PREFIX = "videos-rotacion"
 SWAP = int(os.environ.get("KLMR_ROTATION_SWAP", "12"))
 STATIC_MOTION = 8.5
+LOCAL_VIDEOS = Path(r"C:\DJKLMR\Videos")  # exact copy of the Drive folder; only ever read, never written
+OTHER_PRIORITY = 9  # library entries carry "priority" 1-3 for the owner's folders (see drive_library.py)
 BLOCKED_FOLDER = re.compile(r"tech house comercial", re.I)  # another DJ's material, owner asked never to air it
-TARGET_TOTAL = int(os.environ.get("KLMR_TARGET_TOTAL", "232"))  # fixed + extras on air (~16 h per cycle)
 
 
 def is_hd(item):
     """Roku HD floor: the encoded frame must be at least 720 pixels on its short side."""
     return min(item.get("width") or 0, item.get("height") or 0) >= 720
+
+
+def airable(entry):
+    """Scanned with real motion, HD, and not a copy of an official-channel track."""
+    return (entry.get("motion") or 0) > STATIC_MOTION and is_hd(entry) and not entry.get("duplicateOf")
 
 
 def load(path, default=None):
@@ -92,10 +99,20 @@ def pick_incoming(state, library_by_id, retired_ids, count):
         if entry.get("motion") is None:
             skipped.append(item)  # not scanned yet: keep it for a later run
             continue
-        if entry["motion"] > STATIC_MOTION and is_hd(entry):
+        if airable(entry):
             incoming.append(("library", entry))
     state["queue"].extend(skipped)
     return incoming
+
+
+def local_copy(entry):
+    """The same file on the owner's disk (read only), when it is there with the size Drive reports."""
+    path = LOCAL_VIDEOS / entry["folder"] / entry["name"]
+    try:
+        same = round(path.stat().st_size / 1e6, 1) == entry.get("sizeMB")
+    except OSError:
+        return None
+    return path if same else None
 
 
 def ensure_on_r2(entry, s3, dry_run, hosted):
@@ -103,16 +120,19 @@ def ensure_on_r2(entry, s3, dry_run, hosted):
     url = f"{R2_PUBLIC}/{key}"
     if dry_run or entry["driveId"] in hosted:
         return url
-    import boveda_drive
-    from googleapiclient.http import MediaIoBaseDownload
-    svc = boveda_drive.servicio()
     with tempfile.TemporaryDirectory() as tmp:
-        src, out = Path(tmp) / "src", Path(tmp) / "out.mp4"
-        with open(src, "wb") as fh:
-            dl = MediaIoBaseDownload(fh, svc.files().get_media(fileId=entry["driveId"]), chunksize=32 * 1024 * 1024)
-            done = False
-            while not done:
-                _, done = dl.next_chunk()
+        src, out = local_copy(entry), Path(tmp) / "out.mp4"
+        if src is None:
+            import boveda_drive
+            from googleapiclient.http import MediaIoBaseDownload
+            svc = boveda_drive.servicio()
+            src = Path(tmp) / "src"
+            with open(src, "wb") as fh:
+                file_id = entry.get("fileId", entry["driveId"])  # driveId is the track identity, fileId the current file
+                dl = MediaIoBaseDownload(fh, svc.files().get_media(fileId=file_id), chunksize=32 * 1024 * 1024)
+                done = False
+                while not done:
+                    _, done = dl.next_chunk()
         codecs = subprocess.run([str(FFMPEG_DIR / "ffprobe.exe"), "-v", "error", "-show_entries", "stream=codec_name",
                                  "-of", "csv=p=0", str(src)], capture_output=True, text=True).stdout.split()
         copy_ok = "h264" in codecs and ("aac" in codecs or len(codecs) == 1)
@@ -140,11 +160,32 @@ def git_publish(message):
     subprocess.run(["git", "push", "-q", "origin", "main"], cwd=ROOT, check=True)
 
 
+def prepare(library, active_ids, retired_ids, state, s3):
+    """Copy the base programme to R2 ahead of the change. Nothing on air moves; safe to re-run."""
+    todo = [e for e in library if e.get("priority", OTHER_PRIORITY) < OTHER_PRIORITY and airable(e)
+            and e["driveId"] not in state["hosted"]
+            and track_id(e["driveId"]) not in active_ids | retired_ids | set(state["parked"])]
+    print(f"{len(todo)} videos de la base por subir a R2.", flush=True)
+    for count, entry in enumerate(todo, 1):
+        try:
+            ensure_on_r2(entry, s3, False, state["hosted"])
+        except Exception as exc:  # one bad file must not stop the batch; it is retried on the next run
+            print(f"  [{count}/{len(todo)}] fallo:  {entry['name']}: {str(exc)[:160]}", flush=True)
+            continue
+        state["hosted"].append(entry["driveId"])
+        save(STATE, state)
+        print(f"  [{count}/{len(todo)}] subido: {entry['name']} ({entry['sizeMB']} MB)", flush=True)
+
+
 def main():
     args = argparse.ArgumentParser()
     args.add_argument("--dry-run", action="store_true")
     args.add_argument("--no-push", action="store_true")
+    args.add_argument("--prepare", action="store_true", help="only copy the base programme to R2")
     opts = args.parse_args()
+    if PAUSE.exists() and not (opts.dry_run or opts.prepare):
+        print(f"Rotación en pausa: borra {PAUSE.name} para reanudar.")
+        return
 
     s3 = None if opts.dry_run else r2_client()
     dry_run = opts.dry_run or s3 is None
@@ -154,23 +195,46 @@ def main():
     retired_ids = {r["track"]["id"] for r in load(CATALOG / "retired.json", [])}
     state = load(STATE) or init_state(active, library)
     active_ids = {t["id"] for t in active}
+    if opts.prepare:
+        if s3 is None:
+            print("Sin llaves R2_ACCESS_KEY_ID / R2_SECRET_ACCESS_KEY: no se puede subir.")
+            return
+        prepare(library, active_ids, retired_ids, state, s3)
+        return
     state["onAir"] = [tid for tid in state["onAir"] if tid in active_ids]  # drop tracks retired by hand
+    # Base programme: every airable video of the owner's folders, always on air, in folder order.
+    base = sorted((e for e in library if e.get("priority", OTHER_PRIORITY) < OTHER_PRIORITY and airable(e)
+                   and track_id(e["driveId"]) not in retired_ids), key=lambda e: e["priority"])
+    base_ids = [track_id(e["driveId"]) for e in base]
+    base_set = set(base_ids) | {e["driveId"] for e in base}
+    state["queue"] = [item for item in state["queue"] if item not in base_set]  # base never waits in the rotating queue
     known = set(state["queue"]) | set(state["parked"]) | {d for d in library_by_id if track_id(d) in state["onAir"]}
-    fresh = [d for d, e in library_by_id.items() if d not in known and e.get("motion") is not None
-             and e["motion"] > STATIC_MOTION and is_hd(e) and track_id(d) not in active_ids]
+    fresh = [d for d, e in library_by_id.items() if d not in known and d not in base_set and airable(e)
+             and track_id(d) not in active_ids]
     random.Random(len(state["queue"]) + len(fresh)).shuffle(fresh)
     state["queue"].extend(fresh)  # videos scanned after the queue was built join it here
-    fixed_count = sum(1 for t in active if t["id"].startswith("yt-"))
-    deficit = max(0, TARGET_TOTAL - fixed_count - len(state["onAir"]))
     by_id = {t["id"]: t for t in active}
 
-    incoming = pick_incoming(state, library_by_id, retired_ids, SWAP + deficit)
-    if not incoming:
+    # Rotating block: SWAP videos from the other electronic folders, replaced on every run.
+    rotating = [tid for tid in state["onAir"] if tid not in base_set]
+    incoming = pick_incoming(state, library_by_id, retired_ids, SWAP)
+    missing_base = [e for e in base if track_id(e["driveId"]) not in by_id]
+    if not incoming and not missing_base:
         print("Nada nuevo que rotar (biblioteca sin escanear o agotada).")
         return
-    leaving = state["onAir"][:max(0, len(incoming) - deficit)]
+    leaving = rotating[:max(0, len(rotating) + len(incoming) - SWAP)]
 
     new_tracks = []
+    for entry in missing_base:
+        tid = track_id(entry["driveId"])
+        if tid in state["parked"]:
+            new_tracks.append(state["parked"][tid])
+            continue
+        url = ensure_on_r2(entry, s3, dry_run, state["hosted"])
+        if not dry_run and entry["driveId"] not in state["hosted"]:
+            state["hosted"].append(entry["driveId"])
+        new_tracks.append({**describe(entry), "url": url, "mp4Url": url})
+        print(f"  base:    {entry['name']} ({entry['folder']})")
     for kind, item in incoming:
         if kind == "parked":
             new_tracks.append(item)
@@ -188,7 +252,9 @@ def main():
         if tid in by_id:
             state["parked"][tid] = by_id[tid]
             state["queue"].append(tid)
-    state["onAir"] = state["onAir"][len(leaving):] + [t["id"] for t in new_tracks]
+    staying = [tid for tid in rotating if tid not in leaving]
+    incoming_ids = [t["id"] for t in new_tracks if t["id"] not in base_set]
+    state["onAir"] = base_ids + staying + incoming_ids
     state["history"] = (state["history"] + [{"at": int(time.time()), "in": [t["id"] for t in new_tracks], "out": leaving}])[-60:]
 
     fixed = [t for t in active if t["id"].startswith("yt-")]
