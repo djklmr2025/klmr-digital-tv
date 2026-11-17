@@ -5154,20 +5154,66 @@ function playDirectMp4Stream(mp4Url, startSeconds = 0) {
       const safeTrack = BroadcastPlaylist[safeIdx];
       if (safeTrack && safeTrack.mp4Url && mp4Url !== safeTrack.mp4Url) {
         nativeVideo.src = safeTrack.mp4Url;
-        nativeVideo.play().catch(() => {
-          nativeVideo.muted = true;
-          nativeVideo.play().catch(() => {});
-        });
+        playWithSound(nativeVideo);
       } else {
         setTimeout(advanceToNextTrackCleanly, 1000);
       }
     };
-    nativeVideo.play().catch(() => {
-      nativeVideo.muted = true;
-      nativeVideo.play().catch(() => {});
-    });
+    playWithSound(nativeVideo);
   }
 }
+
+// Audio policy: every track first tries to play WITH sound. Only a NotAllowedError (browser blocks sound
+// until the viewer touches the page) falls back to muted, and the first tap/click/key anywhere restores it.
+// An AbortError (src changed mid-start) used to mute the channel for good; now it is ignored.
+let audioUnlocked = false;
+
+function playWithSound(video) {
+  video.muted = false;
+  video.volume = 1;
+  video.play().catch((err) => {
+    if (!err || err.name !== "NotAllowedError") return;
+    video.muted = true;
+    video.play().catch(() => {});
+    showSoundHint(true);
+  });
+}
+
+function showSoundHint(visible) {
+  let hint = document.getElementById("sound-unlock-hint");
+  if (!hint && visible) {
+    hint = document.createElement("button");
+    hint.id = "sound-unlock-hint";
+    hint.type = "button";
+    hint.textContent = "🔇 Toca para activar el sonido";
+    hint.style.cssText = "position:fixed;left:50%;bottom:18%;transform:translateX(-50%);z-index:9999;" +
+      "padding:12px 22px;border:0;border-radius:99px;background:rgba(0,0,0,.78);color:#fff;" +
+      "font:600 16px system-ui,sans-serif;box-shadow:0 4px 18px rgba(0,0,0,.5);cursor:pointer";
+    document.body.appendChild(hint);
+  }
+  if (hint) hint.style.display = visible ? "block" : "none";
+}
+
+function unmuteChannel() {
+  const nativeVideo = document.getElementById("native-video");
+  if (nativeVideo) {
+    nativeVideo.muted = false;
+    nativeVideo.volume = 1;
+    if (nativeVideo.paused && ChannelState.currentSourceType === "drive") nativeVideo.play().catch(() => {});
+  }
+  const yt = ChannelState.ytPlayer;
+  if (yt && typeof yt.unMute === "function") {
+    try { yt.unMute(); yt.setVolume(100); } catch (e) {}
+  }
+  showSoundHint(false);
+}
+
+["pointerdown", "touchstart", "keydown"].forEach((type) => {
+  window.addEventListener(type, () => {
+    audioUnlocked = true;
+    unmuteChannel();
+  }, { capture: true, passive: true });
+});
 
 // Index in BroadcastPlaylist of the track that follows `index` in the clock's smart (rotated) order,
 // so web and Roku air the same sequence instead of the web walking the base list.
@@ -5240,7 +5286,7 @@ function playTrackAtIndex(index, startSeconds = 0, forceUnmute = false) {
         startSeconds: startSeconds,
         suggestedQuality: "hd720"
       });
-      if (forceUnmute && typeof ChannelState.ytPlayer.unMute === "function") {
+      if ((forceUnmute || audioUnlocked) && typeof ChannelState.ytPlayer.unMute === "function") {
         ChannelState.ytPlayer.unMute();
         ChannelState.ytPlayer.setVolume(100);
       }
