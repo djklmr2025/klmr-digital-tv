@@ -23,6 +23,14 @@ BLOCKED_NAME = re.compile(r"roberth|quiroga", re.I)  # same DJ as the blocked fo
 REGIONAL = re.compile(r"calibre 50|corrido|grupo firme|peso pluma|fuerza regida|natanael|junior h|carin le[oó]n|"
                       r"eslab[oó]n armado|alfredo olivas|conriquez|de la sierra|mi banda el mexicano|sonidos de terror", re.I)
 REMIX = re.compile(r"remix|edit|bootleg|mix\b", re.I)
+# Owner (2026-11-17): never karaoke, lyric-only, voiceless or no-audio videos (viewers would think the channel was hacked).
+KARAOKE = re.compile(r"karaoke|sin voz|sin audio|instrumental|\bpista\b", re.I)
+LYRICS = re.compile(r"\bletra\b|lyrics?\b", re.I)  # lyric-only uploads; a DJ remix with lyrics is still allowed
+
+
+def unwanted(name):
+    return bool(BLOCKED_NAME.search(name) or KARAOKE.search(name)
+                or ((REGIONAL.search(name) or LYRICS.search(name)) and not REMIX.search(name)))
 CATALOG = Path(__file__).resolve().parent.parent / "catalog"
 CREDITS = re.compile(r"\b(by|ft|feat|vj|v?djklmr|vdj|klmr|official|oficial|video|videoclip|vremix|vedit|vmost|theme|"
                      r"version|hd|mp3|director de escena codex)\b", re.I)
@@ -112,7 +120,7 @@ def main():
         for f, path in videos_under(svc, folder["id"], folder["name"]):
             meta = f.get("videoMediaMetadata") or {}
             seconds = int(meta.get("durationMillis", 0)) // 1000
-            if BLOCKED_NAME.search(f["name"]) or (REGIONAL.search(f["name"]) and not REMIX.search(f["name"])):
+            if unwanted(f["name"]):
                 skipped["otro_dj"] += 1
                 continue
             if not seconds:
