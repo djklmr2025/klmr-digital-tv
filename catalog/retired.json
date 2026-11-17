@@ -4633,5 +4633,25 @@
     "reason": "remix de cumbia/banda/reggaeton, no va en el canal (dueno 2026-11-17)",
     "retiredAt": "2026-11-17",
     "r2Deleted": "2026-11-17"
+  },
+  {
+    "track": {
+      "id": "drive-1hl7fnBoz0F0",
+      "title": "Dave André - El Profesor",
+      "artist": "Dave André",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 350,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1hl7fnBoz0F0.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1hl7fnBoz0F0.mp4"
+    },
+    "reason": "marco de reproductor con barra de progreso, no es videoclip (dueno 2026-11-17)",
+    "retiredAt": "2026-11-17",
+    "r2Deleted": "2026-11-17"
   }
 ]
