@@ -1474,21 +1474,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1LknSSERiEDB.mp4"
   },
   {
-    "id": "drive-1D7jhrioUoA0",
-    "title": "Blisser - Suzy Sheer (VEDIT By VDJKLMR) - KLMR OFFICIAL CHANNEL (1080p, h264)",
-    "artist": "Blisser",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 218,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1012,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1D7jhrioUoA0.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1D7jhrioUoA0.mp4"
-  },
-  {
     "id": "drive-1zsRQf0gzxZw",
     "title": "Nasa Histoires - Bugambilia",
     "artist": "Nasa Histoires",
@@ -1519,21 +1504,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1H5LkpgQEm_O.mp4"
   },
   {
-    "id": "drive-1Dy4YG-IOe2A",
-    "title": "孔明の罠 - Kaizo Trap",
-    "artist": "孔明の罠",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 492,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Dy4YG-IOe2A.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Dy4YG-IOe2A.mp4"
-  },
-  {
     "id": "drive-1olfD-PHwjle",
     "title": "PH Electro – Miracle (Official Video 4K) (1)",
     "artist": "KLMR Vault",
@@ -1562,21 +1532,6 @@ const BroadcastPlaylist = [
     "height": 1080,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1B2NLubn9lj1.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1B2NLubn9lj1.mp4"
-  },
-  {
-    "id": "drive-1SgwlSH056Ia",
-    "title": "Subb-an - This Place (Nic Fanciulli Remix) [played by Nic Fanciulli]",
-    "artist": "Subb-an",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 382,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SgwlSH056Ia.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SgwlSH056Ia.mp4"
   },
   {
     "id": "drive-1ZowEKzelTkb",
@@ -1984,21 +1939,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1ui5_tYBUGiS.mp4"
   },
   {
-    "id": "drive-1oSrkEz1-9Ef",
-    "title": "Dezko - Ascend Offical VRemix by ft VJ-djklmr",
-    "artist": "Dezko",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 219,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1oSrkEz1-9Ef.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1oSrkEz1-9Ef.mp4"
-  },
-  {
     "id": "drive-1zhn_S5Irq7u",
     "title": "Anyma & Rebūke - Syren [Live from Afterlife Tomorrowland]",
     "artist": "Anyma & Rebūke",
@@ -2329,21 +2269,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-11ps1-egl-55.mp4"
   },
   {
-    "id": "drive-1kXVJXpbAvp0",
-    "title": "Ain't' No Mountain High Enough - Marvin Gaye VRemix by djklmr",
-    "artist": "Ain't' No Mountain High Enough",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 379,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kXVJXpbAvp0.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kXVJXpbAvp0.mp4"
-  },
-  {
     "id": "drive-16KWig-5XTN5",
     "title": "The Black Madonna - We Can Never Be Apart (Original Mix)",
     "artist": "The Black Madonna",
@@ -2434,36 +2359,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1skf1Ubod5Di.mp4"
   },
   {
-    "id": "drive-1peNsJSXqdAC",
-    "title": "Short Dick Man VS Navidad in Japan Remix By djklmr",
-    "artist": "KLMR Vault",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 285,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1peNsJSXqdAC.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1peNsJSXqdAC.mp4"
-  },
-  {
-    "id": "drive-1iB74XFtGYpN",
-    "title": "LP-Lost On You (extended remix)",
-    "artist": "KLMR Vault",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 198,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1iB74XFtGYpN.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1iB74XFtGYpN.mp4"
-  },
-  {
     "id": "drive-1c1ISXZLqSvT",
     "title": "Daft Punk - Epilogue VRemix By djklmr",
     "artist": "Daft Punk",
@@ -2477,21 +2372,6 @@ const BroadcastPlaylist = [
     "height": 720,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1c1ISXZLqSvT.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1c1ISXZLqSvT.mp4"
-  },
-  {
-    "id": "drive-1t9eVB1ry1mw",
-    "title": "Tiësto, J. Blue & R. Ora x C. Harris - Feel So Ritual (Djs From Mars x Rudeejay & Da Brozz Bootleg)",
-    "artist": "Tiësto, J. Blue & R. Ora x C. Harris",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 221,
-    "format": "mp4",
-    "width": 1920,
-    "height": 1080,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1t9eVB1ry1mw.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1t9eVB1ry1mw.mp4"
   },
   {
     "id": "drive-1oNzJYyagHoM",
@@ -2569,21 +2449,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1lgDT0VHwRAt.mp4"
   },
   {
-    "id": "drive-1SZqKcJkP_I8",
-    "title": "Lost - Rogger Sanchez VRemix (Hous Version) by djklmr",
-    "artist": "Lost",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 532,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SZqKcJkP_I8.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SZqKcJkP_I8.mp4"
-  },
-  {
     "id": "drive-1EMNIUY2yQhS",
     "title": "SELFIE Official Music Video - The Chainsmokers",
     "artist": "SELFIE Official Music Video",
@@ -2659,36 +2524,6 @@ const BroadcastPlaylist = [
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1GUPdsq4o33w.mp4"
   },
   {
-    "id": "drive-1g18xjKepYnc",
-    "title": "Don't Start Now - Dua Lipa (Club Remix)",
-    "artist": "Don't Start Now",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 236,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1g18xjKepYnc.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1g18xjKepYnc.mp4"
-  },
-  {
-    "id": "drive-1lwvAEGYMlvl",
-    "title": "Kartashow  Мари Краймбрери - Золото (Rakurs   Ram)",
-    "artist": "Kartashow  Мари Краймбрери",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 259,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1lwvAEGYMlvl.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1lwvAEGYMlvl.mp4"
-  },
-  {
     "id": "drive-1ns7wl9IrFZT",
     "title": "Astronomia - Remix",
     "artist": "Astronomia",
@@ -2747,21 +2582,6 @@ const BroadcastPlaylist = [
     "height": 720,
     "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-13sxypCQ9qPW.mp4",
     "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-13sxypCQ9qPW.mp4"
-  },
-  {
-    "id": "drive-1GKtwKzxKYT0",
-    "title": "New soul yael naim tik tok (remix)",
-    "artist": "KLMR Vault",
-    "genre": "VIDEOS ALLS / KLMR HD",
-    "badge": "CLOUDFLARE R2 VAULT HD",
-    "youtubeId": null,
-    "source": "drive",
-    "duration": 210,
-    "format": "mp4",
-    "width": 1280,
-    "height": 720,
-    "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1GKtwKzxKYT0.mp4",
-    "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1GKtwKzxKYT0.mp4"
   },
   {
     "id": "drive-17ze8hhxki1-",

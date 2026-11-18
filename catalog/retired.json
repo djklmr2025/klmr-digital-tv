@@ -4773,5 +4773,233 @@
     "reason": "duplicado de otro video al aire (dueno 2026-11-17)",
     "retiredAt": "2026-11-18",
     "r2Deleted": "2026-11-17"
+  },
+  {
+    "track": {
+      "id": "drive-1Dy4YG-IOe2A",
+      "title": "孔明の罠 - Kaizo Trap",
+      "artist": "孔明の罠",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 492,
+      "format": "mp4",
+      "width": 1920,
+      "height": 1080,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Dy4YG-IOe2A.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1Dy4YG-IOe2A.mp4"
+    },
+    "reason": "duplicado visual de yt-QhFc871NS08 (Kayzo/Kaizo Trap)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1D7jhrioUoA0",
+      "title": "Blisser - Suzy Sheer (VEDIT By VDJKLMR) - KLMR OFFICIAL CHANNEL (1080p, h264)",
+      "artist": "Blisser",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 218,
+      "format": "mp4",
+      "width": 1920,
+      "height": 1012,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1D7jhrioUoA0.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1D7jhrioUoA0.mp4"
+    },
+    "reason": "duplicado de yt-AYMQZbzx_dU (Blisser - Suzy Sheer)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1SgwlSH056Ia",
+      "title": "Subb-an - This Place (Nic Fanciulli Remix) [played by Nic Fanciulli]",
+      "artist": "Subb-an",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 382,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SgwlSH056Ia.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SgwlSH056Ia.mp4"
+    },
+    "reason": "duplicado de yt-RXzatHn8bNg (This Place - Nic Fanciulli Remix)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1oSrkEz1-9Ef",
+      "title": "Dezko - Ascend Offical VRemix by ft VJ-djklmr",
+      "artist": "Dezko",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 219,
+      "format": "mp4",
+      "width": 1920,
+      "height": 1080,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1oSrkEz1-9Ef.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1oSrkEz1-9Ef.mp4"
+    },
+    "reason": "duplicado de yt-IQmAZ5_W6c8 (Dezko - Ascend)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1kXVJXpbAvp0",
+      "title": "Ain't' No Mountain High Enough - Marvin Gaye VRemix by djklmr",
+      "artist": "Ain't' No Mountain High Enough",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 379,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kXVJXpbAvp0.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1kXVJXpbAvp0.mp4"
+    },
+    "reason": "duplicado consecutivo de drive-11ps1-egl-55 (Ain't No Mountain High Enough)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1peNsJSXqdAC",
+      "title": "Short Dick Man VS Navidad in Japan Remix By djklmr",
+      "artist": "KLMR Vault",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 285,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1peNsJSXqdAC.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1peNsJSXqdAC.mp4"
+    },
+    "reason": "duplicado de yt-fESM5051BaA (Navidad in Japan)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1iB74XFtGYpN",
+      "title": "LP-Lost On You (extended remix)",
+      "artist": "KLMR Vault",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 198,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1iB74XFtGYpN.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1iB74XFtGYpN.mp4"
+    },
+    "reason": "duplicado de yt-jI3Yzw2fQ2o (LP - Lost On You extended remix)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1t9eVB1ry1mw",
+      "title": "Tiësto, J. Blue & R. Ora x C. Harris - Feel So Ritual (Djs From Mars x Rudeejay & Da Brozz Bootleg)",
+      "artist": "Tiësto, J. Blue & R. Ora x C. Harris",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 221,
+      "format": "mp4",
+      "width": 1920,
+      "height": 1080,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1t9eVB1ry1mw.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1t9eVB1ry1mw.mp4"
+    },
+    "reason": "duplicado de yt-iSwAcQ0jqNg (Me siento tan ritual / Feel So Ritual)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1SZqKcJkP_I8",
+      "title": "Lost - Rogger Sanchez VRemix (Hous Version) by djklmr",
+      "artist": "Lost",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 532,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SZqKcJkP_I8.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1SZqKcJkP_I8.mp4"
+    },
+    "reason": "duplicado de yt-Qn9BZIRXrZo (Lost - Rogger Sanchez VRemix)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1g18xjKepYnc",
+      "title": "Don't Start Now - Dua Lipa (Club Remix)",
+      "artist": "Don't Start Now",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 236,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1g18xjKepYnc.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1g18xjKepYnc.mp4"
+    },
+    "reason": "duplicado de yt-EoQd73j5SAY (Don't Start Now - Dua Lipa Club Remix)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1lwvAEGYMlvl",
+      "title": "Kartashow  Мари Краймбрери - Золото (Rakurs   Ram)",
+      "artist": "Kartashow  Мари Краймбрери",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 259,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1lwvAEGYMlvl.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1lwvAEGYMlvl.mp4"
+    },
+    "reason": "duplicado de yt-xURN-tEugKU (Kartashow - Zoloto Rakurs Ram)",
+    "retiredAt": "2026-11-18"
+  },
+  {
+    "track": {
+      "id": "drive-1GKtwKzxKYT0",
+      "title": "New soul yael naim tik tok (remix)",
+      "artist": "KLMR Vault",
+      "genre": "VIDEOS ALLS / KLMR HD",
+      "badge": "CLOUDFLARE R2 VAULT HD",
+      "youtubeId": null,
+      "source": "drive",
+      "duration": 210,
+      "format": "mp4",
+      "width": 1280,
+      "height": 720,
+      "url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1GKtwKzxKYT0.mp4",
+      "mp4Url": "https://pub-00ab8b5a231a4f97a7c0cfc929a33773.r2.dev/videos-rotacion/drive-1GKtwKzxKYT0.mp4"
+    },
+    "reason": "duplicado de yt-6b_W2TCKqQE (New soul yael naim tik tok remix)",
+    "retiredAt": "2026-11-18"
   }
 ]
