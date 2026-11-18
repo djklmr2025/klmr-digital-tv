@@ -38,13 +38,21 @@ R2_PREFIX = "videos-rotacion"
 SWAP = int(os.environ.get("KLMR_ROTATION_SWAP", "24"))  # weekly change since 2026-11-17 (Mondays 5 a.m.)
 STATIC_MOTION = 8.5
 LOCAL_VIDEOS = Path(r"C:\DJKLMR\Videos")  # exact copy of the Drive folder; only ever read, never written
-OTHER_PRIORITY = 9  # library entries carry "priority" 1-3 for the owner's folders (see drive_library.py)
+OTHER_PRIORITY = 9  # library entries carry "priority" 1-4 for the owner's folders (see drive_library.py)
+# Owner's favourites: always in the base programme, never rotated out, whatever folder they sit in.
+PINNED = {"drive-1g7xSPgSYbQW"}  # DJ Snake - Middle ft. Bipolar Sunshine (Dj Goust) — 2026-11-17
 BLOCKED_FOLDER = re.compile(r"tech house comercial", re.I)  # another DJ's material, owner asked never to air it
 
 
 def is_hd(item):
     """Roku HD floor: the encoded frame must be at least 720 pixels on its short side."""
     return min(item.get("width") or 0, item.get("height") or 0) >= 720
+
+
+def title_key(text):
+    """Comparable form of a file name or on-air title: no extension, underscores or punctuation."""
+    stem = re.sub(r"\.(mp4|m4v|mov|mkv|webm|avi)$", "", text.strip(), flags=re.I).replace("_", " ")
+    return re.sub(r"[^a-z0-9]+", "", stem.lower())
 
 
 def airable(entry):
@@ -182,6 +190,7 @@ def main():
     args.add_argument("--dry-run", action="store_true")
     args.add_argument("--no-push", action="store_true")
     args.add_argument("--prepare", action="store_true", help="only copy the base programme to R2")
+    args.add_argument("--solo-base", action="store_true", help="add missing base videos without rotating extras")
     opts = args.parse_args()
     if PAUSE.exists() and not (opts.dry_run or opts.prepare):
         print(f"Rotación en pausa: borra {PAUSE.name} para reanudar.")
@@ -192,7 +201,11 @@ def main():
     active = load(ACTIVE)
     library = [e for e in load(LIBRARY, []) if not BLOCKED_FOLDER.search(e.get("folder", ""))]
     library_by_id = {e["driveId"]: e for e in library}
-    retired_ids = {r["track"]["id"] for r in load(CATALOG / "retired.json", [])}
+    retired_list = load(CATALOG / "retired.json", [])
+    retired_ids = {r["track"]["id"] for r in retired_list}
+    # A re-index can give a retired clip a new id; its title still matches, so it stays out of the programme.
+    retired_titles = {title_key(r["track"]["title"]) for r in retired_list}
+    library = [e for e in library if title_key(e["name"]) not in retired_titles]
     state = load(STATE) or init_state(active, library)
     active_ids = {t["id"] for t in active}
     if opts.prepare:
@@ -203,7 +216,8 @@ def main():
         return
     state["onAir"] = [tid for tid in state["onAir"] if tid in active_ids]  # drop tracks retired by hand
     # Base programme: every airable video of the owner's folders, always on air, in folder order.
-    base = sorted((e for e in library if e.get("priority", OTHER_PRIORITY) < OTHER_PRIORITY and airable(e)
+    base = sorted((e for e in library if (e.get("priority", OTHER_PRIORITY) < OTHER_PRIORITY
+                                          or track_id(e["driveId"]) in PINNED) and airable(e)
                    and track_id(e["driveId"]) not in retired_ids), key=lambda e: e["priority"])
     base_ids = [track_id(e["driveId"]) for e in base]
     base_set = set(base_ids) | {e["driveId"] for e in base}
@@ -217,12 +231,13 @@ def main():
 
     # Rotating block: SWAP videos from the other electronic folders, replaced on every run.
     rotating = [tid for tid in state["onAir"] if tid not in base_set]
-    incoming = pick_incoming(state, library_by_id, retired_ids, SWAP)
+    # --solo-base publishes new base videos without touching the rotating block (no weekly swap).
+    incoming = [] if opts.solo_base else pick_incoming(state, library_by_id, retired_ids, SWAP)
     missing_base = [e for e in base if track_id(e["driveId"]) not in by_id]
     if not incoming and not missing_base:
         print("Nada nuevo que rotar (biblioteca sin escanear o agotada).")
         return
-    leaving = rotating[:max(0, len(rotating) + len(incoming) - SWAP)]
+    leaving = [] if opts.solo_base else rotating[:max(0, len(rotating) + len(incoming) - SWAP)]
 
     new_tracks = []
     for entry in missing_base:

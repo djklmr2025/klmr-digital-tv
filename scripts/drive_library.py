@@ -18,6 +18,11 @@ VIDEOS_FOLDER = "1Dxm1UTAxH-dyFWREh6hNnblnh3uK0S7u"  # DJKLMR/Videos, re-uploade
 # Owner's order (2026-11-16): the rotation drains these first, in this order, then the other electronic folders.
 PRIORITY = ("videos alls", "jazz beat", "electro house")
 OTHER_PRIORITY = 9
+# Owner (2026-11-17): BATUCADA's subfolders join the base programme, but only the videos he approved by genre
+# (scripts/batucada_aprobados.txt, one file name per line). Files in the BATUCADA root never air.
+BATUCADA = "batucada"
+BATUCADA_PRIORITY = 4
+BATUCADA_ALLOW = Path(__file__).resolve().parent / "batucada_aprobados.txt"
 BLOCKED_NAME = re.compile(r"roberth|quiroga", re.I)  # same DJ as the blocked folder, credited in file names
 # Owner (2026-11-17): no regional Mexican on air unless it is an electronic remix/edit of it.
 REGIONAL = re.compile(r"calibre 50|corrido|grupo firme|peso pluma|fuerza regida|natanael|junior h|carin le[oó]n|"
@@ -70,7 +75,15 @@ def videos_under(svc, folder_id, path):
 
 def priority_of(folder_name):
     name = folder_name.strip().lower()
+    if name == BATUCADA:
+        return BATUCADA_PRIORITY
     return PRIORITY.index(name) + 1 if name in PRIORITY else OTHER_PRIORITY
+
+
+def batucada_allowed():
+    if not BATUCADA_ALLOW.exists():
+        return set()
+    return {line.strip() for line in BATUCADA_ALLOW.read_text(encoding="utf-8").splitlines() if line.strip()}
 
 
 def title_keys(text):
@@ -120,7 +133,13 @@ def main():
     library, skipped = [], {"sin_duracion": 0, "muy_corto_o_largo": 0, "otro_dj": 0}
     for folder in chosen:
         count = 0
+        is_batucada = folder["name"].strip().lower() == BATUCADA
+        allowed = batucada_allowed() if is_batucada else set()
         for f, path in videos_under(svc, folder["id"], folder["name"]):
+            if is_batucada and (path == folder["name"] or f["name"] not in allowed):
+                continue
+            if is_batucada:
+                allowed.discard(f["name"])  # the same clip sits in two subfolders; air it once
             meta = f.get("videoMediaMetadata") or {}
             seconds = int(meta.get("durationMillis", 0)) // 1000
             if unwanted(f["name"]):
