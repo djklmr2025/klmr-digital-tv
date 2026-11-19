@@ -186,6 +186,12 @@ module.exports = async (req, res) => {
     timelineAnchorOffset: TIMELINE_ANCHOR_OFFSET,
     totalDurationSeconds: totalDuration,
     totalTracks: effectivePlaylist.length,
+    meta: {
+      total: effectivePlaylist.length,
+      youtube: effectivePlaylist.filter((t) => String(t.id || '').startsWith('yt-')).length,
+      drive: effectivePlaylist.filter((t) => String(t.id || '').startsWith('drive-')).length,
+      totalDurationSeconds: totalDuration
+    },
     currentIndex: isRoku ? undefined : activeIndex,
     seekSeconds: isRoku ? undefined : seekSeconds,
     currentTrack: currentTrack,
